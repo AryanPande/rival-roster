@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c11">
+  <meta name="description" content="Rival Roster is a private two-player fantasy draft and auction game. Build your team, then make your case.">
+  <title>Rival Roster — Draft your rivals</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top"><div class="top-inner">
+    <a class="brand" href="./" aria-label="Rival Roster home"><span class="logo-mark" aria-hidden="true">R</span><span>RIVAL <b>ROSTER</b></span></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-button" type="button" data-action="library"><span data-icon="library" aria-hidden="true"></span><span>Character Library</span></button>
+      <button class="nav-button sound" type="button" data-action="sound" aria-label="Unmute game sounds" title="Unmute game sounds"><span data-icon="mute" aria-hidden="true"></span></button>
+    </nav>
+  </div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"><div><span class="brand small"><span class="logo-mark" aria-hidden="true">R</span><span>RIVAL <b>ROSTER</b></span></span><span>Free to play · For two players</span></div></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <noscript><p>Enable JavaScript to play Rival Roster.</p></noscript>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

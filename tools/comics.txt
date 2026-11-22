@@ -1,0 +1,118 @@
+Superman|DC|Hero|Flight, heat vision, super strength|Cosmic|Solar-powered protector from Krypton
+Batman|DC|Hero|Detective work, martial arts, gadgets|Tactician|Gotham detective who plans for impossible odds
+Wonder Woman|DC|Hero|Super strength, flight, magic lasso|Warrior|Amazon champion who leads from the front
+Flash|DC|Hero|Speed Force, phasing, super speed|Speedster|Barry Allen uses speed to solve crises
+Aquaman|DC|Hero|Marine telepathy, underwater combat, strength|Warrior|Atlantean leader built for underwater battle
+Green Lantern|DC|Hero|Energy constructs, flight, force fields|Blaster|Hal Jordan shapes willpower into tools and weapons
+Martian Manhunter|DC|Hero|Telepathy, shapeshifting, intangibility|Psychic|Martian defender with versatile psychic abilities
+Cyborg|DC|Hero|Cybernetics, hacking, sonic weapons|Tactician|Victor Stone combines engineering and cybernetic firepower
+Green Arrow|DC|Hero|Trick archery, agility, tactics|Tactician|Oliver Queen specializes in precision and improvised gadgets
+Black Canary|DC|Hero|Sonic scream, martial arts, leadership|Warrior|Veteran fighter with a crowd-controlling Canary Cry
+Shazam|DC|Hero|Magic lightning, flight, super strength|Cosmic|Billy Batson calls on magical champions for power
+Doctor Fate|DC|Hero|Sorcery, wards, astral projection|Mystic|Kent Nelson wields magic through the Helmet of Fate
+Zatanna|DC|Hero|Reverse speech spells, illusion, teleportation|Mystic|Stage magician whose backward incantations reshape a fight
+Constantine|DC|Antihero|Occult knowledge, wards, deception|Mystic|Occult operator who wins through preparation and bargains
+Nightwing|DC|Hero|Acrobatics, escrima, leadership|Warrior|Dick Grayson brings acrobatics and team leadership
+Red Hood|DC|Antihero|Tactical planning, marksmanship, martial arts|Tactician|Jason Todd takes the aggressive route through Gotham
+Supergirl|DC|Hero|Heat vision, flight, super strength|Cosmic|Kara Zor-El shares Kryptonian strength and mobility
+Batgirl|DC|Hero|Digital intelligence, stealth, martial arts|Tactician|Barbara Gordon pairs field skills with information control
+Raven|DC|Hero|Empathy, soul-self, teleportation|Mystic|A Titan who uses empathy and dark magic for defense
+Starfire|DC|Hero|Flight, strength, starbolts|Blaster|Tamaranean warrior who stores and releases stellar energy
+Beast Boy|DC|Hero|Animal transformation, mobility, scouting|Speedster|Gar Logan adapts to terrain by changing animal form
+Lex Luthor|DC|Villain|Engineering, powered armor, strategy|Tactician|Industrialist who tackles superheroes through technology
+Joker|DC|Villain|Chemical gadgets, manipulation, escapes|Tactician|Unpredictable Gotham villain who thrives on disorder
+Harley Quinn|DC|Antihero|Acrobatics, improvisation, psychology|Warrior|Fast, unpredictable fighter who turns distractions into openings
+Deathstroke|DC|Villain|Enhanced reflexes, swordsmanship, planning|Warrior|Slade Wilson combines enhanced reactions with precise tactics
+Darkseid|DC|Villain|Omega Beams, strength, command|Cosmic|Tyrant of Apokolips with overwhelming power
+Doomsday|DC|Villain|Adaptation, super strength, durability|Bruiser|Physically overwhelming foe who adapts to threats
+Brainiac|DC|Villain|Robotics, alien technology, data analysis|Tactician|Alien collector who treats entire cities as specimens
+Reverse-Flash|DC|Villain|Super speed, phasing, temporal disruption|Speedster|Eobard Thawne turns speed into a precision threat
+Sinestro|DC|Villain|Fear constructs, flight, shields|Blaster|Ring wielder who specializes in fear-powered constructs
+Black Adam|DC|Antihero|Magic lightning, durability, flight|Cosmic|Defender of Kahndaq with formidable magical power
+General Zod|DC|Villain|Kryptonian strength, flight, military tactics|Cosmic|Kryptonian commander who applies power with discipline
+Bane|DC|Villain|Venom-enhanced strength, planning, grappling|Bruiser|Physical strategist who studies his opponents' weak points
+Ra's al Ghul|DC|Villain|Swordsmanship, strategy, resources|Warrior|Leader of the League of Assassins with centuries of planning experience
+Poison Ivy|DC|Villain|Plant control, botanical toxins, pheromones|Psychic|Botanist who turns living terrain into her advantage
+Catwoman|DC|Antihero|Stealth, acrobatics, whip|Speedster|Selina Kyle relies on misdirection and agility
+Riddler|DC|Villain|Puzzle design, surveillance, planning|Tactician|Gotham criminal who prefers engineered contests
+Scarecrow|DC|Villain|Fear toxin, psychology, illusions|Tactician|Psychologist who uses fear as a tool of control
+Two-Face|DC|Villain|Organization, marksmanship, intimidation|Tactician|Harvey Dent leads a criminal operation through rigid rituals
+Mr. Freeze|DC|Villain|Cryogenic weapons, engineering, armor|Blaster|Victor Fries manipulates the battlefield through ice technology
+Spider-Man|Marvel|Hero|Spider-sense, wall crawling, webbing|Speedster|Peter Parker combines agile rescues with quick thinking
+Iron Man|Marvel|Hero|Powered armor, repulsors, engineering|Tactician|Tony Stark uses modular armor to solve evolving threats
+Captain America|Marvel|Hero|Shield combat, leadership, enhanced endurance|Warrior|Steve Rogers coordinates teams and anchors defensive lines
+Thor|Marvel|Hero|Lightning, Mjolnir, super strength|Cosmic|Asgardian champion who brings storms and sustained power
+Hulk|Marvel|Hero|Super strength, regeneration, durability|Bruiser|Bruce Banner's alter ego grows stronger under pressure
+Black Widow|Marvel|Hero|Espionage, martial arts, Widow's Bite|Tactician|Natasha Romanoff specializes in infiltration and precision
+Hawkeye|Marvel|Hero|Trick archery, marksmanship, tactics|Tactician|Clint Barton uses specialist arrows to control distance
+Doctor Strange|Marvel|Hero|Sorcery, portals, wards|Mystic|Sorcerer who manipulates space and shields allies
+Scarlet Witch|Marvel|Hero|Chaos magic, hexes, reality alteration|Mystic|Wanda Maximoff uses hexes to upset established advantages
+Vision|Marvel|Hero|Density control, flight, energy beam|Blaster|Synthezoid who shifts between intangibility and density
+Black Panther|Marvel|Hero|Vibranium gear, combat, strategy|Warrior|T'Challa combines Wakandan technology with precise fighting
+Ant-Man|Marvel|Hero|Size changing, ant communication, infiltration|Tactician|Scott Lang changes scale to reach vulnerable positions
+Wasp|Marvel|Hero|Size changing, flight, energy stings|Speedster|Janet van Dyne leads and strikes from unexpected angles
+Captain Marvel|Marvel|Hero|Flight, energy absorption, photon blasts|Cosmic|Carol Danvers channels intense energy into mobile offense
+Wolverine|Marvel|Antihero|Healing, adamantium claws, tracking|Warrior|Logan uses heightened senses and close-range endurance
+Deadpool|Marvel|Antihero|Healing, swordsmanship, improvisation|Warrior|Wade Wilson survives long exchanges and fights unpredictably
+Magneto|Marvel|Villain|Magnetism, force fields, flight|Psychic|Mutant leader who turns nearby metal into offense and defense
+Professor X|Marvel|Hero|Telepathy, psychic projection, leadership|Psychic|Charles Xavier coordinates and protects teams psychically
+Cyclops|Marvel|Hero|Optic blasts, leadership, tactics|Blaster|Scott Summers applies focused force and squad coordination
+Jean Grey|Marvel|Hero|Telepathy, telekinesis, psychic shields|Psychic|An X-Man who redirects threats through psionic control
+Storm|Marvel|Hero|Weather control, flight, leadership|Blaster|Ororo Munroe controls weather and battlefield visibility
+Rogue|Marvel|Hero|Power absorption, flight, strength|Bruiser|Mutant who can borrow abilities through contact
+Gambit|Marvel|Hero|Kinetic charging, staff combat, agility|Warrior|Remy LeBeau weaponizes ordinary objects with kinetic energy
+Beast|Marvel|Hero|Agility, strength, scientific expertise|Tactician|Hank McCoy pairs acrobatics with advanced scientific analysis
+Nightcrawler|Marvel|Hero|Teleportation, acrobatics, wall crawling|Speedster|Kurt Wagner repositions quickly and moves allies to safety
+Colossus|Marvel|Hero|Organic steel, strength, durability|Bruiser|Piotr Rasputin acts as the team's armored front line
+Iceman|Marvel|Hero|Ice generation, freezing, slide travel|Blaster|Bobby Drake shapes ice into mobility and area control
+Emma Frost|Marvel|Antihero|Telepathy, diamond form, planning|Psychic|Mutant tactician who switches between psychic and physical defense
+Mystique|Marvel|Villain|Shapeshifting, espionage, infiltration|Tactician|Expert infiltrator who weaponizes mistaken identity
+Sabretooth|Marvel|Villain|Healing, claws, tracking|Bruiser|Victor Creed relies on endurance and predatory close combat
+Apocalypse|Marvel|Villain|Molecular control, strength, alien technology|Cosmic|Ancient mutant who reshapes his body to meet threats
+Thanos|Marvel|Villain|Strength, durability, strategic planning|Cosmic|Titan who combines overwhelming strength and planning
+Loki|Marvel|Antihero|Illusion, shapeshifting, sorcery|Mystic|Trickster who wins through deception and misdirection
+Ultron|Marvel|Villain|Robotics, body replacement, energy weapons|Tactician|Artificial intelligence that adapts through new mechanical bodies
+Doctor Doom|Marvel|Villain|Armor, sorcery, engineering|Mystic|Victor von Doom blends advanced technology with magic
+Green Goblin|Marvel|Villain|Glider, pumpkin bombs, enhanced strength|Tactician|Norman Osborn attacks from the air and exploits distractions
+Venom|Marvel|Antihero|Symbiote shaping, wall crawling, strength|Bruiser|Eddie Brock and his symbiote form a mobile bruiser
+Carnage|Marvel|Villain|Symbiote blades, regeneration, strength|Bruiser|Cletus Kasady's symbiote reshapes into extended weapons
+Kingpin|Marvel|Villain|Criminal networks, grappling, tactical planning|Bruiser|Wilson Fisk controls resources and holds his own in close quarters
+Bullseye|Marvel|Villain|Precision throwing, agility, hand-to-hand combat|Warrior|Assassin who turns ordinary objects into ranged threats
+Daredevil|Marvel|Hero|Radar sense, acrobatics, billy clubs|Warrior|Matt Murdock reads terrain through heightened senses
+Punisher|Marvel|Antihero|Tactics, marksmanship, survival|Tactician|Frank Castle uses preparation to overcome physical disadvantages
+Moon Knight|Marvel|Antihero|Martial arts, crescent darts, endurance|Warrior|Marc Spector relies on close-range pressure and resilience
+Silver Surfer|Marvel|Hero|Power Cosmic, energy manipulation, space travel|Cosmic|Norrin Radd moves across space and shapes cosmic energy
+Galactus|Marvel|Villain|Cosmic energy, matter control, immense scale|Cosmic|Cosmic entity whose power operates on a planetary scale
+Adam Warlock|Marvel|Hero|Cosmic energy, flight, regeneration|Cosmic|Cosmic guardian with strong energy and recovery abilities
+Ghost Rider|Marvel|Antihero|Hellfire, chain combat, Penance Stare|Mystic|Johnny Blaze channels supernatural power through a fiery chain
+Shang-Chi|Marvel|Hero|Martial arts, reflexes, discipline|Warrior|Exceptional fighter who wins through technique and timing
+Iron Fist|Marvel|Hero|Chi, martial arts, healing|Warrior|Danny Rand focuses chi into powerful strikes
+Blade|Marvel|Antihero|Swordsmanship, senses, enhanced healing|Warrior|Daywalker who specializes in tracking supernatural opponents
+Namor|Marvel|Antihero|Flight, underwater adaptation, strength|Bruiser|Underwater monarch who applies pressure on land and at sea
+She-Hulk|Marvel|Hero|Super strength, durability, legal analysis|Bruiser|Jennifer Walters combines controlled strength and quick judgment
+Jessica Jones|Marvel|Hero|Investigation, strength, durability|Bruiser|Private investigator who uncovers pressure points in a case
+Luke Cage|Marvel|Hero|Unbreakable skin, strength, leadership|Bruiser|Neighborhood defender who absorbs pressure on the front line
+Star-Lord|Marvel|Hero|Pilot skills, blasters, improvisation|Tactician|Peter Quill coordinates spacefaring teammates and rapid escapes
+Gamora|Marvel|Hero|Swordsmanship, agility, tactical combat|Warrior|Veteran space fighter with precision in close combat
+Drax|Marvel|Hero|Strength, endurance, knife combat|Bruiser|Guardian who prefers sustained direct engagements
+Rocket Raccoon|Marvel|Hero|Engineering, demolition, piloting|Tactician|Resourceful engineer with a talent for building under pressure
+Groot|Marvel|Hero|Regeneration, extending limbs, shielding|Bruiser|Living tree who shields allies and changes battlefield geometry
+Nebula|Marvel|Antihero|Cybernetics, blade combat, infiltration|Warrior|Cybernetically enhanced fighter skilled at adapting in close quarters
+Mysterio|Marvel|Villain|Illusions, drones, stage effects|Tactician|Quentin Beck creates false targets and confusing terrain
+Kraven|Marvel|Villain|Tracking, traps, enhanced senses|Warrior|Hunter who studies terrain and isolates targets
+Squirrel Girl|Marvel|Hero|Squirrel communication, agility, improvisation|Speedster|Doreen Green solves conflicts through mobility and unconventional allies
+Ms. Marvel|Marvel|Hero|Stretching, size shifting, healing|Speedster|Kamala Khan stretches to rescue allies and control space
+Miles Morales|Marvel|Hero|Camouflage, bioelectricity, webbing|Speedster|Spider-Man who uses stealth and bioelectric strikes
+Spider-Gwen|Marvel|Hero|Webbing, spider-sense, acrobatics|Speedster|Gwen Stacy fights through agile repositioning
+Kate Bishop|Marvel|Hero|Archery, reconnaissance, martial arts|Tactician|Young Avenger who excels at precision and scouting
+America Chavez|Marvel|Hero|Dimensional portals, flight, strength|Cosmic|Teammate who opens shortcuts across dimensions
+Blue Beetle|DC|Hero|Scarab armor, flight, adaptive weaponry|Blaster|Jaime Reyes adapts alien armor to changing threats
+Booster Gold|DC|Hero|Force fields, flight, future technology|Blaster|Future athlete who uses advanced equipment in the present
+Plastic Man|DC|Hero|Elasticity, transformation, resilience|Speedster|Shape-changing hero who specializes in containment
+Swamp Thing|DC|Hero|Plant control, regeneration, environmental awareness|Mystic|Avatar of the Green who thrives in vegetated areas
+Bizarro|DC|Villain|Super strength, flight, freeze vision|Bruiser|Kryptonian-style powerhouse with unusual defensive tools
+Black Manta|DC|Villain|Diving armor, energy beams, tactics|Tactician|Undersea rival of Aquaman equipped for stealth and pursuit
+Gorilla Grodd|DC|Villain|Telepathy, strength, strategy|Psychic|Gorilla City rival with powerful mental control
+Solomon Grundy|DC|Villain|Strength, durability, regeneration|Bruiser|Undead brute who endures extended close-range exchanges
+Hellboy|Dark Horse|Hero|Occult investigation, strength, Right Hand of Doom|Bruiser|Paranormal investigator who confronts supernatural threats
+Spawn|Image|Antihero|Necroplasm, living chains, teleportation|Mystic|Al Simmons combines supernatural control with ambush tactics

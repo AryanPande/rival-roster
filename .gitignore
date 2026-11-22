@@ -1,0 +1,11 @@
+node_modules/
+.firebase/
+.openai/
+firebase-debug.log
+database-debug.log
+*-debug.log
+.DS_Store
+
+# Local source download page
+source-download.html
+rival-roster.zip

@@ -1,0 +1,2906 @@
+[
+  {
+    "id": "superman",
+    "identity": "superman",
+    "name": "Superman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Flight",
+      "heat vision",
+      "super strength"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 93,
+      "speed": 82,
+      "durability": 93,
+      "combat": 80,
+      "power": 99,
+      "teamwork": 73
+    },
+    "description": "Solar-powered protector from Krypton."
+  },
+  {
+    "id": "batman",
+    "identity": "batman",
+    "name": "Batman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Detective work",
+      "martial arts",
+      "gadgets"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 52,
+      "speed": 67,
+      "durability": 68,
+      "combat": 84,
+      "power": 64,
+      "teamwork": 84
+    },
+    "description": "Gotham detective who plans for impossible odds."
+  },
+  {
+    "id": "wonder-woman",
+    "identity": "wonder-woman",
+    "name": "Wonder Woman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Super strength",
+      "flight",
+      "magic lasso"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 68,
+      "speed": 78,
+      "durability": 74,
+      "combat": 98,
+      "power": 70,
+      "teamwork": 88
+    },
+    "description": "Amazon champion who leads from the front."
+  },
+  {
+    "id": "flash",
+    "identity": "flash",
+    "name": "Flash",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Speed Force",
+      "phasing",
+      "super speed"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 68,
+      "speed": 98,
+      "durability": 68,
+      "combat": 75,
+      "power": 84,
+      "teamwork": 85
+    },
+    "description": "Barry Allen uses speed to solve crises."
+  },
+  {
+    "id": "aquaman",
+    "identity": "aquaman",
+    "name": "Aquaman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Marine telepathy",
+      "underwater combat",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 64,
+      "speed": 75,
+      "durability": 81,
+      "combat": 95,
+      "power": 70,
+      "teamwork": 82
+    },
+    "description": "Atlantean leader built for underwater battle."
+  },
+  {
+    "id": "green-lantern",
+    "identity": "green-lantern",
+    "name": "Green Lantern",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Energy constructs",
+      "flight",
+      "force fields"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 75,
+      "speed": 82,
+      "durability": 84,
+      "combat": 76,
+      "power": 94,
+      "teamwork": 85
+    },
+    "description": "Hal Jordan shapes willpower into tools and weapons."
+  },
+  {
+    "id": "martian-manhunter",
+    "identity": "martian-manhunter",
+    "name": "Martian Manhunter",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Telepathy",
+      "shapeshifting",
+      "intangibility"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 58,
+      "speed": 66,
+      "durability": 77,
+      "combat": 74,
+      "power": 97,
+      "teamwork": 87
+    },
+    "description": "Martian defender with versatile psychic abilities."
+  },
+  {
+    "id": "cyborg",
+    "identity": "cyborg",
+    "name": "Cyborg",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Cybernetics",
+      "hacking",
+      "sonic weapons"
+    ],
+    "ratings": {
+      "intelligence": 90,
+      "strength": 55,
+      "speed": 64,
+      "durability": 72,
+      "combat": 79,
+      "power": 68,
+      "teamwork": 78
+    },
+    "description": "Victor Stone combines engineering and cybernetic firepower."
+  },
+  {
+    "id": "green-arrow",
+    "identity": "green-arrow",
+    "name": "Green Arrow",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Trick archery",
+      "agility",
+      "tactics"
+    ],
+    "ratings": {
+      "intelligence": 89,
+      "strength": 52,
+      "speed": 63,
+      "durability": 66,
+      "combat": 84,
+      "power": 62,
+      "teamwork": 85
+    },
+    "description": "Oliver Queen specializes in precision and improvised gadgets."
+  },
+  {
+    "id": "black-canary",
+    "identity": "black-canary",
+    "name": "Black Canary",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Sonic scream",
+      "martial arts",
+      "leadership"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 67,
+      "speed": 83,
+      "durability": 75,
+      "combat": 98,
+      "power": 71,
+      "teamwork": 87
+    },
+    "description": "Veteran fighter with a crowd-controlling Canary Cry."
+  },
+  {
+    "id": "shazam",
+    "identity": "shazam",
+    "name": "Shazam",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Magic lightning",
+      "flight",
+      "super strength"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 91,
+      "speed": 85,
+      "durability": 90,
+      "combat": 79,
+      "power": 94,
+      "teamwork": 74
+    },
+    "description": "Billy Batson calls on magical champions for power."
+  },
+  {
+    "id": "doctor-fate",
+    "identity": "doctor-fate",
+    "name": "Doctor Fate",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Sorcery",
+      "wards",
+      "astral projection"
+    ],
+    "ratings": {
+      "intelligence": 87,
+      "strength": 65,
+      "speed": 70,
+      "durability": 75,
+      "combat": 78,
+      "power": 98,
+      "teamwork": 78
+    },
+    "description": "Kent Nelson wields magic through the Helmet of Fate."
+  },
+  {
+    "id": "zatanna",
+    "identity": "zatanna",
+    "name": "Zatanna",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Reverse speech spells",
+      "illusion",
+      "teleportation"
+    ],
+    "ratings": {
+      "intelligence": 89,
+      "strength": 59,
+      "speed": 69,
+      "durability": 74,
+      "combat": 76,
+      "power": 94,
+      "teamwork": 80
+    },
+    "description": "Stage magician whose backward incantations reshape a fight."
+  },
+  {
+    "id": "constantine",
+    "identity": "constantine",
+    "name": "Constantine",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Antihero",
+    "abilities": [
+      "Occult knowledge",
+      "wards",
+      "deception"
+    ],
+    "ratings": {
+      "intelligence": 84,
+      "strength": 65,
+      "speed": 69,
+      "durability": 76,
+      "combat": 71,
+      "power": 92,
+      "teamwork": 84
+    },
+    "description": "Occult operator who wins through preparation and bargains."
+  },
+  {
+    "id": "nightwing",
+    "identity": "nightwing",
+    "name": "Nightwing",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Acrobatics",
+      "escrima",
+      "leadership"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 72,
+      "speed": 77,
+      "durability": 77,
+      "combat": 96,
+      "power": 72,
+      "teamwork": 80
+    },
+    "description": "Dick Grayson brings acrobatics and team leadership."
+  },
+  {
+    "id": "red-hood",
+    "identity": "red-hood",
+    "name": "Red Hood",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Antihero",
+    "abilities": [
+      "Tactical planning",
+      "marksmanship",
+      "martial arts"
+    ],
+    "ratings": {
+      "intelligence": 94,
+      "strength": 56,
+      "speed": 66,
+      "durability": 69,
+      "combat": 83,
+      "power": 63,
+      "teamwork": 83
+    },
+    "description": "Jason Todd takes the aggressive route through Gotham."
+  },
+  {
+    "id": "supergirl",
+    "identity": "supergirl",
+    "name": "Supergirl",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Heat vision",
+      "flight",
+      "super strength"
+    ],
+    "ratings": {
+      "intelligence": 79,
+      "strength": 97,
+      "speed": 90,
+      "durability": 95,
+      "combat": 73,
+      "power": 98,
+      "teamwork": 77
+    },
+    "description": "Kara Zor-El shares Kryptonian strength and mobility."
+  },
+  {
+    "id": "batgirl",
+    "identity": "batgirl",
+    "name": "Batgirl",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Digital intelligence",
+      "stealth",
+      "martial arts"
+    ],
+    "ratings": {
+      "intelligence": 90,
+      "strength": 56,
+      "speed": 65,
+      "durability": 69,
+      "combat": 84,
+      "power": 66,
+      "teamwork": 83
+    },
+    "description": "Barbara Gordon pairs field skills with information control."
+  },
+  {
+    "id": "raven",
+    "identity": "raven",
+    "name": "Raven",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Empathy",
+      "soul-self",
+      "teleportation"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 65,
+      "speed": 73,
+      "durability": 76,
+      "combat": 72,
+      "power": 94,
+      "teamwork": 81
+    },
+    "description": "A Titan who uses empathy and dark magic for defense."
+  },
+  {
+    "id": "starfire",
+    "identity": "starfire",
+    "name": "Starfire",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Flight",
+      "strength",
+      "starbolts"
+    ],
+    "ratings": {
+      "intelligence": 71,
+      "strength": 79,
+      "speed": 85,
+      "durability": 83,
+      "combat": 74,
+      "power": 93,
+      "teamwork": 83
+    },
+    "description": "Tamaranean warrior who stores and releases stellar energy."
+  },
+  {
+    "id": "beast-boy",
+    "identity": "beast-boy",
+    "name": "Beast Boy",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Animal transformation",
+      "mobility",
+      "scouting"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 67,
+      "speed": 95,
+      "durability": 68,
+      "combat": 75,
+      "power": 83,
+      "teamwork": 86
+    },
+    "description": "Gar Logan adapts to terrain by changing animal form."
+  },
+  {
+    "id": "lex-luthor",
+    "identity": "lex-luthor",
+    "name": "Lex Luthor",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Engineering",
+      "powered armor",
+      "strategy"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 49,
+      "speed": 70,
+      "durability": 71,
+      "combat": 85,
+      "power": 62,
+      "teamwork": 82
+    },
+    "description": "Industrialist who tackles superheroes through technology."
+  },
+  {
+    "id": "joker",
+    "identity": "joker",
+    "name": "Joker",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Chemical gadgets",
+      "manipulation",
+      "escapes"
+    ],
+    "ratings": {
+      "intelligence": 90,
+      "strength": 55,
+      "speed": 62,
+      "durability": 69,
+      "combat": 80,
+      "power": 68,
+      "teamwork": 81
+    },
+    "description": "Unpredictable Gotham villain who thrives on disorder."
+  },
+  {
+    "id": "harley-quinn",
+    "identity": "harley-quinn",
+    "name": "Harley Quinn",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Antihero",
+    "abilities": [
+      "Acrobatics",
+      "improvisation",
+      "psychology"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 65,
+      "speed": 81,
+      "durability": 73,
+      "combat": 97,
+      "power": 70,
+      "teamwork": 85
+    },
+    "description": "Fast, unpredictable fighter who turns distractions into openings."
+  },
+  {
+    "id": "deathstroke",
+    "identity": "deathstroke",
+    "name": "Deathstroke",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Enhanced reflexes",
+      "swordsmanship",
+      "planning"
+    ],
+    "ratings": {
+      "intelligence": 79,
+      "strength": 72,
+      "speed": 80,
+      "durability": 81,
+      "combat": 98,
+      "power": 67,
+      "teamwork": 84
+    },
+    "description": "Slade Wilson combines enhanced reactions with precise tactics."
+  },
+  {
+    "id": "darkseid",
+    "identity": "darkseid",
+    "name": "Darkseid",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Omega Beams",
+      "strength",
+      "command"
+    ],
+    "ratings": {
+      "intelligence": 76,
+      "strength": 93,
+      "speed": 88,
+      "durability": 91,
+      "combat": 75,
+      "power": 95,
+      "teamwork": 76
+    },
+    "description": "Tyrant of Apokolips with overwhelming power."
+  },
+  {
+    "id": "doomsday",
+    "identity": "doomsday",
+    "name": "Doomsday",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Adaptation",
+      "super strength",
+      "durability"
+    ],
+    "ratings": {
+      "intelligence": 60,
+      "strength": 92,
+      "speed": 66,
+      "durability": 90,
+      "combat": 77,
+      "power": 82,
+      "teamwork": 75
+    },
+    "description": "Physically overwhelming foe who adapts to threats."
+  },
+  {
+    "id": "brainiac",
+    "identity": "brainiac",
+    "name": "Brainiac",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Robotics",
+      "alien technology",
+      "data analysis"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 51,
+      "speed": 63,
+      "durability": 70,
+      "combat": 79,
+      "power": 64,
+      "teamwork": 83
+    },
+    "description": "Alien collector who treats entire cities as specimens."
+  },
+  {
+    "id": "reverse-flash",
+    "identity": "reverse-flash",
+    "name": "Reverse-Flash",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Super speed",
+      "phasing",
+      "temporal disruption"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 68,
+      "speed": 97,
+      "durability": 69,
+      "combat": 78,
+      "power": 78,
+      "teamwork": 83
+    },
+    "description": "Eobard Thawne turns speed into a precision threat."
+  },
+  {
+    "id": "sinestro",
+    "identity": "sinestro",
+    "name": "Sinestro",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Fear constructs",
+      "flight",
+      "shields"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 78,
+      "speed": 77,
+      "durability": 81,
+      "combat": 71,
+      "power": 95,
+      "teamwork": 81
+    },
+    "description": "Ring wielder who specializes in fear-powered constructs."
+  },
+  {
+    "id": "black-adam",
+    "identity": "black-adam",
+    "name": "Black Adam",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Antihero",
+    "abilities": [
+      "Magic lightning",
+      "durability",
+      "flight"
+    ],
+    "ratings": {
+      "intelligence": 79,
+      "strength": 99,
+      "speed": 86,
+      "durability": 91,
+      "combat": 74,
+      "power": 95,
+      "teamwork": 74
+    },
+    "description": "Defender of Kahndaq with formidable magical power."
+  },
+  {
+    "id": "general-zod",
+    "identity": "general-zod",
+    "name": "General Zod",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Kryptonian strength",
+      "flight",
+      "military tactics"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 93,
+      "speed": 86,
+      "durability": 98,
+      "combat": 78,
+      "power": 99,
+      "teamwork": 72
+    },
+    "description": "Kryptonian commander who applies power with discipline."
+  },
+  {
+    "id": "bane",
+    "identity": "bane",
+    "name": "Bane",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Venom-enhanced strength",
+      "planning",
+      "grappling"
+    ],
+    "ratings": {
+      "intelligence": 66,
+      "strength": 89,
+      "speed": 59,
+      "durability": 93,
+      "combat": 77,
+      "power": 81,
+      "teamwork": 73
+    },
+    "description": "Physical strategist who studies his opponents' weak points."
+  },
+  {
+    "id": "ra-s-al-ghul",
+    "identity": "ra-s-al-ghul",
+    "name": "Ra's al Ghul",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Swordsmanship",
+      "strategy",
+      "resources"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 64,
+      "speed": 78,
+      "durability": 74,
+      "combat": 94,
+      "power": 75,
+      "teamwork": 84
+    },
+    "description": "Leader of the League of Assassins with centuries of planning experience."
+  },
+  {
+    "id": "poison-ivy",
+    "identity": "poison-ivy",
+    "name": "Poison Ivy",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Plant control",
+      "botanical toxins",
+      "pheromones"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 59,
+      "speed": 74,
+      "durability": 70,
+      "combat": 76,
+      "power": 91,
+      "teamwork": 87
+    },
+    "description": "Botanist who turns living terrain into her advantage."
+  },
+  {
+    "id": "catwoman",
+    "identity": "catwoman",
+    "name": "Catwoman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Antihero",
+    "abilities": [
+      "Stealth",
+      "acrobatics",
+      "whip"
+    ],
+    "ratings": {
+      "intelligence": 75,
+      "strength": 66,
+      "speed": 94,
+      "durability": 67,
+      "combat": 74,
+      "power": 80,
+      "teamwork": 85
+    },
+    "description": "Selina Kyle relies on misdirection and agility."
+  },
+  {
+    "id": "riddler",
+    "identity": "riddler",
+    "name": "Riddler",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Puzzle design",
+      "surveillance",
+      "planning"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 49,
+      "speed": 69,
+      "durability": 72,
+      "combat": 82,
+      "power": 67,
+      "teamwork": 83
+    },
+    "description": "Gotham criminal who prefers engineered contests."
+  },
+  {
+    "id": "scarecrow",
+    "identity": "scarecrow",
+    "name": "Scarecrow",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Fear toxin",
+      "psychology",
+      "illusions"
+    ],
+    "ratings": {
+      "intelligence": 87,
+      "strength": 48,
+      "speed": 65,
+      "durability": 69,
+      "combat": 82,
+      "power": 69,
+      "teamwork": 81
+    },
+    "description": "Psychologist who uses fear as a tool of control."
+  },
+  {
+    "id": "two-face",
+    "identity": "two-face",
+    "name": "Two-Face",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Organization",
+      "marksmanship",
+      "intimidation"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 52,
+      "speed": 70,
+      "durability": 71,
+      "combat": 79,
+      "power": 61,
+      "teamwork": 82
+    },
+    "description": "Harvey Dent leads a criminal operation through rigid rituals."
+  },
+  {
+    "id": "mr-freeze",
+    "identity": "mr-freeze",
+    "name": "Mr. Freeze",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Cryogenic weapons",
+      "engineering",
+      "armor"
+    ],
+    "ratings": {
+      "intelligence": 75,
+      "strength": 75,
+      "speed": 78,
+      "durability": 83,
+      "combat": 76,
+      "power": 91,
+      "teamwork": 83
+    },
+    "description": "Victor Fries manipulates the battlefield through ice technology."
+  },
+  {
+    "id": "spider-man",
+    "identity": "spider-man",
+    "name": "Spider-Man",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Spider-sense",
+      "wall crawling",
+      "webbing"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 60,
+      "speed": 95,
+      "durability": 68,
+      "combat": 82,
+      "power": 78,
+      "teamwork": 85
+    },
+    "description": "Peter Parker combines agile rescues with quick thinking."
+  },
+  {
+    "id": "iron-man",
+    "identity": "iron-man",
+    "name": "Iron Man",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Powered armor",
+      "repulsors",
+      "engineering"
+    ],
+    "ratings": {
+      "intelligence": 95,
+      "strength": 53,
+      "speed": 70,
+      "durability": 70,
+      "combat": 81,
+      "power": 67,
+      "teamwork": 81
+    },
+    "description": "Tony Stark uses modular armor to solve evolving threats."
+  },
+  {
+    "id": "captain-america",
+    "identity": "captain-america",
+    "name": "Captain America",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Shield combat",
+      "leadership",
+      "enhanced endurance"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 67,
+      "speed": 78,
+      "durability": 79,
+      "combat": 92,
+      "power": 71,
+      "teamwork": 81
+    },
+    "description": "Steve Rogers coordinates teams and anchors defensive lines."
+  },
+  {
+    "id": "thor",
+    "identity": "thor",
+    "name": "Thor",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Lightning",
+      "Mjolnir",
+      "super strength"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 97,
+      "speed": 89,
+      "durability": 93,
+      "combat": 76,
+      "power": 96,
+      "teamwork": 73
+    },
+    "description": "Asgardian champion who brings storms and sustained power."
+  },
+  {
+    "id": "hulk",
+    "identity": "hulk",
+    "name": "Hulk",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Super strength",
+      "regeneration",
+      "durability"
+    ],
+    "ratings": {
+      "intelligence": 63,
+      "strength": 92,
+      "speed": 60,
+      "durability": 90,
+      "combat": 72,
+      "power": 82,
+      "teamwork": 71
+    },
+    "description": "Bruce Banner's alter ego grows stronger under pressure."
+  },
+  {
+    "id": "black-widow",
+    "identity": "black-widow",
+    "name": "Black Widow",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Espionage",
+      "martial arts",
+      "Widow's Bite"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 54,
+      "speed": 64,
+      "durability": 70,
+      "combat": 81,
+      "power": 65,
+      "teamwork": 77
+    },
+    "description": "Natasha Romanoff specializes in infiltration and precision."
+  },
+  {
+    "id": "hawkeye",
+    "identity": "hawkeye",
+    "name": "Hawkeye",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Trick archery",
+      "marksmanship",
+      "tactics"
+    ],
+    "ratings": {
+      "intelligence": 90,
+      "strength": 52,
+      "speed": 63,
+      "durability": 71,
+      "combat": 82,
+      "power": 62,
+      "teamwork": 83
+    },
+    "description": "Clint Barton uses specialist arrows to control distance."
+  },
+  {
+    "id": "doctor-strange",
+    "identity": "doctor-strange",
+    "name": "Doctor Strange",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Sorcery",
+      "portals",
+      "wards"
+    ],
+    "ratings": {
+      "intelligence": 87,
+      "strength": 62,
+      "speed": 76,
+      "durability": 81,
+      "combat": 77,
+      "power": 97,
+      "teamwork": 78
+    },
+    "description": "Sorcerer who manipulates space and shields allies."
+  },
+  {
+    "id": "scarlet-witch",
+    "identity": "scarlet-witch",
+    "name": "Scarlet Witch",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Chaos magic",
+      "hexes",
+      "reality alteration"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 66,
+      "speed": 76,
+      "durability": 77,
+      "combat": 70,
+      "power": 98,
+      "teamwork": 79
+    },
+    "description": "Wanda Maximoff uses hexes to upset established advantages."
+  },
+  {
+    "id": "vision",
+    "identity": "vision",
+    "name": "Vision",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Density control",
+      "flight",
+      "energy beam"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 79,
+      "speed": 83,
+      "durability": 77,
+      "combat": 76,
+      "power": 92,
+      "teamwork": 81
+    },
+    "description": "Synthezoid who shifts between intangibility and density."
+  },
+  {
+    "id": "black-panther",
+    "identity": "black-panther",
+    "name": "Black Panther",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Vibranium gear",
+      "combat",
+      "strategy"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 71,
+      "speed": 81,
+      "durability": 75,
+      "combat": 93,
+      "power": 74,
+      "teamwork": 86
+    },
+    "description": "T'Challa combines Wakandan technology with precise fighting."
+  },
+  {
+    "id": "ant-man",
+    "identity": "ant-man",
+    "name": "Ant-Man",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Size changing",
+      "ant communication",
+      "infiltration"
+    ],
+    "ratings": {
+      "intelligence": 90,
+      "strength": 51,
+      "speed": 69,
+      "durability": 70,
+      "combat": 85,
+      "power": 67,
+      "teamwork": 81
+    },
+    "description": "Scott Lang changes scale to reach vulnerable positions."
+  },
+  {
+    "id": "wasp",
+    "identity": "wasp",
+    "name": "Wasp",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Size changing",
+      "flight",
+      "energy stings"
+    ],
+    "ratings": {
+      "intelligence": 80,
+      "strength": 61,
+      "speed": 95,
+      "durability": 67,
+      "combat": 80,
+      "power": 85,
+      "teamwork": 86
+    },
+    "description": "Janet van Dyne leads and strikes from unexpected angles."
+  },
+  {
+    "id": "captain-marvel",
+    "identity": "captain-marvel",
+    "name": "Captain Marvel",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Flight",
+      "energy absorption",
+      "photon blasts"
+    ],
+    "ratings": {
+      "intelligence": 76,
+      "strength": 95,
+      "speed": 90,
+      "durability": 93,
+      "combat": 72,
+      "power": 99,
+      "teamwork": 75
+    },
+    "description": "Carol Danvers channels intense energy into mobile offense."
+  },
+  {
+    "id": "wolverine",
+    "identity": "wolverine",
+    "name": "Wolverine",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Healing",
+      "adamantium claws",
+      "tracking"
+    ],
+    "ratings": {
+      "intelligence": 71,
+      "strength": 69,
+      "speed": 83,
+      "durability": 75,
+      "combat": 98,
+      "power": 73,
+      "teamwork": 86
+    },
+    "description": "Logan uses heightened senses and close-range endurance."
+  },
+  {
+    "id": "deadpool",
+    "identity": "deadpool",
+    "name": "Deadpool",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Healing",
+      "swordsmanship",
+      "improvisation"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 68,
+      "speed": 82,
+      "durability": 78,
+      "combat": 98,
+      "power": 74,
+      "teamwork": 88
+    },
+    "description": "Wade Wilson survives long exchanges and fights unpredictably."
+  },
+  {
+    "id": "magneto",
+    "identity": "magneto",
+    "name": "Magneto",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Magnetism",
+      "force fields",
+      "flight"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 65,
+      "speed": 72,
+      "durability": 75,
+      "combat": 72,
+      "power": 96,
+      "teamwork": 88
+    },
+    "description": "Mutant leader who turns nearby metal into offense and defense."
+  },
+  {
+    "id": "professor-x",
+    "identity": "professor-x",
+    "name": "Professor X",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Telepathy",
+      "psychic projection",
+      "leadership"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 61,
+      "speed": 67,
+      "durability": 76,
+      "combat": 73,
+      "power": 90,
+      "teamwork": 83
+    },
+    "description": "Charles Xavier coordinates and protects teams psychically."
+  },
+  {
+    "id": "cyclops",
+    "identity": "cyclops",
+    "name": "Cyclops",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Optic blasts",
+      "leadership",
+      "tactics"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 73,
+      "speed": 77,
+      "durability": 84,
+      "combat": 77,
+      "power": 89,
+      "teamwork": 84
+    },
+    "description": "Scott Summers applies focused force and squad coordination."
+  },
+  {
+    "id": "jean-grey",
+    "identity": "jean-grey",
+    "name": "Jean Grey",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Telepathy",
+      "telekinesis",
+      "psychic shields"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 58,
+      "speed": 70,
+      "durability": 77,
+      "combat": 71,
+      "power": 94,
+      "teamwork": 83
+    },
+    "description": "An X-Man who redirects threats through psionic control."
+  },
+  {
+    "id": "storm",
+    "identity": "storm",
+    "name": "Storm",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Weather control",
+      "flight",
+      "leadership"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 75,
+      "speed": 78,
+      "durability": 84,
+      "combat": 72,
+      "power": 91,
+      "teamwork": 81
+    },
+    "description": "Ororo Munroe controls weather and battlefield visibility."
+  },
+  {
+    "id": "rogue",
+    "identity": "rogue",
+    "name": "Rogue",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Power absorption",
+      "flight",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 62,
+      "strength": 97,
+      "speed": 64,
+      "durability": 92,
+      "combat": 79,
+      "power": 76,
+      "teamwork": 75
+    },
+    "description": "Mutant who can borrow abilities through contact."
+  },
+  {
+    "id": "gambit",
+    "identity": "gambit",
+    "name": "Gambit",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Kinetic charging",
+      "staff combat",
+      "agility"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 68,
+      "speed": 75,
+      "durability": 77,
+      "combat": 95,
+      "power": 74,
+      "teamwork": 88
+    },
+    "description": "Remy LeBeau weaponizes ordinary objects with kinetic energy."
+  },
+  {
+    "id": "beast",
+    "identity": "beast",
+    "name": "Beast",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Agility",
+      "strength",
+      "scientific expertise"
+    ],
+    "ratings": {
+      "intelligence": 94,
+      "strength": 53,
+      "speed": 65,
+      "durability": 71,
+      "combat": 86,
+      "power": 69,
+      "teamwork": 82
+    },
+    "description": "Hank McCoy pairs acrobatics with advanced scientific analysis."
+  },
+  {
+    "id": "nightcrawler",
+    "identity": "nightcrawler",
+    "name": "Nightcrawler",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Teleportation",
+      "acrobatics",
+      "wall crawling"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 61,
+      "speed": 95,
+      "durability": 64,
+      "combat": 79,
+      "power": 81,
+      "teamwork": 84
+    },
+    "description": "Kurt Wagner repositions quickly and moves allies to safety."
+  },
+  {
+    "id": "colossus",
+    "identity": "colossus",
+    "name": "Colossus",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Organic steel",
+      "strength",
+      "durability"
+    ],
+    "ratings": {
+      "intelligence": 63,
+      "strength": 92,
+      "speed": 67,
+      "durability": 98,
+      "combat": 79,
+      "power": 79,
+      "teamwork": 70
+    },
+    "description": "Piotr Rasputin acts as the team's armored front line."
+  },
+  {
+    "id": "iceman",
+    "identity": "iceman",
+    "name": "Iceman",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Ice generation",
+      "freezing",
+      "slide travel"
+    ],
+    "ratings": {
+      "intelligence": 75,
+      "strength": 78,
+      "speed": 84,
+      "durability": 79,
+      "combat": 78,
+      "power": 93,
+      "teamwork": 82
+    },
+    "description": "Bobby Drake shapes ice into mobility and area control."
+  },
+  {
+    "id": "emma-frost",
+    "identity": "emma-frost",
+    "name": "Emma Frost",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Telepathy",
+      "diamond form",
+      "planning"
+    ],
+    "ratings": {
+      "intelligence": 88,
+      "strength": 63,
+      "speed": 72,
+      "durability": 72,
+      "combat": 71,
+      "power": 92,
+      "teamwork": 85
+    },
+    "description": "Mutant tactician who switches between psychic and physical defense."
+  },
+  {
+    "id": "mystique",
+    "identity": "mystique",
+    "name": "Mystique",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Shapeshifting",
+      "espionage",
+      "infiltration"
+    ],
+    "ratings": {
+      "intelligence": 88,
+      "strength": 55,
+      "speed": 64,
+      "durability": 64,
+      "combat": 80,
+      "power": 62,
+      "teamwork": 78
+    },
+    "description": "Expert infiltrator who weaponizes mistaken identity."
+  },
+  {
+    "id": "sabretooth",
+    "identity": "sabretooth",
+    "name": "Sabretooth",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Healing",
+      "claws",
+      "tracking"
+    ],
+    "ratings": {
+      "intelligence": 66,
+      "strength": 91,
+      "speed": 59,
+      "durability": 95,
+      "combat": 74,
+      "power": 83,
+      "teamwork": 69
+    },
+    "description": "Victor Creed relies on endurance and predatory close combat."
+  },
+  {
+    "id": "apocalypse",
+    "identity": "apocalypse",
+    "name": "Apocalypse",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Molecular control",
+      "strength",
+      "alien technology"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 95,
+      "speed": 82,
+      "durability": 91,
+      "combat": 76,
+      "power": 91,
+      "teamwork": 78
+    },
+    "description": "Ancient mutant who reshapes his body to meet threats."
+  },
+  {
+    "id": "thanos",
+    "identity": "thanos",
+    "name": "Thanos",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Strength",
+      "durability",
+      "strategic planning"
+    ],
+    "ratings": {
+      "intelligence": 80,
+      "strength": 92,
+      "speed": 82,
+      "durability": 98,
+      "combat": 74,
+      "power": 92,
+      "teamwork": 74
+    },
+    "description": "Titan who combines overwhelming strength and planning."
+  },
+  {
+    "id": "loki",
+    "identity": "loki",
+    "name": "Loki",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Illusion",
+      "shapeshifting",
+      "sorcery"
+    ],
+    "ratings": {
+      "intelligence": 87,
+      "strength": 62,
+      "speed": 72,
+      "durability": 78,
+      "combat": 74,
+      "power": 94,
+      "teamwork": 78
+    },
+    "description": "Trickster who wins through deception and misdirection."
+  },
+  {
+    "id": "ultron",
+    "identity": "ultron",
+    "name": "Ultron",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Robotics",
+      "body replacement",
+      "energy weapons"
+    ],
+    "ratings": {
+      "intelligence": 94,
+      "strength": 54,
+      "speed": 67,
+      "durability": 65,
+      "combat": 83,
+      "power": 69,
+      "teamwork": 82
+    },
+    "description": "Artificial intelligence that adapts through new mechanical bodies."
+  },
+  {
+    "id": "doctor-doom",
+    "identity": "doctor-doom",
+    "name": "Doctor Doom",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Armor",
+      "sorcery",
+      "engineering"
+    ],
+    "ratings": {
+      "intelligence": 86,
+      "strength": 63,
+      "speed": 73,
+      "durability": 80,
+      "combat": 73,
+      "power": 98,
+      "teamwork": 81
+    },
+    "description": "Victor von Doom blends advanced technology with magic."
+  },
+  {
+    "id": "green-goblin",
+    "identity": "green-goblin",
+    "name": "Green Goblin",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Glider",
+      "pumpkin bombs",
+      "enhanced strength"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 51,
+      "speed": 64,
+      "durability": 65,
+      "combat": 86,
+      "power": 68,
+      "teamwork": 78
+    },
+    "description": "Norman Osborn attacks from the air and exploits distractions."
+  },
+  {
+    "id": "venom",
+    "identity": "venom",
+    "name": "Venom",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Symbiote shaping",
+      "wall crawling",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 61,
+      "strength": 97,
+      "speed": 62,
+      "durability": 98,
+      "combat": 75,
+      "power": 81,
+      "teamwork": 70
+    },
+    "description": "Eddie Brock and his symbiote form a mobile bruiser."
+  },
+  {
+    "id": "carnage",
+    "identity": "carnage",
+    "name": "Carnage",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Symbiote blades",
+      "regeneration",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 64,
+      "strength": 94,
+      "speed": 60,
+      "durability": 96,
+      "combat": 75,
+      "power": 78,
+      "teamwork": 76
+    },
+    "description": "Cletus Kasady's symbiote reshapes into extended weapons."
+  },
+  {
+    "id": "kingpin",
+    "identity": "kingpin",
+    "name": "Kingpin",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Criminal networks",
+      "grappling",
+      "tactical planning"
+    ],
+    "ratings": {
+      "intelligence": 59,
+      "strength": 90,
+      "speed": 60,
+      "durability": 97,
+      "combat": 74,
+      "power": 80,
+      "teamwork": 72
+    },
+    "description": "Wilson Fisk controls resources and holds his own in close quarters."
+  },
+  {
+    "id": "bullseye",
+    "identity": "bullseye",
+    "name": "Bullseye",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Precision throwing",
+      "agility",
+      "hand-to-hand combat"
+    ],
+    "ratings": {
+      "intelligence": 71,
+      "strength": 66,
+      "speed": 80,
+      "durability": 76,
+      "combat": 96,
+      "power": 75,
+      "teamwork": 86
+    },
+    "description": "Assassin who turns ordinary objects into ranged threats."
+  },
+  {
+    "id": "daredevil",
+    "identity": "daredevil",
+    "name": "Daredevil",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Radar sense",
+      "acrobatics",
+      "billy clubs"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 70,
+      "speed": 81,
+      "durability": 74,
+      "combat": 96,
+      "power": 67,
+      "teamwork": 82
+    },
+    "description": "Matt Murdock reads terrain through heightened senses."
+  },
+  {
+    "id": "punisher",
+    "identity": "punisher",
+    "name": "Punisher",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Tactics",
+      "marksmanship",
+      "survival"
+    ],
+    "ratings": {
+      "intelligence": 87,
+      "strength": 53,
+      "speed": 68,
+      "durability": 68,
+      "combat": 83,
+      "power": 62,
+      "teamwork": 85
+    },
+    "description": "Frank Castle uses preparation to overcome physical disadvantages."
+  },
+  {
+    "id": "moon-knight",
+    "identity": "moon-knight",
+    "name": "Moon Knight",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Martial arts",
+      "crescent darts",
+      "endurance"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 64,
+      "speed": 76,
+      "durability": 77,
+      "combat": 92,
+      "power": 75,
+      "teamwork": 85
+    },
+    "description": "Marc Spector relies on close-range pressure and resilience."
+  },
+  {
+    "id": "silver-surfer",
+    "identity": "silver-surfer",
+    "name": "Silver Surfer",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Power Cosmic",
+      "energy manipulation",
+      "space travel"
+    ],
+    "ratings": {
+      "intelligence": 73,
+      "strength": 96,
+      "speed": 83,
+      "durability": 97,
+      "combat": 75,
+      "power": 99,
+      "teamwork": 72
+    },
+    "description": "Norrin Radd moves across space and shapes cosmic energy."
+  },
+  {
+    "id": "galactus",
+    "identity": "galactus",
+    "name": "Galactus",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Cosmic energy",
+      "matter control",
+      "immense scale"
+    ],
+    "ratings": {
+      "intelligence": 79,
+      "strength": 92,
+      "speed": 85,
+      "durability": 96,
+      "combat": 77,
+      "power": 94,
+      "teamwork": 73
+    },
+    "description": "Cosmic entity whose power operates on a planetary scale."
+  },
+  {
+    "id": "adam-warlock",
+    "identity": "adam-warlock",
+    "name": "Adam Warlock",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Cosmic energy",
+      "flight",
+      "regeneration"
+    ],
+    "ratings": {
+      "intelligence": 75,
+      "strength": 93,
+      "speed": 86,
+      "durability": 94,
+      "combat": 73,
+      "power": 97,
+      "teamwork": 73
+    },
+    "description": "Cosmic guardian with strong energy and recovery abilities."
+  },
+  {
+    "id": "ghost-rider",
+    "identity": "ghost-rider",
+    "name": "Ghost Rider",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Hellfire",
+      "chain combat",
+      "Penance Stare"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 61,
+      "speed": 70,
+      "durability": 82,
+      "combat": 78,
+      "power": 96,
+      "teamwork": 79
+    },
+    "description": "Johnny Blaze channels supernatural power through a fiery chain."
+  },
+  {
+    "id": "shang-chi",
+    "identity": "shang-chi",
+    "name": "Shang-Chi",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Martial arts",
+      "reflexes",
+      "discipline"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 64,
+      "speed": 79,
+      "durability": 73,
+      "combat": 96,
+      "power": 70,
+      "teamwork": 84
+    },
+    "description": "Exceptional fighter who wins through technique and timing."
+  },
+  {
+    "id": "iron-fist",
+    "identity": "iron-fist",
+    "name": "Iron Fist",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Chi",
+      "martial arts",
+      "healing"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 72,
+      "speed": 78,
+      "durability": 76,
+      "combat": 95,
+      "power": 72,
+      "teamwork": 83
+    },
+    "description": "Danny Rand focuses chi into powerful strikes."
+  },
+  {
+    "id": "blade",
+    "identity": "blade",
+    "name": "Blade",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Swordsmanship",
+      "senses",
+      "enhanced healing"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 68,
+      "speed": 78,
+      "durability": 76,
+      "combat": 94,
+      "power": 68,
+      "teamwork": 86
+    },
+    "description": "Daywalker who specializes in tracking supernatural opponents."
+  },
+  {
+    "id": "namor",
+    "identity": "namor",
+    "name": "Namor",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Flight",
+      "underwater adaptation",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 60,
+      "strength": 89,
+      "speed": 64,
+      "durability": 93,
+      "combat": 80,
+      "power": 79,
+      "teamwork": 74
+    },
+    "description": "Underwater monarch who applies pressure on land and at sea."
+  },
+  {
+    "id": "she-hulk",
+    "identity": "she-hulk",
+    "name": "She-Hulk",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Super strength",
+      "durability",
+      "legal analysis"
+    ],
+    "ratings": {
+      "intelligence": 62,
+      "strength": 95,
+      "speed": 64,
+      "durability": 92,
+      "combat": 72,
+      "power": 80,
+      "teamwork": 68
+    },
+    "description": "Jennifer Walters combines controlled strength and quick judgment."
+  },
+  {
+    "id": "jessica-jones",
+    "identity": "jessica-jones",
+    "name": "Jessica Jones",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Investigation",
+      "strength",
+      "durability"
+    ],
+    "ratings": {
+      "intelligence": 64,
+      "strength": 91,
+      "speed": 60,
+      "durability": 91,
+      "combat": 78,
+      "power": 77,
+      "teamwork": 72
+    },
+    "description": "Private investigator who uncovers pressure points in a case."
+  },
+  {
+    "id": "luke-cage",
+    "identity": "luke-cage",
+    "name": "Luke Cage",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Unbreakable skin",
+      "strength",
+      "leadership"
+    ],
+    "ratings": {
+      "intelligence": 67,
+      "strength": 96,
+      "speed": 62,
+      "durability": 91,
+      "combat": 72,
+      "power": 81,
+      "teamwork": 76
+    },
+    "description": "Neighborhood defender who absorbs pressure on the front line."
+  },
+  {
+    "id": "star-lord",
+    "identity": "star-lord",
+    "name": "Star-Lord",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Pilot skills",
+      "blasters",
+      "improvisation"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 50,
+      "speed": 70,
+      "durability": 67,
+      "combat": 80,
+      "power": 68,
+      "teamwork": 83
+    },
+    "description": "Peter Quill coordinates spacefaring teammates and rapid escapes."
+  },
+  {
+    "id": "gamora",
+    "identity": "gamora",
+    "name": "Gamora",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Swordsmanship",
+      "agility",
+      "tactical combat"
+    ],
+    "ratings": {
+      "intelligence": 77,
+      "strength": 71,
+      "speed": 76,
+      "durability": 75,
+      "combat": 96,
+      "power": 69,
+      "teamwork": 87
+    },
+    "description": "Veteran space fighter with precision in close combat."
+  },
+  {
+    "id": "drax",
+    "identity": "drax",
+    "name": "Drax",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Strength",
+      "endurance",
+      "knife combat"
+    ],
+    "ratings": {
+      "intelligence": 63,
+      "strength": 90,
+      "speed": 67,
+      "durability": 92,
+      "combat": 74,
+      "power": 82,
+      "teamwork": 71
+    },
+    "description": "Guardian who prefers sustained direct engagements."
+  },
+  {
+    "id": "rocket-raccoon",
+    "identity": "rocket-raccoon",
+    "name": "Rocket Raccoon",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Engineering",
+      "demolition",
+      "piloting"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 53,
+      "speed": 69,
+      "durability": 65,
+      "combat": 85,
+      "power": 69,
+      "teamwork": 82
+    },
+    "description": "Resourceful engineer with a talent for building under pressure."
+  },
+  {
+    "id": "groot",
+    "identity": "groot",
+    "name": "Groot",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Regeneration",
+      "extending limbs",
+      "shielding"
+    ],
+    "ratings": {
+      "intelligence": 64,
+      "strength": 93,
+      "speed": 66,
+      "durability": 90,
+      "combat": 80,
+      "power": 83,
+      "teamwork": 71
+    },
+    "description": "Living tree who shields allies and changes battlefield geometry."
+  },
+  {
+    "id": "nebula",
+    "identity": "nebula",
+    "name": "Nebula",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Antihero",
+    "abilities": [
+      "Cybernetics",
+      "blade combat",
+      "infiltration"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 67,
+      "speed": 75,
+      "durability": 79,
+      "combat": 94,
+      "power": 71,
+      "teamwork": 82
+    },
+    "description": "Cybernetically enhanced fighter skilled at adapting in close quarters."
+  },
+  {
+    "id": "mysterio",
+    "identity": "mysterio",
+    "name": "Mysterio",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Illusions",
+      "drones",
+      "stage effects"
+    ],
+    "ratings": {
+      "intelligence": 88,
+      "strength": 52,
+      "speed": 65,
+      "durability": 66,
+      "combat": 81,
+      "power": 65,
+      "teamwork": 84
+    },
+    "description": "Quentin Beck creates false targets and confusing terrain."
+  },
+  {
+    "id": "kraven",
+    "identity": "kraven",
+    "name": "Kraven",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Tracking",
+      "traps",
+      "enhanced senses"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 71,
+      "speed": 81,
+      "durability": 74,
+      "combat": 99,
+      "power": 67,
+      "teamwork": 86
+    },
+    "description": "Hunter who studies terrain and isolates targets."
+  },
+  {
+    "id": "squirrel-girl",
+    "identity": "squirrel-girl",
+    "name": "Squirrel Girl",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Squirrel communication",
+      "agility",
+      "improvisation"
+    ],
+    "ratings": {
+      "intelligence": 80,
+      "strength": 61,
+      "speed": 92,
+      "durability": 66,
+      "combat": 79,
+      "power": 81,
+      "teamwork": 85
+    },
+    "description": "Doreen Green solves conflicts through mobility and unconventional allies."
+  },
+  {
+    "id": "ms-marvel",
+    "identity": "ms-marvel",
+    "name": "Ms. Marvel",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Stretching",
+      "size shifting",
+      "healing"
+    ],
+    "ratings": {
+      "intelligence": 75,
+      "strength": 67,
+      "speed": 99,
+      "durability": 65,
+      "combat": 74,
+      "power": 84,
+      "teamwork": 85
+    },
+    "description": "Kamala Khan stretches to rescue allies and control space."
+  },
+  {
+    "id": "miles-morales",
+    "identity": "miles-morales",
+    "name": "Miles Morales",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Camouflage",
+      "bioelectricity",
+      "webbing"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 61,
+      "speed": 97,
+      "durability": 65,
+      "combat": 80,
+      "power": 78,
+      "teamwork": 87
+    },
+    "description": "Spider-Man who uses stealth and bioelectric strikes."
+  },
+  {
+    "id": "spider-gwen",
+    "identity": "spider-gwen",
+    "name": "Spider-Gwen",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Webbing",
+      "spider-sense",
+      "acrobatics"
+    ],
+    "ratings": {
+      "intelligence": 78,
+      "strength": 62,
+      "speed": 93,
+      "durability": 68,
+      "combat": 81,
+      "power": 77,
+      "teamwork": 84
+    },
+    "description": "Gwen Stacy fights through agile repositioning."
+  },
+  {
+    "id": "kate-bishop",
+    "identity": "kate-bishop",
+    "name": "Kate Bishop",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Archery",
+      "reconnaissance",
+      "martial arts"
+    ],
+    "ratings": {
+      "intelligence": 94,
+      "strength": 52,
+      "speed": 66,
+      "durability": 64,
+      "combat": 79,
+      "power": 67,
+      "teamwork": 78
+    },
+    "description": "Young Avenger who excels at precision and scouting."
+  },
+  {
+    "id": "america-chavez",
+    "identity": "america-chavez",
+    "name": "America Chavez",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Dimensional portals",
+      "flight",
+      "strength"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 92,
+      "speed": 84,
+      "durability": 91,
+      "combat": 74,
+      "power": 98,
+      "teamwork": 78
+    },
+    "description": "Teammate who opens shortcuts across dimensions."
+  },
+  {
+    "id": "blue-beetle",
+    "identity": "blue-beetle",
+    "name": "Blue Beetle",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Scarab armor",
+      "flight",
+      "adaptive weaponry"
+    ],
+    "ratings": {
+      "intelligence": 72,
+      "strength": 78,
+      "speed": 78,
+      "durability": 81,
+      "combat": 76,
+      "power": 92,
+      "teamwork": 82
+    },
+    "description": "Jaime Reyes adapts alien armor to changing threats."
+  },
+  {
+    "id": "booster-gold",
+    "identity": "booster-gold",
+    "name": "Booster Gold",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Force fields",
+      "flight",
+      "future technology"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 73,
+      "speed": 82,
+      "durability": 81,
+      "combat": 79,
+      "power": 94,
+      "teamwork": 83
+    },
+    "description": "Future athlete who uses advanced equipment in the present."
+  },
+  {
+    "id": "plastic-man",
+    "identity": "plastic-man",
+    "name": "Plastic Man",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Elasticity",
+      "transformation",
+      "resilience"
+    ],
+    "ratings": {
+      "intelligence": 74,
+      "strength": 63,
+      "speed": 96,
+      "durability": 69,
+      "combat": 79,
+      "power": 85,
+      "teamwork": 80
+    },
+    "description": "Shape-changing hero who specializes in containment."
+  },
+  {
+    "id": "swamp-thing",
+    "identity": "swamp-thing",
+    "name": "Swamp Thing",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Hero",
+    "abilities": [
+      "Plant control",
+      "regeneration",
+      "environmental awareness"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 63,
+      "speed": 73,
+      "durability": 77,
+      "combat": 76,
+      "power": 94,
+      "teamwork": 79
+    },
+    "description": "Avatar of the Green who thrives in vegetated areas."
+  },
+  {
+    "id": "bizarro",
+    "identity": "bizarro",
+    "name": "Bizarro",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Super strength",
+      "flight",
+      "freeze vision"
+    ],
+    "ratings": {
+      "intelligence": 59,
+      "strength": 93,
+      "speed": 62,
+      "durability": 91,
+      "combat": 72,
+      "power": 80,
+      "teamwork": 74
+    },
+    "description": "Kryptonian-style powerhouse with unusual defensive tools."
+  },
+  {
+    "id": "black-manta",
+    "identity": "black-manta",
+    "name": "Black Manta",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Diving armor",
+      "energy beams",
+      "tactics"
+    ],
+    "ratings": {
+      "intelligence": 92,
+      "strength": 52,
+      "speed": 64,
+      "durability": 71,
+      "combat": 79,
+      "power": 65,
+      "teamwork": 79
+    },
+    "description": "Undersea rival of Aquaman equipped for stealth and pursuit."
+  },
+  {
+    "id": "gorilla-grodd",
+    "identity": "gorilla-grodd",
+    "name": "Gorilla Grodd",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Telepathy",
+      "strength",
+      "strategy"
+    ],
+    "ratings": {
+      "intelligence": 93,
+      "strength": 64,
+      "speed": 69,
+      "durability": 77,
+      "combat": 68,
+      "power": 97,
+      "teamwork": 81
+    },
+    "description": "Gorilla City rival with powerful mental control."
+  },
+  {
+    "id": "solomon-grundy",
+    "identity": "solomon-grundy",
+    "name": "Solomon Grundy",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "DC",
+    "alignment": "Villain",
+    "abilities": [
+      "Strength",
+      "durability",
+      "regeneration"
+    ],
+    "ratings": {
+      "intelligence": 60,
+      "strength": 96,
+      "speed": 61,
+      "durability": 94,
+      "combat": 75,
+      "power": 81,
+      "teamwork": 72
+    },
+    "description": "Undead brute who endures extended close-range exchanges."
+  },
+  {
+    "id": "hellboy",
+    "identity": "hellboy",
+    "name": "Hellboy",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Dark Horse",
+    "alignment": "Hero",
+    "abilities": [
+      "Occult investigation",
+      "strength",
+      "Right Hand of Doom"
+    ],
+    "ratings": {
+      "intelligence": 67,
+      "strength": 92,
+      "speed": 61,
+      "durability": 94,
+      "combat": 75,
+      "power": 79,
+      "teamwork": 72
+    },
+    "description": "Paranormal investigator who confronts supernatural threats."
+  },
+  {
+    "id": "spawn",
+    "identity": "spawn",
+    "name": "Spawn",
+    "universe": "comics",
+    "version": "Standard",
+    "publisher": "Image",
+    "alignment": "Antihero",
+    "abilities": [
+      "Necroplasm",
+      "living chains",
+      "teleportation"
+    ],
+    "ratings": {
+      "intelligence": 89,
+      "strength": 61,
+      "speed": 71,
+      "durability": 79,
+      "combat": 75,
+      "power": 97,
+      "teamwork": 78
+    },
+    "description": "Al Simmons combines supernatural control with ambush tactics."
+  },
+  {
+    "id": "magneto--classic",
+    "identity": "magneto",
+    "name": "Magneto",
+    "universe": "comics",
+    "version": "Classic",
+    "publisher": "Marvel",
+    "alignment": "Villain",
+    "abilities": [
+      "Magnetism",
+      "force fields",
+      "flight"
+    ],
+    "ratings": {
+      "intelligence": 91,
+      "strength": 65,
+      "speed": 72,
+      "durability": 75,
+      "combat": 72,
+      "power": 100,
+      "teamwork": 88
+    },
+    "description": "Mutant leader who turns nearby metal into offense and defense."
+  },
+  {
+    "id": "iron-man--mcu",
+    "identity": "iron-man",
+    "name": "Iron Man",
+    "universe": "comics",
+    "version": "MCU",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Powered armor",
+      "repulsors",
+      "engineering"
+    ],
+    "ratings": {
+      "intelligence": 95,
+      "strength": 53,
+      "speed": 70,
+      "durability": 70,
+      "combat": 81,
+      "power": 67,
+      "teamwork": 86
+    },
+    "description": "Tony Stark uses modular armor to solve evolving threats."
+  },
+  {
+    "id": "iron-man--comics",
+    "identity": "iron-man",
+    "name": "Iron Man",
+    "universe": "comics",
+    "version": "Comics",
+    "publisher": "Marvel",
+    "alignment": "Hero",
+    "abilities": [
+      "Powered armor",
+      "repulsors",
+      "engineering"
+    ],
+    "ratings": {
+      "intelligence": 95,
+      "strength": 53,
+      "speed": 70,
+      "durability": 70,
+      "combat": 81,
+      "power": 72,
+      "teamwork": 81
+    },
+    "description": "Tony Stark uses modular armor to solve evolving threats."
+  }
+]

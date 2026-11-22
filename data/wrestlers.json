@@ -1,0 +1,3795 @@
+[
+  {
+    "id": "stone-cold-steve-austin",
+    "identity": "stone-cold-steve-austin",
+    "name": "Stone Cold Steve Austin",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW",
+      "ECW"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Lou Thesz press",
+      "Mudhole stomp"
+    ],
+    "finisher": "Stone Cold Stunner",
+    "ratings": {
+      "promo": 79,
+      "technical": 74,
+      "strength": 92,
+      "speed": 69,
+      "hardcore": 86,
+      "endurance": 84,
+      "star": 81
+    },
+    "description": "Stone Cold Steve Austin pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "the-rock",
+    "identity": "the-rock",
+    "name": "The Rock",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Spinebuster",
+      "People's Elbow"
+    ],
+    "finisher": "Rock Bottom",
+    "ratings": {
+      "promo": 95,
+      "technical": 78,
+      "strength": 82,
+      "speed": 77,
+      "hardcore": 66,
+      "endurance": 85,
+      "star": 94
+    },
+    "description": "The Rock builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "the-undertaker",
+    "identity": "the-undertaker",
+    "name": "The Undertaker",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Old School",
+      "Chokeslam"
+    ],
+    "finisher": "Tombstone Piledriver",
+    "ratings": {
+      "promo": 72,
+      "technical": 71,
+      "strength": 90,
+      "speed": 67,
+      "hardcore": 72,
+      "endurance": 79,
+      "star": 82
+    },
+    "description": "The Undertaker uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "kane",
+    "identity": "kane",
+    "name": "Kane",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Sidewalk slam",
+      "Big boot"
+    ],
+    "finisher": "Chokeslam",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 92,
+      "speed": 62,
+      "hardcore": 77,
+      "endurance": 84,
+      "star": 82
+    },
+    "description": "Kane uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "triple-h",
+    "identity": "triple-h",
+    "name": "Triple H",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Spinebuster",
+      "Facebreaker knee smash"
+    ],
+    "finisher": "Pedigree",
+    "ratings": {
+      "promo": 82,
+      "technical": 77,
+      "strength": 84,
+      "speed": 74,
+      "hardcore": 87,
+      "endurance": 87,
+      "star": 83
+    },
+    "description": "Triple H pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "shawn-michaels",
+    "identity": "shawn-michaels",
+    "name": "Shawn Michaels",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "AWA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Flying elbow drop",
+      "Teardrop suplex"
+    ],
+    "finisher": "Sweet Chin Music",
+    "ratings": {
+      "promo": 95,
+      "technical": 72,
+      "strength": 75,
+      "speed": 69,
+      "hardcore": 68,
+      "endurance": 83,
+      "star": 91
+    },
+    "description": "Shawn Michaels builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "bret-hart",
+    "identity": "bret-hart",
+    "name": "Bret Hart",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW",
+      "Stampede"
+    ],
+    "era": "New Generation",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Russian leg sweep",
+      "Backbreaker"
+    ],
+    "finisher": "Sharpshooter",
+    "ratings": {
+      "promo": 80,
+      "technical": 94,
+      "strength": 80,
+      "speed": 76,
+      "hardcore": 66,
+      "endurance": 89,
+      "star": 78
+    },
+    "description": "Bret Hart controls the pace through holds and precise counters."
+  },
+  {
+    "id": "kurt-angle",
+    "identity": "kurt-angle",
+    "name": "Kurt Angle",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "TNA",
+      "NJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "German suplex",
+      "Belly-to-belly"
+    ],
+    "finisher": "Angle Slam",
+    "ratings": {
+      "promo": 80,
+      "technical": 95,
+      "strength": 79,
+      "speed": 76,
+      "hardcore": 67,
+      "endurance": 88,
+      "star": 80
+    },
+    "description": "Kurt Angle controls the pace through holds and precise counters."
+  },
+  {
+    "id": "eddie-guerrero",
+    "identity": "eddie-guerrero",
+    "name": "Eddie Guerrero",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "WCW",
+      "ECW",
+      "AAA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Three Amigos",
+      "Tilt-a-whirl backbreaker"
+    ],
+    "finisher": "Frog Splash",
+    "ratings": {
+      "promo": 75,
+      "technical": 93,
+      "strength": 74,
+      "speed": 78,
+      "hardcore": 71,
+      "endurance": 90,
+      "star": 80
+    },
+    "description": "Eddie Guerrero controls the pace through holds and precise counters."
+  },
+  {
+    "id": "chris-benoit",
+    "identity": "chris-benoit",
+    "name": "Chris Benoit",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "WCW",
+      "ECW",
+      "NJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "German suplex",
+      "Northern Lights suplex"
+    ],
+    "finisher": "Crippler Crossface",
+    "ratings": {
+      "promo": 75,
+      "technical": 98,
+      "strength": 79,
+      "speed": 80,
+      "hardcore": 66,
+      "endurance": 88,
+      "star": 77
+    },
+    "description": "Chris Benoit controls the pace through holds and precise counters."
+  },
+  {
+    "id": "brock-lesnar",
+    "identity": "brock-lesnar",
+    "name": "Brock Lesnar",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": "Heavyweight",
+    "style": "Powerhouse",
+    "signatures": [
+      "German suplex",
+      "Kimura lock"
+    ],
+    "finisher": "F-5",
+    "ratings": {
+      "promo": 79,
+      "technical": 71,
+      "strength": 95,
+      "speed": 69,
+      "hardcore": 75,
+      "endurance": 79,
+      "star": 87
+    },
+    "description": "Brock Lesnar uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "john-cena",
+    "identity": "john-cena",
+    "name": "John Cena",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Five Knuckle Shuffle",
+      "STF"
+    ],
+    "finisher": "Attitude Adjustment",
+    "ratings": {
+      "promo": 88,
+      "technical": 74,
+      "strength": 75,
+      "speed": 71,
+      "hardcore": 69,
+      "endurance": 79,
+      "star": 91
+    },
+    "description": "John Cena builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "roman-reigns",
+    "identity": "roman-reigns",
+    "name": "Roman Reigns",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Superman Punch",
+      "Guillotine choke"
+    ],
+    "finisher": "Spear",
+    "ratings": {
+      "promo": 76,
+      "technical": 67,
+      "strength": 97,
+      "speed": 66,
+      "hardcore": 74,
+      "endurance": 82,
+      "star": 82
+    },
+    "description": "Roman Reigns uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "seth-rollins",
+    "identity": "seth-rollins",
+    "name": "Seth Rollins",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Falcon Arrow",
+      "Buckle bomb"
+    ],
+    "finisher": "Stomp",
+    "ratings": {
+      "promo": 82,
+      "technical": 83,
+      "strength": 77,
+      "speed": 86,
+      "hardcore": 79,
+      "endurance": 91,
+      "star": 85
+    },
+    "description": "Seth Rollins mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "cm-punk",
+    "identity": "cm-punk",
+    "name": "CM Punk",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Running knee",
+      "Anaconda Vise"
+    ],
+    "finisher": "Go to Sleep",
+    "ratings": {
+      "promo": 77,
+      "technical": 92,
+      "strength": 76,
+      "speed": 81,
+      "hardcore": 69,
+      "endurance": 93,
+      "star": 77
+    },
+    "description": "CM Punk controls the pace through holds and precise counters."
+  },
+  {
+    "id": "randy-orton",
+    "identity": "randy-orton",
+    "name": "Randy Orton",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Snap powerslam",
+      "Draping DDT"
+    ],
+    "finisher": "RKO",
+    "ratings": {
+      "promo": 77,
+      "technical": 92,
+      "strength": 78,
+      "speed": 81,
+      "hardcore": 73,
+      "endurance": 95,
+      "star": 84
+    },
+    "description": "Randy Orton controls the pace through holds and precise counters."
+  },
+  {
+    "id": "adam-copeland",
+    "identity": "adam-copeland",
+    "name": "Adam Copeland",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Edgecution",
+      "Impaler DDT"
+    ],
+    "finisher": "Spear",
+    "ratings": {
+      "promo": 94,
+      "technical": 71,
+      "strength": 81,
+      "speed": 77,
+      "hardcore": 73,
+      "endurance": 85,
+      "star": 95
+    },
+    "description": "Adam Copeland builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "christian-cage",
+    "identity": "christian-cage",
+    "name": "Christian Cage",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "TNA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Pendulum kick",
+      "Diving headbutt"
+    ],
+    "finisher": "Killswitch",
+    "ratings": {
+      "promo": 73,
+      "technical": 98,
+      "strength": 77,
+      "speed": 77,
+      "hardcore": 65,
+      "endurance": 94,
+      "star": 81
+    },
+    "description": "Christian Cage controls the pace through holds and precise counters."
+  },
+  {
+    "id": "chris-jericho",
+    "identity": "chris-jericho",
+    "name": "Chris Jericho",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW",
+      "AEW",
+      "NJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Lionsault",
+      "Walls of Jericho"
+    ],
+    "finisher": "Codebreaker",
+    "ratings": {
+      "promo": 96,
+      "technical": 74,
+      "strength": 79,
+      "speed": 73,
+      "hardcore": 69,
+      "endurance": 77,
+      "star": 93
+    },
+    "description": "Chris Jericho builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "rey-mysterio",
+    "identity": "rey-mysterio",
+    "name": "Rey Mysterio",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "WCW",
+      "ECW",
+      "AAA"
+    ],
+    "era": "Multi-era",
+    "weightClass": "Cruiserweight",
+    "style": "High-flyer",
+    "signatures": [
+      "Springboard crossbody",
+      "West Coast Pop"
+    ],
+    "finisher": "619",
+    "ratings": {
+      "promo": 77,
+      "technical": 80,
+      "strength": 65,
+      "speed": 93,
+      "hardcore": 77,
+      "endurance": 81,
+      "star": 83
+    },
+    "description": "Rey Mysterio creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "batista",
+    "identity": "batista",
+    "name": "Batista",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Spinebuster",
+      "Spear"
+    ],
+    "finisher": "Batista Bomb",
+    "ratings": {
+      "promo": 73,
+      "technical": 72,
+      "strength": 96,
+      "speed": 65,
+      "hardcore": 76,
+      "endurance": 78,
+      "star": 90
+    },
+    "description": "Batista uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "goldberg",
+    "identity": "goldberg",
+    "name": "Goldberg",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWE"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Spear",
+      "Military press slam"
+    ],
+    "finisher": "Jackhammer",
+    "ratings": {
+      "promo": 76,
+      "technical": 72,
+      "strength": 96,
+      "speed": 64,
+      "hardcore": 77,
+      "endurance": 79,
+      "star": 84
+    },
+    "description": "Goldberg uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "sting",
+    "identity": "sting",
+    "name": "Sting",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "TNA",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Stinger Splash",
+      "Scorpion Deathlock"
+    ],
+    "finisher": "Scorpion Death Drop",
+    "ratings": {
+      "promo": 93,
+      "technical": 75,
+      "strength": 81,
+      "speed": 74,
+      "hardcore": 69,
+      "endurance": 79,
+      "star": 97
+    },
+    "description": "Sting builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "ric-flair",
+    "identity": "ric-flair",
+    "name": "Ric Flair",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NWA",
+      "WCW",
+      "WWF",
+      "WWE"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Knife-edge chop",
+      "Knee drop"
+    ],
+    "finisher": "Figure-four leglock",
+    "ratings": {
+      "promo": 93,
+      "technical": 74,
+      "strength": 82,
+      "speed": 75,
+      "hardcore": 68,
+      "endurance": 85,
+      "star": 98
+    },
+    "description": "Ric Flair builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "hulk-hogan",
+    "identity": "hulk-hogan",
+    "name": "Hulk Hogan",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Big boot",
+      "Scoop slam"
+    ],
+    "finisher": "Leg Drop",
+    "ratings": {
+      "promo": 94,
+      "technical": 71,
+      "strength": 82,
+      "speed": 76,
+      "hardcore": 73,
+      "endurance": 81,
+      "star": 94
+    },
+    "description": "Hulk Hogan builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "randy-savage",
+    "identity": "randy-savage",
+    "name": "Randy Savage",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Double axe handle",
+      "Running knee lift"
+    ],
+    "finisher": "Diving Elbow Drop",
+    "ratings": {
+      "promo": 91,
+      "technical": 76,
+      "strength": 75,
+      "speed": 72,
+      "hardcore": 72,
+      "endurance": 77,
+      "star": 96
+    },
+    "description": "Randy Savage builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "ultimate-warrior",
+    "identity": "ultimate-warrior",
+    "name": "Ultimate Warrior",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Gorilla press",
+      "Running shoulder block"
+    ],
+    "finisher": "Running Splash",
+    "ratings": {
+      "promo": 72,
+      "technical": 67,
+      "strength": 96,
+      "speed": 67,
+      "hardcore": 72,
+      "endurance": 81,
+      "star": 90
+    },
+    "description": "Ultimate Warrior uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "andre-the-giant",
+    "identity": "andre-the-giant",
+    "name": "André the Giant",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "NJPW"
+    ],
+    "era": "Golden Era",
+    "weightClass": "Super heavyweight",
+    "style": "Powerhouse",
+    "signatures": [
+      "Headbutt",
+      "Big boot"
+    ],
+    "finisher": "Sit-down Splash",
+    "ratings": {
+      "promo": 75,
+      "technical": 73,
+      "strength": 97,
+      "speed": 67,
+      "hardcore": 73,
+      "endurance": 84,
+      "star": 90
+    },
+    "description": "André the Giant uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "big-show",
+    "identity": "big-show",
+    "name": "Big Show",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": "Super heavyweight",
+    "style": "Powerhouse",
+    "signatures": [
+      "Chokeslam",
+      "Final Cut"
+    ],
+    "finisher": "Knockout Punch",
+    "ratings": {
+      "promo": 77,
+      "technical": 69,
+      "strength": 93,
+      "speed": 68,
+      "hardcore": 70,
+      "endurance": 83,
+      "star": 88
+    },
+    "description": "Big Show uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "kevin-nash",
+    "identity": "kevin-nash",
+    "name": "Kevin Nash",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Big boot",
+      "Sidewalk slam"
+    ],
+    "finisher": "Jackknife Powerbomb",
+    "ratings": {
+      "promo": 78,
+      "technical": 71,
+      "strength": 96,
+      "speed": 65,
+      "hardcore": 73,
+      "endurance": 82,
+      "star": 89
+    },
+    "description": "Kevin Nash uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "scott-hall",
+    "identity": "scott-hall",
+    "name": "Scott Hall",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Fallaway slam",
+      "Chokeslam"
+    ],
+    "finisher": "Razor's Edge",
+    "ratings": {
+      "promo": 90,
+      "technical": 76,
+      "strength": 83,
+      "speed": 76,
+      "hardcore": 65,
+      "endurance": 81,
+      "star": 93
+    },
+    "description": "Scott Hall builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "diamond-dallas-page",
+    "identity": "diamond-dallas-page",
+    "name": "Diamond Dallas Page",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Discus clothesline",
+      "Sit-out powerbomb"
+    ],
+    "finisher": "Diamond Cutter",
+    "ratings": {
+      "promo": 84,
+      "technical": 75,
+      "strength": 86,
+      "speed": 68,
+      "hardcore": 85,
+      "endurance": 86,
+      "star": 85
+    },
+    "description": "Diamond Dallas Page pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "booker-t",
+    "identity": "booker-t",
+    "name": "Booker T",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Book End",
+      "Harlem Sidekick"
+    ],
+    "finisher": "Scissors Kick",
+    "ratings": {
+      "promo": 85,
+      "technical": 82,
+      "strength": 83,
+      "speed": 88,
+      "hardcore": 80,
+      "endurance": 91,
+      "star": 85
+    },
+    "description": "Booker T mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "rob-van-dam",
+    "identity": "rob-van-dam",
+    "name": "Rob Van Dam",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Rolling Thunder",
+      "Split-legged moonsault"
+    ],
+    "finisher": "Five-Star Frog Splash",
+    "ratings": {
+      "promo": 75,
+      "technical": 74,
+      "strength": 67,
+      "speed": 99,
+      "hardcore": 74,
+      "endurance": 87,
+      "star": 84
+    },
+    "description": "Rob Van Dam creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "mick-foley",
+    "identity": "mick-foley",
+    "name": "Mick Foley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW",
+      "ECW",
+      "TNA"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Double-arm DDT",
+      "Running knee"
+    ],
+    "finisher": "Mandible Claw",
+    "ratings": {
+      "promo": 87,
+      "technical": 67,
+      "strength": 77,
+      "speed": 78,
+      "hardcore": 97,
+      "endurance": 88,
+      "star": 84
+    },
+    "description": "Mick Foley keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "terry-funk",
+    "identity": "terry-funk",
+    "name": "Terry Funk",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NWA",
+      "WWF",
+      "WWE",
+      "WCW",
+      "ECW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Piledriver",
+      "Spinning toe hold"
+    ],
+    "finisher": "Spinning Toe Hold",
+    "ratings": {
+      "promo": 84,
+      "technical": 66,
+      "strength": 78,
+      "speed": 78,
+      "hardcore": 93,
+      "endurance": 87,
+      "star": 90
+    },
+    "description": "Terry Funk keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "sabu",
+    "identity": "sabu",
+    "name": "Sabu",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WCW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Triple jump moonsault",
+      "Air Sabu"
+    ],
+    "finisher": "Arabian Facebuster",
+    "ratings": {
+      "promo": 79,
+      "technical": 66,
+      "strength": 83,
+      "speed": 71,
+      "hardcore": 96,
+      "endurance": 95,
+      "star": 90
+    },
+    "description": "Sabu keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "jeff-hardy",
+    "identity": "jeff-hardy",
+    "name": "Jeff Hardy",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "TNA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Whisper in the Wind",
+      "Twist of Fate"
+    ],
+    "finisher": "Swanton Bomb",
+    "ratings": {
+      "promo": 73,
+      "technical": 77,
+      "strength": 71,
+      "speed": 96,
+      "hardcore": 75,
+      "endurance": 81,
+      "star": 83
+    },
+    "description": "Jeff Hardy creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "matt-hardy",
+    "identity": "matt-hardy",
+    "name": "Matt Hardy",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "TNA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Side Effect",
+      "Second-rope leg drop"
+    ],
+    "finisher": "Twist of Fate",
+    "ratings": {
+      "promo": 87,
+      "technical": 79,
+      "strength": 90,
+      "speed": 71,
+      "hardcore": 89,
+      "endurance": 89,
+      "star": 87
+    },
+    "description": "Matt Hardy pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "aj-styles",
+    "identity": "aj-styles",
+    "name": "AJ Styles",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "NJPW",
+      "WWE",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Pelé kick",
+      "Calf Crusher"
+    ],
+    "finisher": "Styles Clash",
+    "ratings": {
+      "promo": 82,
+      "technical": 86,
+      "strength": 83,
+      "speed": 83,
+      "hardcore": 73,
+      "endurance": 85,
+      "star": 89
+    },
+    "description": "AJ Styles mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "samoa-joe",
+    "identity": "samoa-joe",
+    "name": "Samoa Joe",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "ROH",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Muscle Buster",
+      "Uranage"
+    ],
+    "finisher": "Coquina Clutch",
+    "ratings": {
+      "promo": 73,
+      "technical": 65,
+      "strength": 98,
+      "speed": 69,
+      "hardcore": 72,
+      "endurance": 84,
+      "star": 90
+    },
+    "description": "Samoa Joe uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "bryan-danielson",
+    "identity": "bryan-danielson",
+    "name": "Bryan Danielson",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Yes Kicks",
+      "Regal-Plex"
+    ],
+    "finisher": "LeBell Lock",
+    "ratings": {
+      "promo": 73,
+      "technical": 99,
+      "strength": 80,
+      "speed": 75,
+      "hardcore": 65,
+      "endurance": 95,
+      "star": 77
+    },
+    "description": "Bryan Danielson controls the pace through holds and precise counters."
+  },
+  {
+    "id": "jon-moxley",
+    "identity": "jon-moxley",
+    "name": "Jon Moxley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "NJPW",
+      "CZW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Running knee",
+      "Bulldog choke"
+    ],
+    "finisher": "Death Rider",
+    "ratings": {
+      "promo": 80,
+      "technical": 69,
+      "strength": 77,
+      "speed": 72,
+      "hardcore": 95,
+      "endurance": 89,
+      "star": 85
+    },
+    "description": "Jon Moxley keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "kenny-omega",
+    "identity": "kenny-omega",
+    "name": "Kenny Omega",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "NJPW",
+      "DDT",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "V-Trigger",
+      "Snapdragon suplex"
+    ],
+    "finisher": "One-Winged Angel",
+    "ratings": {
+      "promo": 83,
+      "technical": 85,
+      "strength": 83,
+      "speed": 86,
+      "hardcore": 72,
+      "endurance": 87,
+      "star": 89
+    },
+    "description": "Kenny Omega mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "will-ospreay",
+    "identity": "will-ospreay",
+    "name": "Will Ospreay",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "AEW",
+      "RevPro"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Oscutter",
+      "Hidden Blade"
+    ],
+    "finisher": "Storm Breaker",
+    "ratings": {
+      "promo": 74,
+      "technical": 75,
+      "strength": 65,
+      "speed": 96,
+      "hardcore": 80,
+      "endurance": 83,
+      "star": 82
+    },
+    "description": "Will Ospreay creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "kazuchika-okada",
+    "identity": "kazuchika-okada",
+    "name": "Kazuchika Okada",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Dropkick",
+      "Money Clip"
+    ],
+    "finisher": "Rainmaker",
+    "ratings": {
+      "promo": 84,
+      "technical": 87,
+      "strength": 77,
+      "speed": 88,
+      "hardcore": 72,
+      "endurance": 86,
+      "star": 91
+    },
+    "description": "Kazuchika Okada mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "hiroshi-tanahashi",
+    "identity": "hiroshi-tanahashi",
+    "name": "Hiroshi Tanahashi",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Sling Blade",
+      "Dragon screw"
+    ],
+    "finisher": "High Fly Flow",
+    "ratings": {
+      "promo": 82,
+      "technical": 90,
+      "strength": 84,
+      "speed": 88,
+      "hardcore": 80,
+      "endurance": 86,
+      "star": 83
+    },
+    "description": "Hiroshi Tanahashi mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "shinsuke-nakamura",
+    "identity": "shinsuke-nakamura",
+    "name": "Shinsuke Nakamura",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Good Vibrations",
+      "Reverse exploder"
+    ],
+    "finisher": "Kinshasa",
+    "ratings": {
+      "promo": 80,
+      "technical": 85,
+      "strength": 79,
+      "speed": 86,
+      "hardcore": 78,
+      "endurance": 90,
+      "star": 84
+    },
+    "description": "Shinsuke Nakamura mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "kota-ibushi",
+    "identity": "kota-ibushi",
+    "name": "Kota Ibushi",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "DDT",
+      "NJPW",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Golden Triangle moonsault",
+      "Sit-out powerbomb"
+    ],
+    "finisher": "Kamigoye",
+    "ratings": {
+      "promo": 70,
+      "technical": 75,
+      "strength": 68,
+      "speed": 92,
+      "hardcore": 76,
+      "endurance": 86,
+      "star": 89
+    },
+    "description": "Kota Ibushi creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "zack-sabre-jr",
+    "identity": "zack-sabre-jr",
+    "name": "Zack Sabre Jr.",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "RevPro",
+      "NOAH"
+    ],
+    "era": "Modern",
+    "weightClass": "Heavyweight",
+    "style": "Technician",
+    "signatures": [
+      "European clutch",
+      "Orienteering with Napalm Death"
+    ],
+    "finisher": "Zack Driver",
+    "ratings": {
+      "promo": 76,
+      "technical": 91,
+      "strength": 76,
+      "speed": 76,
+      "hardcore": 65,
+      "endurance": 89,
+      "star": 80
+    },
+    "description": "Zack Sabre Jr. controls the pace through holds and precise counters."
+  },
+  {
+    "id": "finn-balor",
+    "identity": "finn-balor",
+    "name": "Finn Bálor",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Sling Blade",
+      "1916"
+    ],
+    "finisher": "Coup de Grâce",
+    "ratings": {
+      "promo": 75,
+      "technical": 76,
+      "strength": 64,
+      "speed": 94,
+      "hardcore": 78,
+      "endurance": 88,
+      "star": 87
+    },
+    "description": "Finn Bálor creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "kevin-owens",
+    "identity": "kevin-owens",
+    "name": "Kevin Owens",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Pop-up powerbomb",
+      "Cannonball"
+    ],
+    "finisher": "Stunner",
+    "ratings": {
+      "promo": 85,
+      "technical": 73,
+      "strength": 91,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 86,
+      "star": 80
+    },
+    "description": "Kevin Owens pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "sami-zayn",
+    "identity": "sami-zayn",
+    "name": "Sami Zayn",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "WWE",
+      "PWG"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Blue Thunder Bomb",
+      "Exploder suplex"
+    ],
+    "finisher": "Helluva Kick",
+    "ratings": {
+      "promo": 81,
+      "technical": 84,
+      "strength": 76,
+      "speed": 89,
+      "hardcore": 73,
+      "endurance": 85,
+      "star": 85
+    },
+    "description": "Sami Zayn mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "drew-mcintyre",
+    "identity": "drew-mcintyre",
+    "name": "Drew McIntyre",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA",
+      "ICW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Glasgow Kiss",
+      "Future Shock DDT"
+    ],
+    "finisher": "Claymore",
+    "ratings": {
+      "promo": 73,
+      "technical": 67,
+      "strength": 96,
+      "speed": 66,
+      "hardcore": 78,
+      "endurance": 79,
+      "star": 87
+    },
+    "description": "Drew McIntyre uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "sheamus",
+    "identity": "sheamus",
+    "name": "Sheamus",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Ten Beats of the Bodhrán",
+      "White Noise"
+    ],
+    "finisher": "Brogue Kick",
+    "ratings": {
+      "promo": 87,
+      "technical": 71,
+      "strength": 92,
+      "speed": 67,
+      "hardcore": 89,
+      "endurance": 83,
+      "star": 82
+    },
+    "description": "Sheamus pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "gunther",
+    "identity": "gunther",
+    "name": "Gunther",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "wXw",
+      "PROGRESS"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Knife-edge chop",
+      "Sleeper hold"
+    ],
+    "finisher": "Powerbomb",
+    "ratings": {
+      "promo": 79,
+      "technical": 73,
+      "strength": 98,
+      "speed": 65,
+      "hardcore": 78,
+      "endurance": 83,
+      "star": 86
+    },
+    "description": "Gunther uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "cody-rhodes",
+    "identity": "cody-rhodes",
+    "name": "Cody Rhodes",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "NJPW",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Disaster Kick",
+      "Cody Cutter"
+    ],
+    "finisher": "Cross Rhodes",
+    "ratings": {
+      "promo": 88,
+      "technical": 72,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 72,
+      "endurance": 81,
+      "star": 92
+    },
+    "description": "Cody Rhodes builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "mjf",
+    "identity": "mjf",
+    "name": "MJF",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "MLW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Heatseeker",
+      "Salt of the Earth"
+    ],
+    "finisher": "Double Cross",
+    "ratings": {
+      "promo": 90,
+      "technical": 74,
+      "strength": 75,
+      "speed": 74,
+      "hardcore": 65,
+      "endurance": 80,
+      "star": 97
+    },
+    "description": "MJF builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "adam-cole",
+    "identity": "adam-cole",
+    "name": "Adam Cole",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "WWE",
+      "AEW",
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Panama Sunrise",
+      "Superkick"
+    ],
+    "finisher": "Boom",
+    "ratings": {
+      "promo": 83,
+      "technical": 82,
+      "strength": 80,
+      "speed": 83,
+      "hardcore": 72,
+      "endurance": 89,
+      "star": 83
+    },
+    "description": "Adam Cole mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "hangman-adam-page",
+    "identity": "hangman-adam-page",
+    "name": "Hangman Adam Page",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "NJPW",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Dead Eye",
+      "Moonsault"
+    ],
+    "finisher": "Buckshot Lariat",
+    "ratings": {
+      "promo": 86,
+      "technical": 87,
+      "strength": 80,
+      "speed": 88,
+      "hardcore": 72,
+      "endurance": 87,
+      "star": 88
+    },
+    "description": "Hangman Adam Page mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "darby-allin",
+    "identity": "darby-allin",
+    "name": "Darby Allin",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "EVOLVE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Code Red",
+      "Suicide dive"
+    ],
+    "finisher": "Coffin Drop",
+    "ratings": {
+      "promo": 81,
+      "technical": 69,
+      "strength": 78,
+      "speed": 76,
+      "hardcore": 99,
+      "endurance": 93,
+      "star": 87
+    },
+    "description": "Darby Allin keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "swerve-strickland",
+    "identity": "swerve-strickland",
+    "name": "Swerve Strickland",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "MLW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "House Call",
+      "Rolling Flatliner"
+    ],
+    "finisher": "Swerve Stomp",
+    "ratings": {
+      "promo": 86,
+      "technical": 85,
+      "strength": 82,
+      "speed": 88,
+      "hardcore": 78,
+      "endurance": 84,
+      "star": 90
+    },
+    "description": "Swerve Strickland mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "jay-white",
+    "identity": "jay-white",
+    "name": "Jay White",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "AEW",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Half-hatch suplex",
+      "Uranage"
+    ],
+    "finisher": "Blade Runner",
+    "ratings": {
+      "promo": 78,
+      "technical": 93,
+      "strength": 80,
+      "speed": 76,
+      "hardcore": 68,
+      "endurance": 91,
+      "star": 80
+    },
+    "description": "Jay White controls the pace through holds and precise counters."
+  },
+  {
+    "id": "pac",
+    "identity": "pac",
+    "name": "PAC",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "Dragon Gate"
+    ],
+    "era": "Modern",
+    "weightClass": "Cruiserweight",
+    "style": "High-flyer",
+    "signatures": [
+      "Snap German suplex",
+      "Brutalizer"
+    ],
+    "finisher": "Black Arrow",
+    "ratings": {
+      "promo": 73,
+      "technical": 81,
+      "strength": 66,
+      "speed": 99,
+      "hardcore": 77,
+      "endurance": 88,
+      "star": 88
+    },
+    "description": "PAC creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "claudio-castagnoli",
+    "identity": "claudio-castagnoli",
+    "name": "Claudio Castagnoli",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Giant Swing",
+      "European uppercut"
+    ],
+    "finisher": "Neutralizer",
+    "ratings": {
+      "promo": 74,
+      "technical": 96,
+      "strength": 76,
+      "speed": 76,
+      "hardcore": 72,
+      "endurance": 91,
+      "star": 83
+    },
+    "description": "Claudio Castagnoli controls the pace through holds and precise counters."
+  },
+  {
+    "id": "rhea-ripley",
+    "identity": "rhea-ripley",
+    "name": "Rhea Ripley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Prism Trap",
+      "Dropkick"
+    ],
+    "finisher": "Riptide",
+    "ratings": {
+      "promo": 77,
+      "technical": 69,
+      "strength": 94,
+      "speed": 61,
+      "hardcore": 77,
+      "endurance": 86,
+      "star": 83
+    },
+    "description": "Rhea Ripley uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "becky-lynch",
+    "identity": "becky-lynch",
+    "name": "Becky Lynch",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "SHIMMER"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Bexploder",
+      "Dis-arm-her"
+    ],
+    "finisher": "Manhandle Slam",
+    "ratings": {
+      "promo": 93,
+      "technical": 76,
+      "strength": 77,
+      "speed": 70,
+      "hardcore": 71,
+      "endurance": 84,
+      "star": 96
+    },
+    "description": "Becky Lynch builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "charlotte-flair",
+    "identity": "charlotte-flair",
+    "name": "Charlotte Flair",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Natural Selection",
+      "Moonsault"
+    ],
+    "finisher": "Figure Eight",
+    "ratings": {
+      "promo": 79,
+      "technical": 96,
+      "strength": 77,
+      "speed": 79,
+      "hardcore": 72,
+      "endurance": 94,
+      "star": 85
+    },
+    "description": "Charlotte Flair controls the pace through holds and precise counters."
+  },
+  {
+    "id": "mercedes-mone",
+    "identity": "mercedes-mone",
+    "name": "Mercedes Moné",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "NJPW",
+      "AEW",
+      "STARDOM"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Meteora",
+      "Backstabber"
+    ],
+    "finisher": "Bank Statement",
+    "ratings": {
+      "promo": 76,
+      "technical": 93,
+      "strength": 77,
+      "speed": 80,
+      "hardcore": 68,
+      "endurance": 94,
+      "star": 77
+    },
+    "description": "Mercedes Moné controls the pace through holds and precise counters."
+  },
+  {
+    "id": "bayley",
+    "identity": "bayley",
+    "name": "Bayley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "SHIMMER"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Bayley-to-Belly",
+      "Diving elbow drop"
+    ],
+    "finisher": "Rose Plant",
+    "ratings": {
+      "promo": 94,
+      "technical": 78,
+      "strength": 80,
+      "speed": 75,
+      "hardcore": 68,
+      "endurance": 82,
+      "star": 91
+    },
+    "description": "Bayley builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "asuka",
+    "identity": "asuka",
+    "name": "Asuka",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "SMASH",
+      "REINA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Spinning backfist",
+      "Hip attack"
+    ],
+    "finisher": "Asuka Lock",
+    "ratings": {
+      "promo": 77,
+      "technical": 97,
+      "strength": 79,
+      "speed": 75,
+      "hardcore": 69,
+      "endurance": 95,
+      "star": 82
+    },
+    "description": "Asuka controls the pace through holds and precise counters."
+  },
+  {
+    "id": "bianca-belair",
+    "identity": "bianca-belair",
+    "name": "Bianca Belair",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Gorilla press",
+      "Handspring moonsault"
+    ],
+    "finisher": "K.O.D.",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 91,
+      "speed": 69,
+      "hardcore": 76,
+      "endurance": 79,
+      "star": 85
+    },
+    "description": "Bianca Belair uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "toni-storm",
+    "identity": "toni-storm",
+    "name": "Toni Storm",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Hip attack",
+      "Tornado DDT"
+    ],
+    "finisher": "Storm Zero",
+    "ratings": {
+      "promo": 90,
+      "technical": 77,
+      "strength": 78,
+      "speed": 74,
+      "hardcore": 72,
+      "endurance": 83,
+      "star": 93
+    },
+    "description": "Toni Storm builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "jamie-hayter",
+    "identity": "jamie-hayter",
+    "name": "Jamie Hayter",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "STARDOM",
+      "RevPro"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Uranage",
+      "Sliding lariat"
+    ],
+    "finisher": "Hayterade",
+    "ratings": {
+      "promo": 82,
+      "technical": 72,
+      "strength": 87,
+      "speed": 73,
+      "hardcore": 85,
+      "endurance": 89,
+      "star": 81
+    },
+    "description": "Jamie Hayter pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "britt-baker",
+    "identity": "britt-baker",
+    "name": "Britt Baker",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Sling Blade",
+      "Fisherman neckbreaker"
+    ],
+    "finisher": "Lockjaw",
+    "ratings": {
+      "promo": 75,
+      "technical": 96,
+      "strength": 76,
+      "speed": 81,
+      "hardcore": 73,
+      "endurance": 91,
+      "star": 78
+    },
+    "description": "Britt Baker controls the pace through holds and precise counters."
+  },
+  {
+    "id": "trish-stratus",
+    "identity": "trish-stratus",
+    "name": "Trish Stratus",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Chick Kick",
+      "Matrish"
+    ],
+    "finisher": "Stratusfaction",
+    "ratings": {
+      "promo": 89,
+      "technical": 72,
+      "strength": 75,
+      "speed": 69,
+      "hardcore": 67,
+      "endurance": 85,
+      "star": 90
+    },
+    "description": "Trish Stratus builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "lita",
+    "identity": "lita",
+    "name": "Lita",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "ECW"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Twist of Fate",
+      "Hurricanrana"
+    ],
+    "finisher": "Litasault",
+    "ratings": {
+      "promo": 73,
+      "technical": 81,
+      "strength": 69,
+      "speed": 96,
+      "hardcore": 80,
+      "endurance": 88,
+      "star": 87
+    },
+    "description": "Lita creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "chyna",
+    "identity": "chyna",
+    "name": "Chyna",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "NJPW"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Powerbomb",
+      "Gorilla press"
+    ],
+    "finisher": "Pedigree",
+    "ratings": {
+      "promo": 73,
+      "technical": 65,
+      "strength": 93,
+      "speed": 62,
+      "hardcore": 74,
+      "endurance": 86,
+      "star": 87
+    },
+    "description": "Chyna uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "beth-phoenix",
+    "identity": "beth-phoenix",
+    "name": "Beth Phoenix",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "OVW"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Backbreaker",
+      "Powerslam"
+    ],
+    "finisher": "Glam Slam",
+    "ratings": {
+      "promo": 76,
+      "technical": 68,
+      "strength": 95,
+      "speed": 65,
+      "hardcore": 77,
+      "endurance": 79,
+      "star": 84
+    },
+    "description": "Beth Phoenix uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "mickie-james",
+    "identity": "mickie-james",
+    "name": "Mickie James",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA",
+      "NWA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Mick Kick",
+      "Diving Thesz press"
+    ],
+    "finisher": "Mickie-DT",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 80,
+      "speed": 70,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 95
+    },
+    "description": "Mickie James builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "gail-kim",
+    "identity": "gail-kim",
+    "name": "Gail Kim",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Flying dragon",
+      "Corner crossbody"
+    ],
+    "finisher": "Eat Defeat",
+    "ratings": {
+      "promo": 78,
+      "technical": 91,
+      "strength": 80,
+      "speed": 81,
+      "hardcore": 67,
+      "endurance": 87,
+      "star": 81
+    },
+    "description": "Gail Kim controls the pace through holds and precise counters."
+  },
+  {
+    "id": "awesome-kong",
+    "identity": "awesome-kong",
+    "name": "Awesome Kong",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "WWE",
+      "AEW",
+      "AJW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Spinning backfist",
+      "Running splash"
+    ],
+    "finisher": "Awesome Bomb",
+    "ratings": {
+      "promo": 75,
+      "technical": 73,
+      "strength": 95,
+      "speed": 65,
+      "hardcore": 70,
+      "endurance": 84,
+      "star": 83
+    },
+    "description": "Awesome Kong uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "jade-cargill",
+    "identity": "jade-cargill",
+    "name": "Jade Cargill",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Pump kick",
+      "Spinebuster"
+    ],
+    "finisher": "Jaded",
+    "ratings": {
+      "promo": 78,
+      "technical": 71,
+      "strength": 94,
+      "speed": 64,
+      "hardcore": 70,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Jade Cargill uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "iyo-sky",
+    "identity": "iyo-sky",
+    "name": "Iyo Sky",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Bullet Train",
+      "Springboard dropkick"
+    ],
+    "finisher": "Over the Moonsault",
+    "ratings": {
+      "promo": 74,
+      "technical": 76,
+      "strength": 72,
+      "speed": 99,
+      "hardcore": 78,
+      "endurance": 84,
+      "star": 85
+    },
+    "description": "Iyo Sky creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "kairi-sane",
+    "identity": "kairi-sane",
+    "name": "Kairi Sane",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Interceptor",
+      "Sliding D"
+    ],
+    "finisher": "InSane Elbow",
+    "ratings": {
+      "promo": 77,
+      "technical": 78,
+      "strength": 65,
+      "speed": 93,
+      "hardcore": 81,
+      "endurance": 86,
+      "star": 87
+    },
+    "description": "Kairi Sane creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "jordynne-grace",
+    "identity": "jordynne-grace",
+    "name": "Jordynne Grace",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "WWE",
+      "PROGRESS"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Vader Bomb",
+      "Spinebuster"
+    ],
+    "finisher": "Grace Driver",
+    "ratings": {
+      "promo": 72,
+      "technical": 73,
+      "strength": 96,
+      "speed": 67,
+      "hardcore": 75,
+      "endurance": 81,
+      "star": 86
+    },
+    "description": "Jordynne Grace uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "aj-lee",
+    "identity": "aj-lee",
+    "name": "AJ Lee",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "FCW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Shining Wizard",
+      "Wheelbarrow bulldog"
+    ],
+    "finisher": "Black Widow",
+    "ratings": {
+      "promo": 74,
+      "technical": 91,
+      "strength": 80,
+      "speed": 80,
+      "hardcore": 72,
+      "endurance": 90,
+      "star": 80
+    },
+    "description": "AJ Lee controls the pace through holds and precise counters."
+  },
+  {
+    "id": "molly-holly",
+    "identity": "molly-holly",
+    "name": "Molly Holly",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Northern Lights suplex",
+      "Handspring elbow"
+    ],
+    "finisher": "Molly-Go-Round",
+    "ratings": {
+      "promo": 75,
+      "technical": 95,
+      "strength": 75,
+      "speed": 82,
+      "hardcore": 67,
+      "endurance": 91,
+      "star": 82
+    },
+    "description": "Molly Holly controls the pace through holds and precise counters."
+  },
+  {
+    "id": "victoria",
+    "identity": "victoria",
+    "name": "Victoria",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Sidewalk slam",
+      "Standing moonsault"
+    ],
+    "finisher": "Widow's Peak",
+    "ratings": {
+      "promo": 80,
+      "technical": 72,
+      "strength": 91,
+      "speed": 66,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 89
+    },
+    "description": "Victoria uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "jacqueline",
+    "identity": "jacqueline",
+    "name": "Jacqueline",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Attitude",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Spinning heel kick",
+      "Clothesline"
+    ],
+    "finisher": "Tornado DDT",
+    "ratings": {
+      "promo": 86,
+      "technical": 72,
+      "strength": 90,
+      "speed": 69,
+      "hardcore": 86,
+      "endurance": 84,
+      "star": 80
+    },
+    "description": "Jacqueline pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "bull-nakano",
+    "identity": "bull-nakano",
+    "name": "Bull Nakano",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJW",
+      "WWF",
+      "WCW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Guillotine leg drop",
+      "Scorpion crosslock"
+    ],
+    "finisher": "Diving Leg Drop",
+    "ratings": {
+      "promo": 73,
+      "technical": 72,
+      "strength": 94,
+      "speed": 62,
+      "hardcore": 71,
+      "endurance": 82,
+      "star": 89
+    },
+    "description": "Bull Nakano uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "aja-kong",
+    "identity": "aja-kong",
+    "name": "Aja Kong",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJW",
+      "GAEA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Backdrop driver",
+      "Running splash"
+    ],
+    "finisher": "Uraken",
+    "ratings": {
+      "promo": 80,
+      "technical": 65,
+      "strength": 92,
+      "speed": 68,
+      "hardcore": 74,
+      "endurance": 79,
+      "star": 89
+    },
+    "description": "Aja Kong uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "manami-toyota",
+    "identity": "manami-toyota",
+    "name": "Manami Toyota",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJW",
+      "GAEA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Missile dropkick",
+      "Rolling cradle"
+    ],
+    "finisher": "Japanese Ocean Cyclone Suplex",
+    "ratings": {
+      "promo": 78,
+      "technical": 79,
+      "strength": 68,
+      "speed": 94,
+      "hardcore": 77,
+      "endurance": 84,
+      "star": 88
+    },
+    "description": "Manami Toyota creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "meiko-satomura",
+    "identity": "meiko-satomura",
+    "name": "Meiko Satomura",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "GAEA",
+      "Sendai Girls",
+      "WWE"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Scorpio Rising",
+      "Cartwheel knee drop"
+    ],
+    "finisher": "Death Valley Bomb",
+    "ratings": {
+      "promo": 81,
+      "technical": 97,
+      "strength": 77,
+      "speed": 77,
+      "hardcore": 67,
+      "endurance": 95,
+      "star": 78
+    },
+    "description": "Meiko Satomura controls the pace through holds and precise counters."
+  },
+  {
+    "id": "mayu-iwatani",
+    "identity": "mayu-iwatani",
+    "name": "Mayu Iwatani",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "Marigold"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Diving foot stomp",
+      "Superkick"
+    ],
+    "finisher": "Two-Step Dragon Suplex",
+    "ratings": {
+      "promo": 73,
+      "technical": 76,
+      "strength": 70,
+      "speed": 92,
+      "hardcore": 74,
+      "endurance": 85,
+      "star": 89
+    },
+    "description": "Mayu Iwatani creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "utami-hayashishita",
+    "identity": "utami-hayashishita",
+    "name": "Utami Hayashishita",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "Marigold"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Sleeper hold",
+      "German suplex"
+    ],
+    "finisher": "Hijack Bomb",
+    "ratings": {
+      "promo": 78,
+      "technical": 73,
+      "strength": 94,
+      "speed": 66,
+      "hardcore": 77,
+      "endurance": 81,
+      "star": 85
+    },
+    "description": "Utami Hayashishita uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "giulia",
+    "identity": "giulia",
+    "name": "Giulia",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "STARDOM",
+      "Marigold",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Running knee",
+      "Glorious Buster"
+    ],
+    "finisher": "Northern Lights Bomb",
+    "ratings": {
+      "promo": 74,
+      "technical": 91,
+      "strength": 78,
+      "speed": 81,
+      "hardcore": 71,
+      "endurance": 94,
+      "star": 85
+    },
+    "description": "Giulia controls the pace through holds and precise counters."
+  },
+  {
+    "id": "thunder-rosa",
+    "identity": "thunder-rosa",
+    "name": "Thunder Rosa",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "NWA",
+      "STARDOM"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Corner dropkick",
+      "Cazadora stunner"
+    ],
+    "finisher": "Fire Thunder Driver",
+    "ratings": {
+      "promo": 85,
+      "technical": 75,
+      "strength": 84,
+      "speed": 67,
+      "hardcore": 90,
+      "endurance": 82,
+      "star": 81
+    },
+    "description": "Thunder Rosa pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "hikaru-shida",
+    "identity": "hikaru-shida",
+    "name": "Hikaru Shida",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "Ice Ribbon"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Falcon Arrow",
+      "Tamashii"
+    ],
+    "finisher": "Katana",
+    "ratings": {
+      "promo": 82,
+      "technical": 88,
+      "strength": 80,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 88,
+      "star": 86
+    },
+    "description": "Hikaru Shida mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "athena",
+    "identity": "athena",
+    "name": "Athena",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Crossface",
+      "Diving senton"
+    ],
+    "finisher": "O-Face",
+    "ratings": {
+      "promo": 74,
+      "technical": 80,
+      "strength": 65,
+      "speed": 95,
+      "hardcore": 80,
+      "endurance": 82,
+      "star": 89
+    },
+    "description": "Athena creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "eddie-kingston",
+    "identity": "eddie-kingston",
+    "name": "Eddie Kingston",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "ROH",
+      "CHIKARA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Saito suplex",
+      "Machine-gun chops"
+    ],
+    "finisher": "Backfist to the Future",
+    "ratings": {
+      "promo": 81,
+      "technical": 74,
+      "strength": 91,
+      "speed": 71,
+      "hardcore": 84,
+      "endurance": 83,
+      "star": 82
+    },
+    "description": "Eddie Kingston pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "orange-cassidy",
+    "identity": "orange-cassidy",
+    "name": "Orange Cassidy",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AEW",
+      "CHIKARA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Beach Break",
+      "Sloth kicks"
+    ],
+    "finisher": "Orange Punch",
+    "ratings": {
+      "promo": 76,
+      "technical": 92,
+      "strength": 74,
+      "speed": 82,
+      "hardcore": 67,
+      "endurance": 93,
+      "star": 83
+    },
+    "description": "Orange Cassidy controls the pace through holds and precise counters."
+  },
+  {
+    "id": "konosuke-takeshita",
+    "identity": "konosuke-takeshita",
+    "name": "Konosuke Takeshita",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "DDT",
+      "AEW",
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Blue Thunder Bomb",
+      "Jumping knee"
+    ],
+    "finisher": "Raging Fire",
+    "ratings": {
+      "promo": 85,
+      "technical": 84,
+      "strength": 84,
+      "speed": 83,
+      "hardcore": 77,
+      "endurance": 91,
+      "star": 83
+    },
+    "description": "Konosuke Takeshita mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "tetsuya-naito",
+    "identity": "tetsuya-naito",
+    "name": "Tetsuya Naito",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Gloria",
+      "Combinación Cabron"
+    ],
+    "finisher": "Destino",
+    "ratings": {
+      "promo": 79,
+      "technical": 90,
+      "strength": 84,
+      "speed": 81,
+      "hardcore": 74,
+      "endurance": 91,
+      "star": 89
+    },
+    "description": "Tetsuya Naito mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "minoru-suzuki",
+    "identity": "minoru-suzuki",
+    "name": "Minoru Suzuki",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "Pancrase",
+      "NOAH"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Sleeper hold",
+      "Penalty kick"
+    ],
+    "finisher": "Gotch-Style Piledriver",
+    "ratings": {
+      "promo": 74,
+      "technical": 94,
+      "strength": 75,
+      "speed": 79,
+      "hardcore": 72,
+      "endurance": 93,
+      "star": 77
+    },
+    "description": "Minoru Suzuki controls the pace through holds and precise counters."
+  },
+  {
+    "id": "kenta",
+    "identity": "kenta",
+    "name": "KENTA",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NOAH",
+      "WWE",
+      "NJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [
+      "Busaiku Knee",
+      "Game Over"
+    ],
+    "finisher": "Go to Sleep",
+    "ratings": {
+      "promo": 81,
+      "technical": 88,
+      "strength": 77,
+      "speed": 88,
+      "hardcore": 80,
+      "endurance": 85,
+      "star": 88
+    },
+    "description": "KENTA mixes striking, grappling and aerial offense."
+  },
+  {
+    "id": "kenta-kobashi",
+    "identity": "kenta-kobashi",
+    "name": "Kenta Kobashi",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJPW",
+      "NOAH"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Machine-gun chops",
+      "Half Nelson suplex"
+    ],
+    "finisher": "Burning Hammer",
+    "ratings": {
+      "promo": 73,
+      "technical": 71,
+      "strength": 95,
+      "speed": 61,
+      "hardcore": 77,
+      "endurance": 82,
+      "star": 85
+    },
+    "description": "Kenta Kobashi uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "mitsuharu-misawa",
+    "identity": "mitsuharu-misawa",
+    "name": "Mitsuharu Misawa",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJPW",
+      "NOAH"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Elbow strikes",
+      "Tiger Driver"
+    ],
+    "finisher": "Emerald Flowsion",
+    "ratings": {
+      "promo": 76,
+      "technical": 94,
+      "strength": 77,
+      "speed": 77,
+      "hardcore": 71,
+      "endurance": 91,
+      "star": 77
+    },
+    "description": "Mitsuharu Misawa controls the pace through holds and precise counters."
+  },
+  {
+    "id": "toshiaki-kawada",
+    "identity": "toshiaki-kawada",
+    "name": "Toshiaki Kawada",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJPW",
+      "HUSTLE"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Stretch Plum",
+      "Gamengiri"
+    ],
+    "finisher": "Dangerous Backdrop",
+    "ratings": {
+      "promo": 87,
+      "technical": 78,
+      "strength": 86,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 88,
+      "star": 80
+    },
+    "description": "Toshiaki Kawada pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "genichiro-tenryu",
+    "identity": "genichiro-tenryu",
+    "name": "Genichiro Tenryu",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AJPW",
+      "WAR",
+      "NJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [
+      "Enzuigiri",
+      "Knife-edge chop"
+    ],
+    "finisher": "Powerbomb",
+    "ratings": {
+      "promo": 79,
+      "technical": 73,
+      "strength": 84,
+      "speed": 71,
+      "hardcore": 90,
+      "endurance": 83,
+      "star": 85
+    },
+    "description": "Genichiro Tenryu pressures opponents with strikes and physical exchanges."
+  },
+  {
+    "id": "jushin-thunder-liger",
+    "identity": "jushin-thunder-liger",
+    "name": "Jushin Thunder Liger",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NJPW",
+      "WCW",
+      "ROH"
+    ],
+    "era": "Multi-era",
+    "weightClass": "Junior heavyweight",
+    "style": "High-flyer",
+    "signatures": [
+      "Shotei",
+      "Surfboard"
+    ],
+    "finisher": "Liger Bomb",
+    "ratings": {
+      "promo": 73,
+      "technical": 74,
+      "strength": 67,
+      "speed": 97,
+      "hardcore": 76,
+      "endurance": 87,
+      "star": 88
+    },
+    "description": "Jushin Thunder Liger creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "vader",
+    "identity": "vader",
+    "name": "Vader",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF",
+      "NJPW",
+      "AJPW"
+    ],
+    "era": "Multi-era",
+    "weightClass": "Super heavyweight",
+    "style": "Powerhouse",
+    "signatures": [
+      "Vader Bomb",
+      "Corner body avalanche"
+    ],
+    "finisher": "Vader Moonsault",
+    "ratings": {
+      "promo": 73,
+      "technical": 73,
+      "strength": 97,
+      "speed": 62,
+      "hardcore": 76,
+      "endurance": 81,
+      "star": 90
+    },
+    "description": "Vader uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "rick-rude",
+    "identity": "rick-rude",
+    "name": "Rick Rude",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WCW",
+      "ECW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Neck snap",
+      "Diving knee drop"
+    ],
+    "finisher": "Rude Awakening",
+    "ratings": {
+      "promo": 90,
+      "technical": 78,
+      "strength": 83,
+      "speed": 70,
+      "hardcore": 67,
+      "endurance": 80,
+      "star": 90
+    },
+    "description": "Rick Rude builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "ricky-steamboat",
+    "identity": "ricky-steamboat",
+    "name": "Ricky Steamboat",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NWA",
+      "WCW",
+      "WWF"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Deep arm drag",
+      "Flying chop"
+    ],
+    "finisher": "Diving Crossbody",
+    "ratings": {
+      "promo": 75,
+      "technical": 98,
+      "strength": 74,
+      "speed": 79,
+      "hardcore": 65,
+      "endurance": 87,
+      "star": 81
+    },
+    "description": "Ricky Steamboat controls the pace through holds and precise counters."
+  },
+  {
+    "id": "dusty-rhodes",
+    "identity": "dusty-rhodes",
+    "name": "Dusty Rhodes",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "NWA",
+      "WCW",
+      "WWF"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Bionic Elbow",
+      "Flip flop and fly"
+    ],
+    "finisher": "Bionic Elbow",
+    "ratings": {
+      "promo": 89,
+      "technical": 73,
+      "strength": 81,
+      "speed": 77,
+      "hardcore": 65,
+      "endurance": 81,
+      "star": 97
+    },
+    "description": "Dusty Rhodes builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "roddy-piper",
+    "identity": "roddy-piper",
+    "name": "Roddy Piper",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WCW",
+      "Mid-Atlantic"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Eye poke",
+      "Knee lift"
+    ],
+    "finisher": "Sleeper Hold",
+    "ratings": {
+      "promo": 91,
+      "technical": 73,
+      "strength": 82,
+      "speed": 77,
+      "hardcore": 65,
+      "endurance": 80,
+      "star": 90
+    },
+    "description": "Roddy Piper builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "jake-roberts",
+    "identity": "jake-roberts",
+    "name": "Jake Roberts",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW",
+      "Mid-South"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Short-arm clothesline",
+      "Knee lift"
+    ],
+    "finisher": "DDT",
+    "ratings": {
+      "promo": 95,
+      "technical": 72,
+      "strength": 81,
+      "speed": 74,
+      "hardcore": 66,
+      "endurance": 81,
+      "star": 90
+    },
+    "description": "Jake Roberts builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "owen-hart",
+    "identity": "owen-hart",
+    "name": "Owen Hart",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "Stampede",
+      "NJPW"
+    ],
+    "era": "New Generation",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "Enzuigiri",
+      "Missile dropkick"
+    ],
+    "finisher": "Sharpshooter",
+    "ratings": {
+      "promo": 76,
+      "technical": 91,
+      "strength": 78,
+      "speed": 79,
+      "hardcore": 72,
+      "endurance": 94,
+      "star": 77
+    },
+    "description": "Owen Hart controls the pace through holds and precise counters."
+  },
+  {
+    "id": "british-bulldog",
+    "identity": "british-bulldog",
+    "name": "British Bulldog",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WCW",
+      "Stampede"
+    ],
+    "era": "New Generation",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Stalling vertical suplex",
+      "Clothesline"
+    ],
+    "finisher": "Running Powerslam",
+    "ratings": {
+      "promo": 79,
+      "technical": 70,
+      "strength": 96,
+      "speed": 68,
+      "hardcore": 70,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "British Bulldog uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "shelton-benjamin",
+    "identity": "shelton-benjamin",
+    "name": "Shelton Benjamin",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "ROH",
+      "NJPW",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [
+      "T-Bone suplex",
+      "Superkick"
+    ],
+    "finisher": "Paydirt",
+    "ratings": {
+      "promo": 74,
+      "technical": 92,
+      "strength": 76,
+      "speed": 78,
+      "hardcore": 71,
+      "endurance": 89,
+      "star": 83
+    },
+    "description": "Shelton Benjamin controls the pace through holds and precise counters."
+  },
+  {
+    "id": "samoa-joe--prime-tna",
+    "identity": "samoa-joe",
+    "name": "Samoa Joe",
+    "universe": "wrestling",
+    "version": "Prime TNA",
+    "promotions": [
+      "TNA",
+      "ROH",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Muscle Buster",
+      "Uranage"
+    ],
+    "finisher": "Coquina Clutch",
+    "ratings": {
+      "promo": 73,
+      "technical": 70,
+      "strength": 98,
+      "speed": 69,
+      "hardcore": 72,
+      "endurance": 84,
+      "star": 90
+    },
+    "description": "Samoa Joe uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "jon-moxley--death-rider",
+    "identity": "jon-moxley",
+    "name": "Jon Moxley",
+    "universe": "wrestling",
+    "version": "Death Rider",
+    "promotions": [
+      "WWE",
+      "AEW",
+      "NJPW",
+      "CZW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [
+      "Running knee",
+      "Bulldog choke"
+    ],
+    "finisher": "Death Rider",
+    "ratings": {
+      "promo": 80,
+      "technical": 69,
+      "strength": 77,
+      "speed": 72,
+      "hardcore": 100,
+      "endurance": 89,
+      "star": 85
+    },
+    "description": "Jon Moxley keeps fighting through chaotic, physical matches."
+  },
+  {
+    "id": "finn-balor--the-demon",
+    "identity": "finn-balor",
+    "name": "Finn Bálor",
+    "universe": "wrestling",
+    "version": "The Demon",
+    "promotions": [
+      "NJPW",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [
+      "Sling Blade",
+      "1916"
+    ],
+    "finisher": "Coup de Grâce",
+    "ratings": {
+      "promo": 75,
+      "technical": 76,
+      "strength": 64,
+      "speed": 94,
+      "hardcore": 78,
+      "endurance": 88,
+      "star": 92
+    },
+    "description": "Finn Bálor creates openings with aerial attacks and rapid movement."
+  },
+  {
+    "id": "sting--prime-wcw",
+    "identity": "sting",
+    "name": "Sting",
+    "universe": "wrestling",
+    "version": "Prime WCW",
+    "promotions": [
+      "WCW",
+      "TNA",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Stinger Splash",
+      "Scorpion Deathlock"
+    ],
+    "finisher": "Scorpion Death Drop",
+    "ratings": {
+      "promo": 93,
+      "technical": 75,
+      "strength": 81,
+      "speed": 74,
+      "hardcore": 69,
+      "endurance": 84,
+      "star": 97
+    },
+    "description": "Sting builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "sting--crow",
+    "identity": "sting",
+    "name": "Sting",
+    "universe": "wrestling",
+    "version": "Crow",
+    "promotions": [
+      "WCW",
+      "TNA",
+      "WWE",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [
+      "Stinger Splash",
+      "Scorpion Deathlock"
+    ],
+    "finisher": "Scorpion Death Drop",
+    "ratings": {
+      "promo": 93,
+      "technical": 75,
+      "strength": 81,
+      "speed": 74,
+      "hardcore": 69,
+      "endurance": 79,
+      "star": 100
+    },
+    "description": "Sting builds momentum with crowd work and signature sequences."
+  },
+  {
+    "id": "the-undertaker--prime-undertaker",
+    "identity": "the-undertaker",
+    "name": "The Undertaker",
+    "universe": "wrestling",
+    "version": "Prime Undertaker",
+    "promotions": [
+      "WWF",
+      "WWE",
+      "WCW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Old School",
+      "Chokeslam"
+    ],
+    "finisher": "Tombstone Piledriver",
+    "ratings": {
+      "promo": 72,
+      "technical": 71,
+      "strength": 90,
+      "speed": 67,
+      "hardcore": 72,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "The Undertaker uses strength to dictate position and finish exchanges."
+  },
+  {
+    "id": "roman-reigns--tribal-chief",
+    "identity": "roman-reigns",
+    "name": "Roman Reigns",
+    "universe": "wrestling",
+    "version": "Tribal Chief",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [
+      "Superman Punch",
+      "Guillotine choke"
+    ],
+    "finisher": "Spear",
+    "ratings": {
+      "promo": 82,
+      "technical": 67,
+      "strength": 97,
+      "speed": 66,
+      "hardcore": 74,
+      "endurance": 82,
+      "star": 82
+    },
+    "description": "Roman Reigns uses strength to dictate position and finish exchanges."
+  }
+]
