@@ -2363,65 +2363,6 @@
     "description": "Beth Phoenix uses strength to dictate position and finish exchanges."
   },
   {
-    "id": "mickie-james",
-    "identity": "mickie-james",
-    "name": "Mickie James",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WWE",
-      "TNA",
-      "NWA"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Showman",
-    "signatures": [
-      "Mick Kick",
-      "Diving Thesz press"
-    ],
-    "finisher": "Mickie-DT",
-    "ratings": {
-      "promo": 89,
-      "technical": 70,
-      "strength": 80,
-      "speed": 70,
-      "hardcore": 72,
-      "endurance": 82,
-      "star": 95
-    },
-    "description": "Mickie James builds momentum with crowd work and signature sequences."
-  },
-  {
-    "id": "gail-kim",
-    "identity": "gail-kim",
-    "name": "Gail Kim",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WWE",
-      "TNA"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Technician",
-    "signatures": [
-      "Flying dragon",
-      "Corner crossbody"
-    ],
-    "finisher": "Eat Defeat",
-    "ratings": {
-      "promo": 78,
-      "technical": 91,
-      "strength": 80,
-      "speed": 81,
-      "hardcore": 67,
-      "endurance": 87,
-      "star": 81
-    },
-    "description": "Gail Kim controls the pace through holds and precise counters."
-  },
-  {
     "id": "awesome-kong",
     "identity": "awesome-kong",
     "name": "Awesome Kong",
@@ -2482,94 +2423,6 @@
     "description": "Jade Cargill uses strength to dictate position and finish exchanges."
   },
   {
-    "id": "iyo-sky",
-    "identity": "iyo-sky",
-    "name": "Iyo Sky",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "STARDOM",
-      "WWE"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "High-flyer",
-    "signatures": [
-      "Bullet Train",
-      "Springboard dropkick"
-    ],
-    "finisher": "Over the Moonsault",
-    "ratings": {
-      "promo": 74,
-      "technical": 76,
-      "strength": 72,
-      "speed": 99,
-      "hardcore": 78,
-      "endurance": 84,
-      "star": 85
-    },
-    "description": "Iyo Sky creates openings with aerial attacks and rapid movement."
-  },
-  {
-    "id": "kairi-sane",
-    "identity": "kairi-sane",
-    "name": "Kairi Sane",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "STARDOM",
-      "WWE"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "High-flyer",
-    "signatures": [
-      "Interceptor",
-      "Sliding D"
-    ],
-    "finisher": "InSane Elbow",
-    "ratings": {
-      "promo": 77,
-      "technical": 78,
-      "strength": 65,
-      "speed": 93,
-      "hardcore": 81,
-      "endurance": 86,
-      "star": 87
-    },
-    "description": "Kairi Sane creates openings with aerial attacks and rapid movement."
-  },
-  {
-    "id": "jordynne-grace",
-    "identity": "jordynne-grace",
-    "name": "Jordynne Grace",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "TNA",
-      "WWE",
-      "PROGRESS"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Vader Bomb",
-      "Spinebuster"
-    ],
-    "finisher": "Grace Driver",
-    "ratings": {
-      "promo": 72,
-      "technical": 73,
-      "strength": 96,
-      "speed": 67,
-      "hardcore": 75,
-      "endurance": 81,
-      "star": 86
-    },
-    "description": "Jordynne Grace uses strength to dictate position and finish exchanges."
-  },
-  {
     "id": "aj-lee",
     "identity": "aj-lee",
     "name": "AJ Lee",
@@ -2597,392 +2450,6 @@
       "star": 80
     },
     "description": "AJ Lee controls the pace through holds and precise counters."
-  },
-  {
-    "id": "molly-holly",
-    "identity": "molly-holly",
-    "name": "Molly Holly",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WCW",
-      "WWF",
-      "WWE"
-    ],
-    "era": "Ruthless Aggression",
-    "weightClass": null,
-    "style": "Technician",
-    "signatures": [
-      "Northern Lights suplex",
-      "Handspring elbow"
-    ],
-    "finisher": "Molly-Go-Round",
-    "ratings": {
-      "promo": 75,
-      "technical": 95,
-      "strength": 75,
-      "speed": 82,
-      "hardcore": 67,
-      "endurance": 91,
-      "star": 82
-    },
-    "description": "Molly Holly controls the pace through holds and precise counters."
-  },
-  {
-    "id": "victoria",
-    "identity": "victoria",
-    "name": "Victoria",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WWE",
-      "TNA"
-    ],
-    "era": "Ruthless Aggression",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Sidewalk slam",
-      "Standing moonsault"
-    ],
-    "finisher": "Widow's Peak",
-    "ratings": {
-      "promo": 80,
-      "technical": 72,
-      "strength": 91,
-      "speed": 66,
-      "hardcore": 77,
-      "endurance": 85,
-      "star": 89
-    },
-    "description": "Victoria uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "jacqueline",
-    "identity": "jacqueline",
-    "name": "Jacqueline",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WCW",
-      "WWF",
-      "WWE",
-      "TNA"
-    ],
-    "era": "Attitude",
-    "weightClass": null,
-    "style": "Brawler",
-    "signatures": [
-      "Spinning heel kick",
-      "Clothesline"
-    ],
-    "finisher": "Tornado DDT",
-    "ratings": {
-      "promo": 86,
-      "technical": 72,
-      "strength": 90,
-      "speed": 69,
-      "hardcore": 86,
-      "endurance": 84,
-      "star": 80
-    },
-    "description": "Jacqueline pressures opponents with strikes and physical exchanges."
-  },
-  {
-    "id": "bull-nakano",
-    "identity": "bull-nakano",
-    "name": "Bull Nakano",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJW",
-      "WWF",
-      "WCW"
-    ],
-    "era": "Golden Era",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Guillotine leg drop",
-      "Scorpion crosslock"
-    ],
-    "finisher": "Diving Leg Drop",
-    "ratings": {
-      "promo": 73,
-      "technical": 72,
-      "strength": 94,
-      "speed": 62,
-      "hardcore": 71,
-      "endurance": 82,
-      "star": 89
-    },
-    "description": "Bull Nakano uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "aja-kong",
-    "identity": "aja-kong",
-    "name": "Aja Kong",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJW",
-      "GAEA",
-      "AEW"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Backdrop driver",
-      "Running splash"
-    ],
-    "finisher": "Uraken",
-    "ratings": {
-      "promo": 80,
-      "technical": 65,
-      "strength": 92,
-      "speed": 68,
-      "hardcore": 74,
-      "endurance": 79,
-      "star": 89
-    },
-    "description": "Aja Kong uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "manami-toyota",
-    "identity": "manami-toyota",
-    "name": "Manami Toyota",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJW",
-      "GAEA"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "High-flyer",
-    "signatures": [
-      "Missile dropkick",
-      "Rolling cradle"
-    ],
-    "finisher": "Japanese Ocean Cyclone Suplex",
-    "ratings": {
-      "promo": 78,
-      "technical": 79,
-      "strength": 68,
-      "speed": 94,
-      "hardcore": 77,
-      "endurance": 84,
-      "star": 88
-    },
-    "description": "Manami Toyota creates openings with aerial attacks and rapid movement."
-  },
-  {
-    "id": "meiko-satomura",
-    "identity": "meiko-satomura",
-    "name": "Meiko Satomura",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "GAEA",
-      "Sendai Girls",
-      "WWE"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Technician",
-    "signatures": [
-      "Scorpio Rising",
-      "Cartwheel knee drop"
-    ],
-    "finisher": "Death Valley Bomb",
-    "ratings": {
-      "promo": 81,
-      "technical": 97,
-      "strength": 77,
-      "speed": 77,
-      "hardcore": 67,
-      "endurance": 95,
-      "star": 78
-    },
-    "description": "Meiko Satomura controls the pace through holds and precise counters."
-  },
-  {
-    "id": "mayu-iwatani",
-    "identity": "mayu-iwatani",
-    "name": "Mayu Iwatani",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "STARDOM",
-      "Marigold"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "High-flyer",
-    "signatures": [
-      "Diving foot stomp",
-      "Superkick"
-    ],
-    "finisher": "Two-Step Dragon Suplex",
-    "ratings": {
-      "promo": 73,
-      "technical": 76,
-      "strength": 70,
-      "speed": 92,
-      "hardcore": 74,
-      "endurance": 85,
-      "star": 89
-    },
-    "description": "Mayu Iwatani creates openings with aerial attacks and rapid movement."
-  },
-  {
-    "id": "utami-hayashishita",
-    "identity": "utami-hayashishita",
-    "name": "Utami Hayashishita",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "STARDOM",
-      "Marigold"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Sleeper hold",
-      "German suplex"
-    ],
-    "finisher": "Hijack Bomb",
-    "ratings": {
-      "promo": 78,
-      "technical": 73,
-      "strength": 94,
-      "speed": 66,
-      "hardcore": 77,
-      "endurance": 81,
-      "star": 85
-    },
-    "description": "Utami Hayashishita uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "giulia",
-    "identity": "giulia",
-    "name": "Giulia",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "STARDOM",
-      "Marigold",
-      "WWE"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "Technician",
-    "signatures": [
-      "Running knee",
-      "Glorious Buster"
-    ],
-    "finisher": "Northern Lights Bomb",
-    "ratings": {
-      "promo": 74,
-      "technical": 91,
-      "strength": 78,
-      "speed": 81,
-      "hardcore": 71,
-      "endurance": 94,
-      "star": 85
-    },
-    "description": "Giulia controls the pace through holds and precise counters."
-  },
-  {
-    "id": "thunder-rosa",
-    "identity": "thunder-rosa",
-    "name": "Thunder Rosa",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AEW",
-      "NWA",
-      "STARDOM"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "Brawler",
-    "signatures": [
-      "Corner dropkick",
-      "Cazadora stunner"
-    ],
-    "finisher": "Fire Thunder Driver",
-    "ratings": {
-      "promo": 85,
-      "technical": 75,
-      "strength": 84,
-      "speed": 67,
-      "hardcore": 90,
-      "endurance": 82,
-      "star": 81
-    },
-    "description": "Thunder Rosa pressures opponents with strikes and physical exchanges."
-  },
-  {
-    "id": "hikaru-shida",
-    "identity": "hikaru-shida",
-    "name": "Hikaru Shida",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AEW",
-      "Ice Ribbon"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "Hybrid",
-    "signatures": [
-      "Falcon Arrow",
-      "Tamashii"
-    ],
-    "finisher": "Katana",
-    "ratings": {
-      "promo": 82,
-      "technical": 88,
-      "strength": 80,
-      "speed": 81,
-      "hardcore": 72,
-      "endurance": 88,
-      "star": 86
-    },
-    "description": "Hikaru Shida mixes striking, grappling and aerial offense."
-  },
-  {
-    "id": "athena",
-    "identity": "athena",
-    "name": "Athena",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "WWE",
-      "AEW",
-      "ROH"
-    ],
-    "era": "Modern",
-    "weightClass": null,
-    "style": "High-flyer",
-    "signatures": [
-      "Crossface",
-      "Diving senton"
-    ],
-    "finisher": "O-Face",
-    "ratings": {
-      "promo": 74,
-      "technical": 80,
-      "strength": 65,
-      "speed": 95,
-      "hardcore": 80,
-      "endurance": 82,
-      "star": 89
-    },
-    "description": "Athena creates openings with aerial attacks and rapid movement."
   },
   {
     "id": "eddie-kingston",
@@ -3160,123 +2627,6 @@
       "star": 88
     },
     "description": "KENTA mixes striking, grappling and aerial offense."
-  },
-  {
-    "id": "kenta-kobashi",
-    "identity": "kenta-kobashi",
-    "name": "Kenta Kobashi",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJPW",
-      "NOAH"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Machine-gun chops",
-      "Half Nelson suplex"
-    ],
-    "finisher": "Burning Hammer",
-    "ratings": {
-      "promo": 73,
-      "technical": 71,
-      "strength": 95,
-      "speed": 61,
-      "hardcore": 77,
-      "endurance": 82,
-      "star": 85
-    },
-    "description": "Kenta Kobashi uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "mitsuharu-misawa",
-    "identity": "mitsuharu-misawa",
-    "name": "Mitsuharu Misawa",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJPW",
-      "NOAH"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Technician",
-    "signatures": [
-      "Elbow strikes",
-      "Tiger Driver"
-    ],
-    "finisher": "Emerald Flowsion",
-    "ratings": {
-      "promo": 76,
-      "technical": 94,
-      "strength": 77,
-      "speed": 77,
-      "hardcore": 71,
-      "endurance": 91,
-      "star": 77
-    },
-    "description": "Mitsuharu Misawa controls the pace through holds and precise counters."
-  },
-  {
-    "id": "toshiaki-kawada",
-    "identity": "toshiaki-kawada",
-    "name": "Toshiaki Kawada",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJPW",
-      "HUSTLE"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Brawler",
-    "signatures": [
-      "Stretch Plum",
-      "Gamengiri"
-    ],
-    "finisher": "Dangerous Backdrop",
-    "ratings": {
-      "promo": 87,
-      "technical": 78,
-      "strength": 86,
-      "speed": 69,
-      "hardcore": 83,
-      "endurance": 88,
-      "star": 80
-    },
-    "description": "Toshiaki Kawada pressures opponents with strikes and physical exchanges."
-  },
-  {
-    "id": "genichiro-tenryu",
-    "identity": "genichiro-tenryu",
-    "name": "Genichiro Tenryu",
-    "universe": "wrestling",
-    "version": "Standard",
-    "promotions": [
-      "AJPW",
-      "WAR",
-      "NJPW"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Brawler",
-    "signatures": [
-      "Enzuigiri",
-      "Knife-edge chop"
-    ],
-    "finisher": "Powerbomb",
-    "ratings": {
-      "promo": 79,
-      "technical": 73,
-      "strength": 84,
-      "speed": 71,
-      "hardcore": 90,
-      "endurance": 83,
-      "star": 85
-    },
-    "description": "Genichiro Tenryu pressures opponents with strikes and physical exchanges."
   },
   {
     "id": "jushin-thunder-liger",
@@ -3582,214 +2932,1463 @@
     "description": "Shelton Benjamin controls the pace through holds and precise counters."
   },
   {
-    "id": "samoa-joe--prime-tna",
-    "identity": "samoa-joe",
-    "name": "Samoa Joe",
+    "id": "the-miz",
+    "identity": "the-miz",
+    "name": "The Miz",
     "universe": "wrestling",
-    "version": "Prime TNA",
+    "version": "Standard",
     "promotions": [
-      "TNA",
-      "ROH",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Skull-Crushing Finale",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "The Miz brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "dolph-ziggler",
+    "identity": "dolph-ziggler",
+    "name": "Dolph Ziggler",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
       "WWE",
-      "AEW"
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Zig Zag",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Dolph Ziggler brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "the-great-khali",
+    "identity": "the-great-khali",
+    "name": "The Great Khali",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Punjabi Plunge",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "The Great Khali brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "mark-henry",
+    "identity": "mark-henry",
+    "name": "Mark Henry",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "WWF"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "World's Strongest Slam",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Mark Henry brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "jbl",
+    "identity": "jbl",
+    "name": "JBL",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "WWF"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [],
+    "finisher": "Clothesline from Hell",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 82,
+      "star": 80
+    },
+    "description": "JBL brings a brawler approach to Rival Roster."
+  },
+  {
+    "id": "umaga",
+    "identity": "umaga",
+    "name": "Umaga",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Samoan Spike",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Umaga brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "carlito",
+    "identity": "carlito",
+    "name": "Carlito",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Backstabber",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Carlito brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "mr-kennedy",
+    "identity": "mr-kennedy",
+    "name": "Mr. Kennedy",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Mic Check",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Mr. Kennedy brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "bobby-lashley",
+    "identity": "bobby-lashley",
+    "name": "Bobby Lashley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
     ],
     "era": "Modern",
     "weightClass": null,
     "style": "Powerhouse",
-    "signatures": [
-      "Muscle Buster",
-      "Uranage"
-    ],
-    "finisher": "Coquina Clutch",
+    "signatures": [],
+    "finisher": "Hurt Lock",
     "ratings": {
-      "promo": 73,
-      "technical": 70,
-      "strength": 98,
-      "speed": 69,
-      "hardcore": 72,
-      "endurance": 84,
-      "star": 90
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
     },
-    "description": "Samoa Joe uses strength to dictate position and finish exchanges."
+    "description": "Bobby Lashley brings a powerhouse approach to Rival Roster."
   },
   {
-    "id": "jon-moxley--death-rider",
-    "identity": "jon-moxley",
-    "name": "Jon Moxley",
+    "id": "bray-wyatt",
+    "identity": "bray-wyatt",
+    "name": "Bray Wyatt",
     "universe": "wrestling",
-    "version": "Death Rider",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Sister Abigail",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Bray Wyatt brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "braun-strowman",
+    "identity": "braun-strowman",
+    "name": "Braun Strowman",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Running Powerslam",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Braun Strowman brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "r-truth",
+    "identity": "r-truth",
+    "name": "R-Truth",
+    "universe": "wrestling",
+    "version": "Standard",
     "promotions": [
       "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Lie Detector",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "R-Truth brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "abyss",
+    "identity": "abyss",
+    "name": "Abyss",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Black Hole Slam",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Abyss brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "suicide",
+    "identity": "suicide",
+    "name": "Suicide",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [],
+    "finisher": "Suicide Solution",
+    "ratings": {
+      "promo": 74,
+      "technical": 79,
+      "strength": 67,
+      "speed": 96,
+      "hardcore": 68,
+      "endurance": 81,
+      "star": 84
+    },
+    "description": "Suicide brings a high-flyer approach to Rival Roster."
+  },
+  {
+    "id": "james-storm",
+    "identity": "james-storm",
+    "name": "James Storm",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [],
+    "finisher": "Last Call Superkick",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 82,
+      "star": 80
+    },
+    "description": "James Storm brings a brawler approach to Rival Roster."
+  },
+  {
+    "id": "bobby-roode",
+    "identity": "bobby-roode",
+    "name": "Bobby Roode",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Glorious DDT",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Bobby Roode brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "eric-young",
+    "identity": "eric-young",
+    "name": "Eric Young",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "Piledriver",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Eric Young brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "moose",
+    "identity": "moose",
+    "name": "Moose",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "ROH"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Lights Out Spear",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Moose brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "josh-alexander",
+    "identity": "josh-alexander",
+    "name": "Josh Alexander",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [],
+    "finisher": "C4 Spike",
+    "ratings": {
+      "promo": 73,
+      "technical": 93,
+      "strength": 69,
+      "speed": 78,
+      "hardcore": 67,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Josh Alexander brings a technician approach to Rival Roster."
+  },
+  {
+    "id": "christopher-daniels",
+    "identity": "christopher-daniels",
+    "name": "Christopher Daniels",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "TNA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "Best Moonsault Ever",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Christopher Daniels brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "frankie-kazarian",
+    "identity": "frankie-kazarian",
+    "name": "Frankie Kazarian",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
       "AEW",
-      "NJPW",
+      "ROH"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "Fade to Black",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Frankie Kazarian brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "alex-shelley",
+    "identity": "alex-shelley",
+    "name": "Alex Shelley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "ROH",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [],
+    "finisher": "Shellshock",
+    "ratings": {
+      "promo": 73,
+      "technical": 93,
+      "strength": 69,
+      "speed": 78,
+      "hardcore": 67,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Alex Shelley brings a technician approach to Rival Roster."
+  },
+  {
+    "id": "tommy-dreamer",
+    "identity": "tommy-dreamer",
+    "name": "Tommy Dreamer",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Dreamer DDT",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Tommy Dreamer brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "the-sandman",
+    "identity": "the-sandman",
+    "name": "The Sandman",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "White Russian Legsweep",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "The Sandman brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "raven",
+    "identity": "raven",
+    "name": "Raven",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WCW",
+      "WWF",
+      "TNA"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Evenflow DDT",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Raven brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "new-jack",
+    "identity": "new-jack",
+    "name": "New Jack",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "187",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "New Jack brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "rhyno",
+    "identity": "rhyno",
+    "name": "Rhyno",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Extreme Era",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Gore",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Rhyno brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "bubba-ray-dudley",
+    "identity": "bubba-ray-dudley",
+    "name": "Bubba Ray Dudley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Bubba Bomb",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Bubba Ray Dudley brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "d-von-dudley",
+    "identity": "d-von-dudley",
+    "name": "D-Von Dudley",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ECW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [],
+    "finisher": "Saving Grace",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 82,
+      "star": 80
+    },
+    "description": "D-Von Dudley brings a brawler approach to Rival Roster."
+  },
+  {
+    "id": "nick-gage",
+    "identity": "nick-gage",
+    "name": "Nick Gage",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "GCW",
+      "CZW",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Chokebreaker",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Nick Gage brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "joey-janela",
+    "identity": "joey-janela",
+    "name": "Joey Janela",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "GCW",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hardcore",
+    "signatures": [],
+    "finisher": "Package Piledriver",
+    "ratings": {
+      "promo": 78,
+      "technical": 66,
+      "strength": 77,
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
+    },
+    "description": "Joey Janela brings a hardcore approach to Rival Roster."
+  },
+  {
+    "id": "scott-steiner",
+    "identity": "scott-steiner",
+    "name": "Scott Steiner",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Steiner Recliner",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Scott Steiner brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "rick-steiner",
+    "identity": "rick-steiner",
+    "name": "Rick Steiner",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Steiner Bulldog",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Rick Steiner brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "lex-luger",
+    "identity": "lex-luger",
+    "name": "Lex Luger",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WCW",
+      "WWF"
+    ],
+    "era": "Monday Night Wars",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Torture Rack",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Lex Luger brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "penta-el-zero-miedo",
+    "identity": "penta-el-zero-miedo",
+    "name": "Penta El Zero Miedo",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AAA",
+      "AEW",
+      "WWE",
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [],
+    "finisher": "Fear Factor",
+    "ratings": {
+      "promo": 74,
+      "technical": 79,
+      "strength": 67,
+      "speed": 96,
+      "hardcore": 68,
+      "endurance": 81,
+      "star": 84
+    },
+    "description": "Penta El Zero Miedo brings a high-flyer approach to Rival Roster."
+  },
+  {
+    "id": "jeff-jarrett",
+    "identity": "jeff-jarrett",
+    "name": "Jeff Jarrett",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WCW",
+      "TNA",
+      "AEW"
+    ],
+    "era": "Multi-era",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "The Stroke",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Jeff Jarrett brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "homicide",
+    "identity": "homicide",
+    "name": "Homicide",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "TNA",
+      "GCW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [],
+    "finisher": "Cop Killa",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 82,
+      "star": 80
+    },
+    "description": "Homicide brings a brawler approach to Rival Roster."
+  },
+  {
+    "id": "santino-marella",
+    "identity": "santino-marella",
+    "name": "Santino Marella",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "The Cobra",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Santino Marella brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "mvp",
+    "identity": "mvp",
+    "name": "MVP",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA",
+      "NJPW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Playmaker",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "MVP brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "sami-callihan",
+    "identity": "sami-callihan",
+    "name": "Sami Callihan",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
       "CZW"
     ],
     "era": "Modern",
     "weightClass": null,
     "style": "Hardcore",
-    "signatures": [
-      "Running knee",
-      "Bulldog choke"
-    ],
-    "finisher": "Death Rider",
+    "signatures": [],
+    "finisher": "Cactus Driver 97",
     "ratings": {
-      "promo": 80,
-      "technical": 69,
+      "promo": 78,
+      "technical": 66,
       "strength": 77,
-      "speed": 72,
-      "hardcore": 100,
-      "endurance": 89,
-      "star": 85
+      "speed": 73,
+      "hardcore": 97,
+      "endurance": 91,
+      "star": 81
     },
-    "description": "Jon Moxley keeps fighting through chaotic, physical matches."
+    "description": "Sami Callihan brings a hardcore approach to Rival Roster."
   },
   {
-    "id": "finn-balor--the-demon",
-    "identity": "finn-balor",
-    "name": "Finn Bálor",
+    "id": "paige",
+    "identity": "paige",
+    "name": "Paige",
     "universe": "wrestling",
-    "version": "The Demon",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "Paige Turner",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Paige brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "alexa-bliss",
+    "identity": "alexa-bliss",
+    "name": "Alexa Bliss",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Twisted Bliss",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Alexa Bliss brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "nikki-bella",
+    "identity": "nikki-bella",
+    "name": "Nikki Bella",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Rack Attack",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Nikki Bella brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "liv-morgan",
+    "identity": "liv-morgan",
+    "name": "Liv Morgan",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "ObLIVion",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Liv Morgan brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "naomi",
+    "identity": "naomi",
+    "name": "Naomi",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "High-flyer",
+    "signatures": [],
+    "finisher": "Rear View",
+    "ratings": {
+      "promo": 74,
+      "technical": 79,
+      "strength": 67,
+      "speed": 96,
+      "hardcore": 68,
+      "endurance": 81,
+      "star": 84
+    },
+    "description": "Naomi brings a high-flyer approach to Rival Roster."
+  },
+  {
+    "id": "mr-perfect",
+    "identity": "mr-perfect",
+    "name": "Mr. Perfect",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWF",
+      "WCW"
+    ],
+    "era": "Golden Era",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [],
+    "finisher": "Perfect-Plex",
+    "ratings": {
+      "promo": 73,
+      "technical": 93,
+      "strength": 69,
+      "speed": 78,
+      "hardcore": 67,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Mr. Perfect brings a technician approach to Rival Roster."
+  },
+  {
+    "id": "austin-aries",
+    "identity": "austin-aries",
+    "name": "Austin Aries",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "ROH",
+      "TNA",
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [],
+    "finisher": "Brainbuster",
+    "ratings": {
+      "promo": 73,
+      "technical": 93,
+      "strength": 69,
+      "speed": 78,
+      "hardcore": 67,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Austin Aries brings a technician approach to Rival Roster."
+  },
+  {
+    "id": "alberto-del-rio",
+    "identity": "alberto-del-rio",
+    "name": "Alberto Del Rio",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "TNA",
+      "AAA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Technician",
+    "signatures": [],
+    "finisher": "Cross Armbreaker",
+    "ratings": {
+      "promo": 73,
+      "technical": 93,
+      "strength": 69,
+      "speed": 78,
+      "hardcore": 67,
+      "endurance": 84,
+      "star": 84
+    },
+    "description": "Alberto Del Rio brings a technician approach to Rival Roster."
+  },
+  {
+    "id": "matt-cardona",
+    "identity": "matt-cardona",
+    "name": "Matt Cardona",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE",
+      "GCW",
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Showman",
+    "signatures": [],
+    "finisher": "Radio Silence",
+    "ratings": {
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
+    },
+    "description": "Matt Cardona brings a showman approach to Rival Roster."
+  },
+  {
+    "id": "lance-archer",
+    "identity": "lance-archer",
+    "name": "Lance Archer",
+    "universe": "wrestling",
+    "version": "Standard",
     "promotions": [
       "NJPW",
+      "AEW",
+      "TNA"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Blackout",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Lance Archer brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "brian-cage",
+    "identity": "brian-cage",
+    "name": "Brian Cage",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "TNA",
+      "AEW"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Powerhouse",
+    "signatures": [],
+    "finisher": "Drill Claw",
+    "ratings": {
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
+      "star": 82
+    },
+    "description": "Brian Cage brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "fenix",
+    "identity": "fenix",
+    "name": "Fénix",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "AAA",
+      "AEW",
       "WWE"
     ],
     "era": "Modern",
     "weightClass": null,
     "style": "High-flyer",
-    "signatures": [
-      "Sling Blade",
-      "1916"
-    ],
-    "finisher": "Coup de Grâce",
+    "signatures": [],
+    "finisher": "Fire Thunder Driver",
     "ratings": {
-      "promo": 75,
-      "technical": 76,
-      "strength": 64,
-      "speed": 94,
-      "hardcore": 78,
-      "endurance": 88,
-      "star": 92
+      "promo": 74,
+      "technical": 79,
+      "strength": 67,
+      "speed": 96,
+      "hardcore": 68,
+      "endurance": 81,
+      "star": 84
     },
-    "description": "Finn Bálor creates openings with aerial attacks and rapid movement."
+    "description": "Fénix brings a high-flyer approach to Rival Roster."
   },
   {
-    "id": "sting--prime-wcw",
-    "identity": "sting",
-    "name": "Sting",
+    "id": "the-boogeyman",
+    "identity": "the-boogeyman",
+    "name": "The Boogeyman",
     "universe": "wrestling",
-    "version": "Prime WCW",
+    "version": "Standard",
     "promotions": [
-      "WCW",
-      "TNA",
-      "WWE",
-      "AEW"
+      "WWE"
     ],
-    "era": "Multi-era",
+    "era": "Ruthless Aggression",
     "weightClass": null,
     "style": "Showman",
-    "signatures": [
-      "Stinger Splash",
-      "Scorpion Deathlock"
-    ],
-    "finisher": "Scorpion Death Drop",
+    "signatures": [],
+    "finisher": "Boogeyslam",
     "ratings": {
-      "promo": 93,
-      "technical": 75,
-      "strength": 81,
-      "speed": 74,
-      "hardcore": 69,
-      "endurance": 84,
-      "star": 97
+      "promo": 89,
+      "technical": 70,
+      "strength": 72,
+      "speed": 75,
+      "hardcore": 63,
+      "endurance": 78,
+      "star": 85
     },
-    "description": "Sting builds momentum with crowd work and signature sequences."
+    "description": "The Boogeyman brings a showman approach to Rival Roster."
   },
   {
-    "id": "sting--crow",
-    "identity": "sting",
-    "name": "Sting",
+    "id": "nia-jax",
+    "identity": "nia-jax",
+    "name": "Nia Jax",
     "universe": "wrestling",
-    "version": "Crow",
-    "promotions": [
-      "WCW",
-      "TNA",
-      "WWE",
-      "AEW"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Showman",
-    "signatures": [
-      "Stinger Splash",
-      "Scorpion Deathlock"
-    ],
-    "finisher": "Scorpion Death Drop",
-    "ratings": {
-      "promo": 93,
-      "technical": 75,
-      "strength": 81,
-      "speed": 74,
-      "hardcore": 69,
-      "endurance": 79,
-      "star": 100
-    },
-    "description": "Sting builds momentum with crowd work and signature sequences."
-  },
-  {
-    "id": "the-undertaker--prime-undertaker",
-    "identity": "the-undertaker",
-    "name": "The Undertaker",
-    "universe": "wrestling",
-    "version": "Prime Undertaker",
-    "promotions": [
-      "WWF",
-      "WWE",
-      "WCW"
-    ],
-    "era": "Multi-era",
-    "weightClass": null,
-    "style": "Powerhouse",
-    "signatures": [
-      "Old School",
-      "Chokeslam"
-    ],
-    "finisher": "Tombstone Piledriver",
-    "ratings": {
-      "promo": 72,
-      "technical": 71,
-      "strength": 90,
-      "speed": 67,
-      "hardcore": 72,
-      "endurance": 85,
-      "star": 82
-    },
-    "description": "The Undertaker uses strength to dictate position and finish exchanges."
-  },
-  {
-    "id": "roman-reigns--tribal-chief",
-    "identity": "roman-reigns",
-    "name": "Roman Reigns",
-    "universe": "wrestling",
-    "version": "Tribal Chief",
+    "version": "Standard",
     "promotions": [
       "WWE"
     ],
     "era": "Modern",
     "weightClass": null,
     "style": "Powerhouse",
-    "signatures": [
-      "Superman Punch",
-      "Guillotine choke"
-    ],
-    "finisher": "Spear",
+    "signatures": [],
+    "finisher": "Annihilator",
     "ratings": {
-      "promo": 82,
-      "technical": 67,
-      "strength": 97,
-      "speed": 66,
-      "hardcore": 74,
-      "endurance": 82,
+      "promo": 72,
+      "technical": 62,
+      "strength": 93,
+      "speed": 60,
+      "hardcore": 77,
+      "endurance": 85,
       "star": 82
     },
-    "description": "Roman Reigns uses strength to dictate position and finish exchanges."
+    "description": "Nia Jax brings a powerhouse approach to Rival Roster."
+  },
+  {
+    "id": "maven",
+    "identity": "maven",
+    "name": "Maven",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Ruthless Aggression",
+    "weightClass": null,
+    "style": "Hybrid",
+    "signatures": [],
+    "finisher": "Dropkick",
+    "ratings": {
+      "promo": 76,
+      "technical": 82,
+      "strength": 77,
+      "speed": 81,
+      "hardcore": 72,
+      "endurance": 82,
+      "star": 83
+    },
+    "description": "Maven brings a hybrid approach to Rival Roster."
+  },
+  {
+    "id": "wade-barrett",
+    "identity": "wade-barrett",
+    "name": "Wade Barrett",
+    "universe": "wrestling",
+    "version": "Standard",
+    "promotions": [
+      "WWE"
+    ],
+    "era": "Modern",
+    "weightClass": null,
+    "style": "Brawler",
+    "signatures": [],
+    "finisher": "Bull Hammer",
+    "ratings": {
+      "promo": 80,
+      "technical": 70,
+      "strength": 79,
+      "speed": 69,
+      "hardcore": 83,
+      "endurance": 82,
+      "star": 80
+    },
+    "description": "Wade Barrett brings a brawler approach to Rival Roster."
   }
 ]
