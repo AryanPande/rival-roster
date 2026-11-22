@@ -2,7 +2,7 @@
 
 A private two-player browser game. Draft wrestlers and comic characters, build a roster through live auctions in fictional credits, and compare teams for a debate. The static app uses vanilla JavaScript and GitHub Pages. Firebase Authentication and Realtime Database run on the free Spark plan for personal use.
 
-**Start with [SETUP.md](SETUP.md)** for the Firebase Console, GitHub Pages, and two-device walkthrough. For a credential-free local run, see the emulator instructions in the same guide.
+**Start with [SETUP.md](SETUP.md)** for the Firebase Console, GitHub Pages, and two-device walkthrough. For a credential-free local run, see the emulator instructions in the same guide. The [user guide and technical reference](DOCUMENTATION.md) covers game rules, scoring, Firebase, deployment, and maintenance.
 
 ## How to play
 
