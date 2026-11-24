@@ -42,9 +42,9 @@ async function openRoom(config={},path=roomPath) {
   },{applyLocally:false}));
   await assertSucceeds(sdk.set(ref(guest,path+'/p1'),serverProfile(guest,'Blue')));
 }
-function build(config,number=0,after=-1) {
+function build(config,number=0,after=-1,poolIds) {
   const size=config.size*2;
-  const ids=Object.keys(catalog).filter(id=>id===catalog[id]).slice(0,config.mode==='auction'?size+3:size);
+  const ids=poolIds??Object.keys(catalog).filter(id=>id===catalog[id]).slice(0,config.mode==='auction'?size+3:size);
   const match={number,after,config,count:ids.length,pool:Object.fromEntries(ids.map((id,i)=>[i,{id,i,bit:2**i}])),
     ids:Object.fromEntries(ids.map((id,i)=>[catalog[id],i]))};
   match.events=[applyEvent(match,[],'start',{actor:host.uid,side:0,now:Date.now(),recipient:0})];
@@ -166,4 +166,15 @@ test('auction rules enforce server time, bid limits, race, permanent pass, reser
     }
   }
   assert.deepEqual(matchView(events,match.pool).teams.map(team=>team.length),[2,2]);
+});
+
+test('reconciled catalog accepts new Raven and preserves a historical card reference',async()=>{
+  const path='rooms/834517';
+  const config=proposal({mode:'blind',size:2});
+  await openRoom(config,path);
+  const ids=['wrestler-raven','raven','sting--crow','alexa-bliss'];
+  const match=build(config,0,-1,ids);
+  await assertSucceeds(sdk.set(ref(host,path+'/games/0'),match));
+  const stored=(await sdk.get(ref(guest,path+'/games/0/pool'))).val();
+  assert.deepEqual(Object.values(stored).map(card=>card.id),ids);
 });

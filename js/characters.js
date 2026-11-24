@@ -2,14 +2,16 @@ export const labels = {
   promo:'Promo ability',technical:'Technical wrestling',strength:'Strength',speed:'Speed',hardcore:'Hardcore experience',endurance:'Endurance',
   star:'Star power',intelligence:'Intelligence',durability:'Durability',combat:'Combat skill',power:'Powers',teamwork:'Teamwork',
 };
+async function loadCards(name) {
+  const response=await fetch(new URL('../data/'+name+'.json',import.meta.url));
+  if (!response.ok) throw new Error('Could not load the character catalog. Refresh to retry.');
+  return response.json();
+}
 export async function loadCatalog() {
-  const lists=await Promise.all(['wrestlers','superheroes'].map(async name=>{
-    const response=await fetch(new URL('../data/'+name+'.json',import.meta.url));
-    if (!response.ok) throw new Error('Could not load the character catalog. Refresh to retry.');
-    return response.json();
-  }));
+  const lists=await Promise.all(['wrestlers','superheroes'].map(loadCards));
   return lists.flat();
 }
+export const loadRetiredCatalog=()=>loadCards('retired-wrestlers');
 export const tag=(card)=>card.universe==='wrestling'?'Wrestling':card.publisher;
 export const title=card=>!card?'Unknown character':card.version==='Standard' ? card.name : card.name+' · '+card.version;
 export const groups = cards=>({

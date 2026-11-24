@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "generate": "node tools/catalog.mjs && node tools/rules.mjs",
-    "test": "node --test tests/core.test.mjs",
+    "test": "node --test tests/core.test.mjs tests/solo.test.mjs tests/catalog.test.mjs",
     "test:emulator": "firebase emulators:exec --project demo-rival-roster --only auth,database 'node --test tests/firebase.test.mjs'",
     "preview": "firebase emulators:start --project demo-rival-roster --only auth,database,hosting",
     "dev": "node tools/preview.mjs",
-    "seed:emulator": "node tools/seed-emulator.mjs"
+    "seed:emulator": "node tools/seed-emulator.mjs",
+    "test:browser": "node tests/solo.browser.mjs"
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^4.0.1",
     "firebase": "^11.10.0",
-    "firebase-tools": "^14.11.0"
+    "firebase-tools": "^14.11.0",
+    "playwright-core": "^1.65.1"
   }
 }
