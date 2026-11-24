@@ -1,6 +1,8 @@
-import {isUsed,remainingBudget} from './engine.js';
+import {canDraftCard,isUsed,remainingBudget} from './engine.js';
 const openSlot=(s,size,side)=>s[side===0?'n0':'n1']<size;
-export const reserveLot=(match,s)=>match.count-s.round===2*match.config.size-s.n0-s.n1;
+const mixed=({config:{size,women}})=>women>0&&women<size;
+const eligibleTeams=(match,s)=>[0,1].filter(side=>canDraftCard(match,s,side,s.index));
+export const reserveLot=(match,s)=>!mixed(match)&&match.count-s.round===2*match.config.size-s.n0-s.n1;
 const passed=(s,side)=>Boolean(s.passed & (side===0?1:2));
 export const bidFloor=(match,s)=>s.leader<0?match.config.minimum:s.bid+match.config.increment;
 export const closeAllowed=(match,s,time)=>time>=s.deadline||s.passed===3||
@@ -9,7 +11,7 @@ export function showAuction(match,event,{side,card,button,names,escape}) {
   const {s}=event,{config}=match;
   const max=remainingBudget(s,config,side);
   const floor=bidFloor(match,s);
-  const allowed=openSlot(s,config.size,side)&&!passed(s,side);
+  const allowed=canDraftCard(match,s,side,s.index)&&!passed(s,side);
   const reserve=reserveLot(match,s);
   if (s.phase==='nominate') {
     const who=openSlot(s,config.size,s.turn)?s.turn:1-s.turn;
@@ -18,10 +20,15 @@ export function showAuction(match,event,{side,card,button,names,escape}) {
     <div class="pick-grid">${Array.from({length:match.count},(_,i)=>isUsed(s.used,i)?'':`<div>${card(i)}
     ${button('Nominate','move','secondary',{kind:'nominate',card:i,disabled:who!==side,time:true})}</div>`).join('')}</div>`;
   }
+  if(s.phase==='settled'&&s.automatic) return `<div class="play-title"><h1>Automatically assigned</h1></div>
+    <div class="reveal-stage settled">${card(s.index,true)}</div>
+    <p class="auction-note">${escape(names[s.award])} received this wrestler for ₹${s.price}.</p>`;
   if (s.phase==='settled') return `<div class="play-title"><div><p class="eyebrow">LIVE AUCTION</p><h1>Lot settled</h1></div></div>
   <div class="reveal-stage settled">${card(s.index,true)}<span class="sold">${s.leader<0&&s.bid===0&&s.price===0?'UNSOLD':'SOLD'}</span></div>
   <p class="auction-note">${s.price>0?'Sold for ₹'+s.price+' fictional credits.':'No bids were placed.'}</p>
   ${config.manual?button('Next lot','move','primary',{kind:'advance'}):'<p class="subtle auction-note">The next lot is opening.</p>'}`;
+  if(Number.isInteger(config.women)&&eligibleTeams(match,s).length<2) return `<div class="play-title"><h1>Resolving lot</h1></div>
+    <div class="reveal-stage">${card(s.index,true)}</div>`;
   const enabled=allowed&&side!==s.leader&&!reserve;
   return `<div class="play-title"><div><p class="eyebrow">LIVE AUCTION</p><h1>Lot ${s.round+1} of ${match.count}</h1></div><span class="pill">Fictional credits</span></div>
   ${reserve?'':`<div class="clock" data-deadline="${s.deadline}" data-total="${config.seconds}"><span data-clock></span><div class="clock-track"><i data-progress></i></div></div>`}
@@ -36,12 +43,17 @@ export function showAuction(match,event,{side,card,button,names,escape}) {
   </div><p class="subtle auction-note">Passing ends your bidding for this lot. A leading bid stays in place.</p>`}`;
 }
 export function auctionAutomation(match,s,time) {
-  if (s.phase==='settled'&&!match.config.manual&&time>=s.deadline+2250) return ['advance',{}];
+  if (s.phase==='settled'&&(s.automatic?time>=s.deadline+5000:!match.config.manual&&time>=s.deadline+2250)) return ['advance',{}];
   if (s.phase==='nominate'&&time>=s.deadline) {
     const card=Array.from({length:match.count},(_,i)=>i).find(i=>!isUsed(s.used,i));
     return ['autoNominate',{card}];
   }
   if (s.phase!=='auction') return null;
+  if(Number.isInteger(match.config.women)) {
+    const eligible=eligibleTeams(match,s);
+    if(eligible.length===1) return ['compositionAssign',{}];
+    if(!eligible.length) return ['skipIneligible',{}];
+  }
   if(reserveLot(match,s)) return ['reserve',{}];
   if(closeAllowed(match,s,time)) return ['close',{}];
   return null;

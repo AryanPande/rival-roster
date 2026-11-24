@@ -1,5 +1,5 @@
-import {writeFileSync} from 'node:fs';
-import {LIMIT,defaults,fields,moves,expressions,initial,initialAllowed} from '../js/engine.js';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {LIMIT,defaults,fields,compositionFields,moves,expressions,initial,initialAllowed} from '../js/engine.js';
 
 const and = (...p) => '('+p.join(' && ')+')';
 const or = (...p) => '('+p.join(' || ')+')';
@@ -23,6 +23,7 @@ const prior = distance => `${match}.child('events').child((${seq} - ${distance})
 const newConfig = `${nextMatch}.child('config')`;
 function emit(x) {
   if (typeof x!=='object') return JSON.stringify(x);
+  if (x.group==='woman') return `${nextMatch}.child('pool').child((${emit(x.key)}) + '').child('woman').val()`;
   if (x.group==='bit') return `${nextMatch}.child('pool').child((${emit(x.key)}) + '').child('bit').val()`;
   if (x.group==='state') return value(`${prior(1)}.child('s')`,x.key);
   if (x.group==='other') return value(`${prior(3)}.child('s')`,x.key);
@@ -30,7 +31,7 @@ function emit(x) {
   if (x.group==='input') return value(N,x.key);
   if (x.group==='ctx') return {
     side:`(auth.uid === ${uid0} ? 0 : 1)`, actor:'auth.uid',now:'now',stamp:value(N,'at'),
-    count:value(nextMatch,'count'),previousActor:value(prior(1),'actor'),previousKind:value(prior(1),'kind'),
+    composed:`${newConfig}.child('women').exists()`,count:value(nextMatch,'count'),previousActor:value(prior(1),'actor'),previousKind:value(prior(1),'kind'),
   }[x.key];
   const terms=x.args.map(emit);
   return x.name==='?' ? `(${terms[0]} ? ${terms[1]} : ${terms[2]})` : `(${terms.join(` ${x.name} `)})`;
@@ -61,7 +62,11 @@ const event = {
   ...schema(eventKeys,{
     seq:number(N,0,4000), at:number(N,0,9e15), card:number(N,-1,LIMIT-1),amount:number(N,0,1000),recipient:number(N,-1,1),
   }),
-  s:{'.validate':children(N,fields),...schema(fields,Object.fromEntries(fields.map(f=>[f,fromStateField(f)])))},
+  s:{'.validate':and(children(N,fields),or(
+    "newData.parent().parent().parent().child('config').child('women').exists() === false",
+    children(N,compositionFields))),
+    ...schema([...fields,...compositionFields],Object.fromEntries([...fields,...compositionFields].map(f=>[f,fromStateField(f)])))},
+
 };
 const ck=Object.keys(defaults);
 const configValidators={
@@ -71,10 +76,11 @@ const configValidators={
   universe:options(N,'wrestling','comics','mixed','custom'),filters:str(N,400),exclude:str(N,4000),custom:str(N,4000),
   ...Object.fromEntries(['snake','manual','nominate','versions','swapped'].map(k=>[k,'newData.isBoolean()'])),
 };
-const configRule=(extra=[])=>({
+const configRule=(extra=[],matchConfig=false)=>({
   '.validate':and(children(N,ck),`${value(N,'budget')} >= ${value(N,'minimum')} * ${value(N,'size')}`,
     `${value(N,'extension')} <= ${value(N,'seconds')}`,...extra),
-  ...schema(ck,configValidators),
+  ...schema([...ck,'split',...(matchConfig?['women']:[])],{...configValidators,women:number(N,0,4),
+    split:and("newData.parent().child('universe').val() === 'wrestling'",options(N,'men','women','random','1','2','3','4'))}),
 });
 const previousGame=`${room}.child('games').child((${value(N,'number')} - 1) + '')`;
 const previousLast=`${previousGame}.child('events').child(${value(N,'after')} + '')`;
@@ -83,6 +89,28 @@ const poolIndex = value(N,'i');
 const poolId = value(N,'id');
 const catalogIdentity = `root.child('catalog').child(${poolId}).val()`;
 const identity = `(${value(configAt,'versions')} === true ? ${poolId} : ${catalogIdentity})`;
+const roster=JSON.parse(readFileSync(new URL('../tools/wrestlers.json',import.meta.url)));
+const idsFor=division=>roster.filter(c=>c.division===division).map(c=>c.id).join('|');
+const womenIds=idsFor('women'), menIds=idsFor('men');
+const gameConfig="newData.child('config')";
+const resolved=value(gameConfig,'women'), gameSize=value(gameConfig,'size'), split=value(gameConfig,'split');
+const hasComposition=`${gameConfig}.child('women').exists()`;
+const mixedComposition=and(`${resolved} > 0`,`${resolved} < ${gameSize}`);
+const splitMatches=or(and(`${split} === 'men'`,`${resolved} === 0`),
+  and(`${split} === 'women'`,`${resolved} === ${gameSize}`),
+  and(mixedComposition,or(`${split} === 'random'`,`${split} === ${resolved} + ''`)));
+const womenInPool=Array.from({length:LIMIT},(_,i)=>
+  `(newData.child('pool').child('${i}').child('woman').val() === 1 ? 1 : 0)`).join(' + ');
+const validComposition=or(and(`!${hasComposition}`,`${split} === null`),
+  and(hasComposition,splitMatches,or(
+    and(mixedComposition,`${value(N,'count')} === ${gameSize} * 2`,`(${womenInPool}) === ${resolved} * 2`),
+    `!${mixedComposition}`)));
+const poolWoman=value(N,'woman');
+const correctDivision=or(
+  and(`! ${configAt}.child('women').exists()`,`${poolWoman} === null`),
+  and(`${configAt}.child('women').exists()`,or(
+    and(`${poolWoman} === 1`,`${value(configAt,'women')} > 0`,`${poolId}.matches(/^(${womenIds})$/)`),
+    and(`${poolWoman} === 0`,`${value(configAt,'women')} < ${value(configAt,'size')}`,`${poolId}.matches(/^(${menIds})$/)`))));
 const gameKeys=['number','after','count','config','pool','ids','events'];
 const debateKeys=['seq','captain','stipulation','matchups','strategy','argument','ready','vote','concluded'];
 const debateSeq=value(N,'seq');
@@ -94,17 +122,17 @@ const game = {
     or(and(`$game === '0'`,`${value(N,'after')} === -1`),
       and(`${previousLast}.exists()`,or(...['done','reset'].map(p=>`${value(`${previousLast}.child('s')`,'phase')} === '${p}'`)),
         `!${previousGame}.child('events').child((${value(N,'after')} + 1) + '').exists()`)),
-    `${value(N,'count')} >= ${value("newData.child('config')",'size')} * 2`,
+    `${value(N,'count')} >= ${value("newData.child('config')",'size')} * 2`,validComposition,
     or(`${value("newData.child('config')",'mode')} !== 'blind'`,`${value(N,'count')} === ${value("newData.child('config')",'size')} * 2`)),
   ...schema(gameKeys,{number:number(N,0,1000),after:number(N,-1,4000),count:number(N,2,LIMIT)}),
-  config:configRule(ck.map(k=>`${value(N,k)} === ${value(`${room}.child('proposal')`,k)}`)),
+  config:configRule([...ck,'split'].map(k=>`${value(N,k)} === ${value(`${room}.child('proposal')`,k)}`),true),
   pool:{
     '.validate':and(...Array.from({length:LIMIT},(_,i)=>or(`newData.parent().child('count').val() <= ${i}`,`newData.child('${i}').exists()`))),
     $index:{
-      '.validate':and(children(N,['i','id','bit']),`$index === ${poolIndex} + ''`,`${poolIndex} < newData.parent().parent().child('count').val()`,
+      '.validate':and(children(N,['i','id','bit']),correctDivision,`$index === ${poolIndex} + ''`,`${poolIndex} < newData.parent().parent().child('count').val()`,
         `root.child('catalog').child(${poolId}).isString()`,`newData.parent().parent().child('ids').child(${identity}).val() === ${poolIndex}`,
         or(...Array.from({length:LIMIT},(_,i)=>and(`${poolIndex} === ${i}`,`${value(N,'bit')} === ${2**i}`)))),
-      ...schema(['i','id','bit'],{i:number(N,0,LIMIT-1),id:and(str(N,80),"newData.val().matches(/^[a-z0-9-]+$/)")}),
+      ...schema(['i','id','bit','woman'],{i:number(N,0,LIMIT-1),id:and(str(N,80),"newData.val().matches(/^[a-z0-9-]+$/)")}),
     },
   },
   ids:{$identity:{'.validate':and(number(N,0,LIMIT-1),`newData.parent().parent().child('pool').child(newData.val() + '').exists()`)}},

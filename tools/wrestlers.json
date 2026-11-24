@@ -28,7 +28,8 @@
       "endurance": 84,
       "star": 81
     },
-    "description": "Stone Cold Steve Austin pressures opponents with strikes and physical exchanges."
+    "description": "Stone Cold Steve Austin pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "the-rock",
@@ -57,7 +58,8 @@
       "endurance": 85,
       "star": 94
     },
-    "description": "The Rock builds momentum with crowd work and signature sequences."
+    "description": "The Rock builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "the-undertaker",
@@ -87,7 +89,8 @@
       "endurance": 79,
       "star": 82
     },
-    "description": "The Undertaker uses strength to dictate position and finish exchanges."
+    "description": "The Undertaker uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "kane",
@@ -116,7 +119,8 @@
       "endurance": 84,
       "star": 82
     },
-    "description": "Kane uses strength to dictate position and finish exchanges."
+    "description": "Kane uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "triple-h",
@@ -146,7 +150,8 @@
       "endurance": 87,
       "star": 83
     },
-    "description": "Triple H pressures opponents with strikes and physical exchanges."
+    "description": "Triple H pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "shawn-michaels",
@@ -176,7 +181,8 @@
       "endurance": 83,
       "star": 91
     },
-    "description": "Shawn Michaels builds momentum with crowd work and signature sequences."
+    "description": "Shawn Michaels builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "bret-hart",
@@ -207,7 +213,8 @@
       "endurance": 89,
       "star": 78
     },
-    "description": "Bret Hart controls the pace through holds and precise counters."
+    "description": "Bret Hart controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "kurt-angle",
@@ -238,7 +245,8 @@
       "endurance": 88,
       "star": 80
     },
-    "description": "Kurt Angle controls the pace through holds and precise counters."
+    "description": "Kurt Angle controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "eddie-guerrero",
@@ -269,7 +277,8 @@
       "endurance": 90,
       "star": 80
     },
-    "description": "Eddie Guerrero controls the pace through holds and precise counters."
+    "description": "Eddie Guerrero controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "chris-benoit",
@@ -300,7 +309,8 @@
       "endurance": 88,
       "star": 77
     },
-    "description": "Chris Benoit controls the pace through holds and precise counters."
+    "description": "Chris Benoit controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "brock-lesnar",
@@ -329,7 +339,8 @@
       "endurance": 79,
       "star": 87
     },
-    "description": "Brock Lesnar uses strength to dictate position and finish exchanges."
+    "description": "Brock Lesnar uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "john-cena",
@@ -357,7 +368,8 @@
       "endurance": 79,
       "star": 91
     },
-    "description": "John Cena builds momentum with crowd work and signature sequences."
+    "description": "John Cena builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "roman-reigns",
@@ -385,7 +397,8 @@
       "endurance": 82,
       "star": 82
     },
-    "description": "Roman Reigns uses strength to dictate position and finish exchanges."
+    "description": "Roman Reigns uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "seth-rollins",
@@ -414,7 +427,8 @@
       "endurance": 91,
       "star": 85
     },
-    "description": "Seth Rollins mixes striking, grappling and aerial offense."
+    "description": "Seth Rollins mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "cm-punk",
@@ -444,7 +458,8 @@
       "endurance": 93,
       "star": 77
     },
-    "description": "CM Punk controls the pace through holds and precise counters."
+    "description": "CM Punk controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "randy-orton",
@@ -472,7 +487,8 @@
       "endurance": 95,
       "star": 84
     },
-    "description": "Randy Orton controls the pace through holds and precise counters."
+    "description": "Randy Orton controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "adam-copeland",
@@ -502,7 +518,8 @@
       "endurance": 85,
       "star": 95
     },
-    "description": "Adam Copeland builds momentum with crowd work and signature sequences."
+    "description": "Adam Copeland builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "christian-cage",
@@ -533,7 +550,8 @@
       "endurance": 94,
       "star": 81
     },
-    "description": "Christian Cage controls the pace through holds and precise counters."
+    "description": "Christian Cage controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "chris-jericho",
@@ -565,7 +583,8 @@
       "endurance": 77,
       "star": 93
     },
-    "description": "Chris Jericho builds momentum with crowd work and signature sequences."
+    "description": "Chris Jericho builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "rey-mysterio",
@@ -596,7 +615,8 @@
       "endurance": 81,
       "star": 83
     },
-    "description": "Rey Mysterio creates openings with aerial attacks and rapid movement."
+    "description": "Rey Mysterio creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "batista",
@@ -624,7 +644,8 @@
       "endurance": 78,
       "star": 90
     },
-    "description": "Batista uses strength to dictate position and finish exchanges."
+    "description": "Batista uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "goldberg",
@@ -653,7 +674,8 @@
       "endurance": 79,
       "star": 84
     },
-    "description": "Goldberg uses strength to dictate position and finish exchanges."
+    "description": "Goldberg uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "sting",
@@ -684,7 +706,8 @@
       "endurance": 79,
       "star": 97
     },
-    "description": "Sting builds momentum with crowd work and signature sequences."
+    "description": "Sting builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "ric-flair",
@@ -715,7 +738,8 @@
       "endurance": 85,
       "star": 98
     },
-    "description": "Ric Flair builds momentum with crowd work and signature sequences."
+    "description": "Ric Flair builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "hulk-hogan",
@@ -745,7 +769,8 @@
       "endurance": 81,
       "star": 94
     },
-    "description": "Hulk Hogan builds momentum with crowd work and signature sequences."
+    "description": "Hulk Hogan builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "randy-savage",
@@ -775,7 +800,8 @@
       "endurance": 77,
       "star": 96
     },
-    "description": "Randy Savage builds momentum with crowd work and signature sequences."
+    "description": "Randy Savage builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "ultimate-warrior",
@@ -805,7 +831,8 @@
       "endurance": 81,
       "star": 90
     },
-    "description": "Ultimate Warrior uses strength to dictate position and finish exchanges."
+    "description": "Ultimate Warrior uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "andre-the-giant",
@@ -835,7 +862,8 @@
       "endurance": 84,
       "star": 90
     },
-    "description": "André the Giant uses strength to dictate position and finish exchanges."
+    "description": "André the Giant uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "big-show",
@@ -866,7 +894,8 @@
       "endurance": 83,
       "star": 88
     },
-    "description": "Big Show uses strength to dictate position and finish exchanges."
+    "description": "Big Show uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "kevin-nash",
@@ -897,7 +926,8 @@
       "endurance": 82,
       "star": 89
     },
-    "description": "Kevin Nash uses strength to dictate position and finish exchanges."
+    "description": "Kevin Nash uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "scott-hall",
@@ -927,7 +957,8 @@
       "endurance": 81,
       "star": 93
     },
-    "description": "Scott Hall builds momentum with crowd work and signature sequences."
+    "description": "Scott Hall builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "diamond-dallas-page",
@@ -957,7 +988,8 @@
       "endurance": 86,
       "star": 85
     },
-    "description": "Diamond Dallas Page pressures opponents with strikes and physical exchanges."
+    "description": "Diamond Dallas Page pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "booker-t",
@@ -988,7 +1020,8 @@
       "endurance": 91,
       "star": 85
     },
-    "description": "Booker T mixes striking, grappling and aerial offense."
+    "description": "Booker T mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "rob-van-dam",
@@ -1018,7 +1051,8 @@
       "endurance": 87,
       "star": 84
     },
-    "description": "Rob Van Dam creates openings with aerial attacks and rapid movement."
+    "description": "Rob Van Dam creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "mick-foley",
@@ -1050,7 +1084,8 @@
       "endurance": 88,
       "star": 84
     },
-    "description": "Mick Foley keeps fighting through chaotic, physical matches."
+    "description": "Mick Foley keeps fighting through chaotic, physical matches.",
+    "division": "men"
   },
   {
     "id": "terry-funk",
@@ -1082,7 +1117,8 @@
       "endurance": 87,
       "star": 90
     },
-    "description": "Terry Funk keeps fighting through chaotic, physical matches."
+    "description": "Terry Funk keeps fighting through chaotic, physical matches.",
+    "division": "men"
   },
   {
     "id": "sabu",
@@ -1113,7 +1149,8 @@
       "endurance": 95,
       "star": 90
     },
-    "description": "Sabu keeps fighting through chaotic, physical matches."
+    "description": "Sabu keeps fighting through chaotic, physical matches.",
+    "division": "men"
   },
   {
     "id": "jeff-hardy",
@@ -1144,7 +1181,8 @@
       "endurance": 81,
       "star": 83
     },
-    "description": "Jeff Hardy creates openings with aerial attacks and rapid movement."
+    "description": "Jeff Hardy creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "matt-hardy",
@@ -1175,7 +1213,8 @@
       "endurance": 89,
       "star": 87
     },
-    "description": "Matt Hardy pressures opponents with strikes and physical exchanges."
+    "description": "Matt Hardy pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "aj-styles",
@@ -1206,7 +1245,8 @@
       "endurance": 85,
       "star": 89
     },
-    "description": "AJ Styles mixes striking, grappling and aerial offense."
+    "description": "AJ Styles mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "samoa-joe",
@@ -1237,7 +1277,8 @@
       "endurance": 84,
       "star": 90
     },
-    "description": "Samoa Joe uses strength to dictate position and finish exchanges."
+    "description": "Samoa Joe uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "bryan-danielson",
@@ -1267,7 +1308,8 @@
       "endurance": 95,
       "star": 77
     },
-    "description": "Bryan Danielson controls the pace through holds and precise counters."
+    "description": "Bryan Danielson controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "jon-moxley",
@@ -1298,7 +1340,8 @@
       "endurance": 89,
       "star": 85
     },
-    "description": "Jon Moxley keeps fighting through chaotic, physical matches."
+    "description": "Jon Moxley keeps fighting through chaotic, physical matches.",
+    "division": "men"
   },
   {
     "id": "kenny-omega",
@@ -1329,7 +1372,8 @@
       "endurance": 87,
       "star": 89
     },
-    "description": "Kenny Omega mixes striking, grappling and aerial offense."
+    "description": "Kenny Omega mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "will-ospreay",
@@ -1359,7 +1403,8 @@
       "endurance": 83,
       "star": 82
     },
-    "description": "Will Ospreay creates openings with aerial attacks and rapid movement."
+    "description": "Will Ospreay creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "kazuchika-okada",
@@ -1388,7 +1433,8 @@
       "endurance": 86,
       "star": 91
     },
-    "description": "Kazuchika Okada mixes striking, grappling and aerial offense."
+    "description": "Kazuchika Okada mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "hiroshi-tanahashi",
@@ -1416,7 +1462,8 @@
       "endurance": 86,
       "star": 83
     },
-    "description": "Hiroshi Tanahashi mixes striking, grappling and aerial offense."
+    "description": "Hiroshi Tanahashi mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "shinsuke-nakamura",
@@ -1445,7 +1492,8 @@
       "endurance": 90,
       "star": 84
     },
-    "description": "Shinsuke Nakamura mixes striking, grappling and aerial offense."
+    "description": "Shinsuke Nakamura mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "kota-ibushi",
@@ -1475,7 +1523,8 @@
       "endurance": 86,
       "star": 89
     },
-    "description": "Kota Ibushi creates openings with aerial attacks and rapid movement."
+    "description": "Kota Ibushi creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "zack-sabre-jr",
@@ -1505,7 +1554,8 @@
       "endurance": 89,
       "star": 80
     },
-    "description": "Zack Sabre Jr. controls the pace through holds and precise counters."
+    "description": "Zack Sabre Jr. controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "finn-balor",
@@ -1534,7 +1584,8 @@
       "endurance": 88,
       "star": 87
     },
-    "description": "Finn Bálor creates openings with aerial attacks and rapid movement."
+    "description": "Finn Bálor creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "kevin-owens",
@@ -1563,7 +1614,8 @@
       "endurance": 86,
       "star": 80
     },
-    "description": "Kevin Owens pressures opponents with strikes and physical exchanges."
+    "description": "Kevin Owens pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "sami-zayn",
@@ -1593,7 +1645,8 @@
       "endurance": 85,
       "star": 85
     },
-    "description": "Sami Zayn mixes striking, grappling and aerial offense."
+    "description": "Sami Zayn mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "drew-mcintyre",
@@ -1623,7 +1676,8 @@
       "endurance": 79,
       "star": 87
     },
-    "description": "Drew McIntyre uses strength to dictate position and finish exchanges."
+    "description": "Drew McIntyre uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "sheamus",
@@ -1651,7 +1705,8 @@
       "endurance": 83,
       "star": 82
     },
-    "description": "Sheamus pressures opponents with strikes and physical exchanges."
+    "description": "Sheamus pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "gunther",
@@ -1681,7 +1736,8 @@
       "endurance": 83,
       "star": 86
     },
-    "description": "Gunther uses strength to dictate position and finish exchanges."
+    "description": "Gunther uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "cody-rhodes",
@@ -1712,7 +1768,8 @@
       "endurance": 81,
       "star": 92
     },
-    "description": "Cody Rhodes builds momentum with crowd work and signature sequences."
+    "description": "Cody Rhodes builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "mjf",
@@ -1741,7 +1798,8 @@
       "endurance": 80,
       "star": 97
     },
-    "description": "MJF builds momentum with crowd work and signature sequences."
+    "description": "MJF builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "adam-cole",
@@ -1772,7 +1830,8 @@
       "endurance": 89,
       "star": 83
     },
-    "description": "Adam Cole mixes striking, grappling and aerial offense."
+    "description": "Adam Cole mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "hangman-adam-page",
@@ -1802,7 +1861,8 @@
       "endurance": 87,
       "star": 88
     },
-    "description": "Hangman Adam Page mixes striking, grappling and aerial offense."
+    "description": "Hangman Adam Page mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "darby-allin",
@@ -1831,7 +1891,8 @@
       "endurance": 93,
       "star": 87
     },
-    "description": "Darby Allin keeps fighting through chaotic, physical matches."
+    "description": "Darby Allin keeps fighting through chaotic, physical matches.",
+    "division": "men"
   },
   {
     "id": "swerve-strickland",
@@ -1861,7 +1922,8 @@
       "endurance": 84,
       "star": 90
     },
-    "description": "Swerve Strickland mixes striking, grappling and aerial offense."
+    "description": "Swerve Strickland mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "jay-white",
@@ -1891,7 +1953,8 @@
       "endurance": 91,
       "star": 80
     },
-    "description": "Jay White controls the pace through holds and precise counters."
+    "description": "Jay White controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "pac",
@@ -1921,7 +1984,8 @@
       "endurance": 88,
       "star": 88
     },
-    "description": "PAC creates openings with aerial attacks and rapid movement."
+    "description": "PAC creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "claudio-castagnoli",
@@ -1951,7 +2015,8 @@
       "endurance": 91,
       "star": 83
     },
-    "description": "Claudio Castagnoli controls the pace through holds and precise counters."
+    "description": "Claudio Castagnoli controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "rhea-ripley",
@@ -1979,7 +2044,8 @@
       "endurance": 86,
       "star": 83
     },
-    "description": "Rhea Ripley uses strength to dictate position and finish exchanges."
+    "description": "Rhea Ripley uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "becky-lynch",
@@ -2008,7 +2074,8 @@
       "endurance": 84,
       "star": 96
     },
-    "description": "Becky Lynch builds momentum with crowd work and signature sequences."
+    "description": "Becky Lynch builds momentum with crowd work and signature sequences.",
+    "division": "women"
   },
   {
     "id": "charlotte-flair",
@@ -2036,7 +2103,8 @@
       "endurance": 94,
       "star": 85
     },
-    "description": "Charlotte Flair controls the pace through holds and precise counters."
+    "description": "Charlotte Flair controls the pace through holds and precise counters.",
+    "division": "women"
   },
   {
     "id": "mercedes-mone",
@@ -2067,7 +2135,8 @@
       "endurance": 94,
       "star": 77
     },
-    "description": "Mercedes Moné controls the pace through holds and precise counters."
+    "description": "Mercedes Moné controls the pace through holds and precise counters.",
+    "division": "women"
   },
   {
     "id": "bayley",
@@ -2096,7 +2165,8 @@
       "endurance": 82,
       "star": 91
     },
-    "description": "Bayley builds momentum with crowd work and signature sequences."
+    "description": "Bayley builds momentum with crowd work and signature sequences.",
+    "division": "women"
   },
   {
     "id": "asuka",
@@ -2126,7 +2196,8 @@
       "endurance": 95,
       "star": 82
     },
-    "description": "Asuka controls the pace through holds and precise counters."
+    "description": "Asuka controls the pace through holds and precise counters.",
+    "division": "women"
   },
   {
     "id": "bianca-belair",
@@ -2154,7 +2225,8 @@
       "endurance": 79,
       "star": 85
     },
-    "description": "Bianca Belair uses strength to dictate position and finish exchanges."
+    "description": "Bianca Belair uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "toni-storm",
@@ -2184,7 +2256,8 @@
       "endurance": 83,
       "star": 93
     },
-    "description": "Toni Storm builds momentum with crowd work and signature sequences."
+    "description": "Toni Storm builds momentum with crowd work and signature sequences.",
+    "division": "women"
   },
   {
     "id": "jamie-hayter",
@@ -2214,7 +2287,8 @@
       "endurance": 89,
       "star": 81
     },
-    "description": "Jamie Hayter pressures opponents with strikes and physical exchanges."
+    "description": "Jamie Hayter pressures opponents with strikes and physical exchanges.",
+    "division": "women"
   },
   {
     "id": "britt-baker",
@@ -2242,7 +2316,8 @@
       "endurance": 91,
       "star": 78
     },
-    "description": "Britt Baker controls the pace through holds and precise counters."
+    "description": "Britt Baker controls the pace through holds and precise counters.",
+    "division": "women"
   },
   {
     "id": "trish-stratus",
@@ -2271,7 +2346,8 @@
       "endurance": 85,
       "star": 90
     },
-    "description": "Trish Stratus builds momentum with crowd work and signature sequences."
+    "description": "Trish Stratus builds momentum with crowd work and signature sequences.",
+    "division": "women"
   },
   {
     "id": "lita",
@@ -2301,7 +2377,8 @@
       "endurance": 88,
       "star": 87
     },
-    "description": "Lita creates openings with aerial attacks and rapid movement."
+    "description": "Lita creates openings with aerial attacks and rapid movement.",
+    "division": "women"
   },
   {
     "id": "chyna",
@@ -2331,7 +2408,8 @@
       "endurance": 86,
       "star": 87
     },
-    "description": "Chyna uses strength to dictate position and finish exchanges."
+    "description": "Chyna uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "beth-phoenix",
@@ -2360,7 +2438,8 @@
       "endurance": 79,
       "star": 84
     },
-    "description": "Beth Phoenix uses strength to dictate position and finish exchanges."
+    "description": "Beth Phoenix uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "awesome-kong",
@@ -2391,7 +2470,8 @@
       "endurance": 84,
       "star": 83
     },
-    "description": "Awesome Kong uses strength to dictate position and finish exchanges."
+    "description": "Awesome Kong uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "jade-cargill",
@@ -2420,7 +2500,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Jade Cargill uses strength to dictate position and finish exchanges."
+    "description": "Jade Cargill uses strength to dictate position and finish exchanges.",
+    "division": "women"
   },
   {
     "id": "aj-lee",
@@ -2449,7 +2530,8 @@
       "endurance": 90,
       "star": 80
     },
-    "description": "AJ Lee controls the pace through holds and precise counters."
+    "description": "AJ Lee controls the pace through holds and precise counters.",
+    "division": "women"
   },
   {
     "id": "eddie-kingston",
@@ -2479,7 +2561,8 @@
       "endurance": 83,
       "star": 82
     },
-    "description": "Eddie Kingston pressures opponents with strikes and physical exchanges."
+    "description": "Eddie Kingston pressures opponents with strikes and physical exchanges.",
+    "division": "men"
   },
   {
     "id": "orange-cassidy",
@@ -2508,7 +2591,8 @@
       "endurance": 93,
       "star": 83
     },
-    "description": "Orange Cassidy controls the pace through holds and precise counters."
+    "description": "Orange Cassidy controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "konosuke-takeshita",
@@ -2538,7 +2622,8 @@
       "endurance": 91,
       "star": 83
     },
-    "description": "Konosuke Takeshita mixes striking, grappling and aerial offense."
+    "description": "Konosuke Takeshita mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "tetsuya-naito",
@@ -2566,7 +2651,8 @@
       "endurance": 91,
       "star": 89
     },
-    "description": "Tetsuya Naito mixes striking, grappling and aerial offense."
+    "description": "Tetsuya Naito mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "minoru-suzuki",
@@ -2596,7 +2682,8 @@
       "endurance": 93,
       "star": 77
     },
-    "description": "Minoru Suzuki controls the pace through holds and precise counters."
+    "description": "Minoru Suzuki controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "kenta",
@@ -2626,7 +2713,8 @@
       "endurance": 85,
       "star": 88
     },
-    "description": "KENTA mixes striking, grappling and aerial offense."
+    "description": "KENTA mixes striking, grappling and aerial offense.",
+    "division": "men"
   },
   {
     "id": "jushin-thunder-liger",
@@ -2656,7 +2744,8 @@
       "endurance": 87,
       "star": 88
     },
-    "description": "Jushin Thunder Liger creates openings with aerial attacks and rapid movement."
+    "description": "Jushin Thunder Liger creates openings with aerial attacks and rapid movement.",
+    "division": "men"
   },
   {
     "id": "vader",
@@ -2687,7 +2776,8 @@
       "endurance": 81,
       "star": 90
     },
-    "description": "Vader uses strength to dictate position and finish exchanges."
+    "description": "Vader uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "rick-rude",
@@ -2717,7 +2807,8 @@
       "endurance": 80,
       "star": 90
     },
-    "description": "Rick Rude builds momentum with crowd work and signature sequences."
+    "description": "Rick Rude builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "ricky-steamboat",
@@ -2747,7 +2838,8 @@
       "endurance": 87,
       "star": 81
     },
-    "description": "Ricky Steamboat controls the pace through holds and precise counters."
+    "description": "Ricky Steamboat controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "dusty-rhodes",
@@ -2777,7 +2869,8 @@
       "endurance": 81,
       "star": 97
     },
-    "description": "Dusty Rhodes builds momentum with crowd work and signature sequences."
+    "description": "Dusty Rhodes builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "roddy-piper",
@@ -2807,7 +2900,8 @@
       "endurance": 80,
       "star": 90
     },
-    "description": "Roddy Piper builds momentum with crowd work and signature sequences."
+    "description": "Roddy Piper builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "jake-roberts",
@@ -2838,7 +2932,8 @@
       "endurance": 81,
       "star": 90
     },
-    "description": "Jake Roberts builds momentum with crowd work and signature sequences."
+    "description": "Jake Roberts builds momentum with crowd work and signature sequences.",
+    "division": "men"
   },
   {
     "id": "owen-hart",
@@ -2868,7 +2963,8 @@
       "endurance": 94,
       "star": 77
     },
-    "description": "Owen Hart controls the pace through holds and precise counters."
+    "description": "Owen Hart controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "british-bulldog",
@@ -2898,7 +2994,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "British Bulldog uses strength to dictate position and finish exchanges."
+    "description": "British Bulldog uses strength to dictate position and finish exchanges.",
+    "division": "men"
   },
   {
     "id": "shelton-benjamin",
@@ -2929,7 +3026,8 @@
       "endurance": 89,
       "star": 83
     },
-    "description": "Shelton Benjamin controls the pace through holds and precise counters."
+    "description": "Shelton Benjamin controls the pace through holds and precise counters.",
+    "division": "men"
   },
   {
     "id": "the-miz",
@@ -2954,7 +3052,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "The Miz brings a showman approach to Rival Roster."
+    "description": "The Miz brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "dolph-ziggler",
@@ -2980,7 +3079,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Dolph Ziggler brings a showman approach to Rival Roster."
+    "description": "Dolph Ziggler brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "the-great-khali",
@@ -3005,7 +3105,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "The Great Khali brings a powerhouse approach to Rival Roster."
+    "description": "The Great Khali brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "mark-henry",
@@ -3031,7 +3132,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Mark Henry brings a powerhouse approach to Rival Roster."
+    "description": "Mark Henry brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "jbl",
@@ -3057,7 +3159,8 @@
       "endurance": 82,
       "star": 80
     },
-    "description": "JBL brings a brawler approach to Rival Roster."
+    "description": "JBL brings a brawler approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "umaga",
@@ -3082,7 +3185,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Umaga brings a powerhouse approach to Rival Roster."
+    "description": "Umaga brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "carlito",
@@ -3107,7 +3211,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Carlito brings a showman approach to Rival Roster."
+    "description": "Carlito brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "mr-kennedy",
@@ -3133,7 +3238,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Mr. Kennedy brings a showman approach to Rival Roster."
+    "description": "Mr. Kennedy brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "bobby-lashley",
@@ -3159,7 +3265,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Bobby Lashley brings a powerhouse approach to Rival Roster."
+    "description": "Bobby Lashley brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "bray-wyatt",
@@ -3184,7 +3291,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Bray Wyatt brings a showman approach to Rival Roster."
+    "description": "Bray Wyatt brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "braun-strowman",
@@ -3209,7 +3317,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Braun Strowman brings a powerhouse approach to Rival Roster."
+    "description": "Braun Strowman brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "r-truth",
@@ -3235,7 +3344,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "R-Truth brings a showman approach to Rival Roster."
+    "description": "R-Truth brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "abyss",
@@ -3260,7 +3370,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Abyss brings a hardcore approach to Rival Roster."
+    "description": "Abyss brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "suicide",
@@ -3285,7 +3396,8 @@
       "endurance": 81,
       "star": 84
     },
-    "description": "Suicide brings a high-flyer approach to Rival Roster."
+    "description": "Suicide brings a high-flyer approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "james-storm",
@@ -3310,7 +3422,8 @@
       "endurance": 82,
       "star": 80
     },
-    "description": "James Storm brings a brawler approach to Rival Roster."
+    "description": "James Storm brings a brawler approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "bobby-roode",
@@ -3336,7 +3449,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Bobby Roode brings a showman approach to Rival Roster."
+    "description": "Bobby Roode brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "eric-young",
@@ -3362,7 +3476,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Eric Young brings a hybrid approach to Rival Roster."
+    "description": "Eric Young brings a hybrid approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "moose",
@@ -3388,7 +3503,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Moose brings a powerhouse approach to Rival Roster."
+    "description": "Moose brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "josh-alexander",
@@ -3413,7 +3529,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Josh Alexander brings a technician approach to Rival Roster."
+    "description": "Josh Alexander brings a technician approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "christopher-daniels",
@@ -3440,7 +3557,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Christopher Daniels brings a hybrid approach to Rival Roster."
+    "description": "Christopher Daniels brings a hybrid approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "frankie-kazarian",
@@ -3467,7 +3585,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Frankie Kazarian brings a hybrid approach to Rival Roster."
+    "description": "Frankie Kazarian brings a hybrid approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "alex-shelley",
@@ -3494,7 +3613,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Alex Shelley brings a technician approach to Rival Roster."
+    "description": "Alex Shelley brings a technician approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "tommy-dreamer",
@@ -3521,7 +3641,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Tommy Dreamer brings a hardcore approach to Rival Roster."
+    "description": "Tommy Dreamer brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "the-sandman",
@@ -3547,7 +3668,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "The Sandman brings a hardcore approach to Rival Roster."
+    "description": "The Sandman brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "wrestler-raven",
@@ -3575,7 +3697,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Raven brings a hardcore approach to Rival Roster."
+    "description": "Raven brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "new-jack",
@@ -3600,7 +3723,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "New Jack brings a hardcore approach to Rival Roster."
+    "description": "New Jack brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "rhyno",
@@ -3627,7 +3751,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Rhyno brings a powerhouse approach to Rival Roster."
+    "description": "Rhyno brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "bubba-ray-dudley",
@@ -3654,7 +3779,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Bubba Ray Dudley brings a hardcore approach to Rival Roster."
+    "description": "Bubba Ray Dudley brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "d-von-dudley",
@@ -3681,7 +3807,8 @@
       "endurance": 82,
       "star": 80
     },
-    "description": "D-Von Dudley brings a brawler approach to Rival Roster."
+    "description": "D-Von Dudley brings a brawler approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "nick-gage",
@@ -3708,7 +3835,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Nick Gage brings a hardcore approach to Rival Roster."
+    "description": "Nick Gage brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "joey-janela",
@@ -3734,7 +3862,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Joey Janela brings a hardcore approach to Rival Roster."
+    "description": "Joey Janela brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "scott-steiner",
@@ -3761,7 +3890,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Scott Steiner brings a powerhouse approach to Rival Roster."
+    "description": "Scott Steiner brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "rick-steiner",
@@ -3787,7 +3917,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Rick Steiner brings a powerhouse approach to Rival Roster."
+    "description": "Rick Steiner brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "lex-luger",
@@ -3813,7 +3944,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Lex Luger brings a powerhouse approach to Rival Roster."
+    "description": "Lex Luger brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "penta-el-zero-miedo",
@@ -3841,7 +3973,8 @@
       "endurance": 81,
       "star": 84
     },
-    "description": "Penta El Zero Miedo brings a high-flyer approach to Rival Roster."
+    "description": "Penta El Zero Miedo brings a high-flyer approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "jeff-jarrett",
@@ -3869,7 +4002,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Jeff Jarrett brings a showman approach to Rival Roster."
+    "description": "Jeff Jarrett brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "homicide",
@@ -3896,7 +4030,8 @@
       "endurance": 82,
       "star": 80
     },
-    "description": "Homicide brings a brawler approach to Rival Roster."
+    "description": "Homicide brings a brawler approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "santino-marella",
@@ -3922,7 +4057,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Santino Marella brings a showman approach to Rival Roster."
+    "description": "Santino Marella brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "mvp",
@@ -3949,7 +4085,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "MVP brings a showman approach to Rival Roster."
+    "description": "MVP brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "sami-callihan",
@@ -3975,7 +4112,8 @@
       "endurance": 91,
       "star": 81
     },
-    "description": "Sami Callihan brings a hardcore approach to Rival Roster."
+    "description": "Sami Callihan brings a hardcore approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "paige",
@@ -4001,7 +4139,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Paige brings a hybrid approach to Rival Roster."
+    "description": "Paige brings a hybrid approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "alexa-bliss",
@@ -4026,7 +4165,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Alexa Bliss brings a showman approach to Rival Roster."
+    "description": "Alexa Bliss brings a showman approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "nikki-bella",
@@ -4051,7 +4191,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Nikki Bella brings a showman approach to Rival Roster."
+    "description": "Nikki Bella brings a showman approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "liv-morgan",
@@ -4076,7 +4217,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Liv Morgan brings a hybrid approach to Rival Roster."
+    "description": "Liv Morgan brings a hybrid approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "naomi",
@@ -4102,7 +4244,8 @@
       "endurance": 81,
       "star": 84
     },
-    "description": "Naomi brings a high-flyer approach to Rival Roster."
+    "description": "Naomi brings a high-flyer approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "mr-perfect",
@@ -4128,7 +4271,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Mr. Perfect brings a technician approach to Rival Roster."
+    "description": "Mr. Perfect brings a technician approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "austin-aries",
@@ -4155,7 +4299,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Austin Aries brings a technician approach to Rival Roster."
+    "description": "Austin Aries brings a technician approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "alberto-del-rio",
@@ -4182,7 +4327,8 @@
       "endurance": 84,
       "star": 84
     },
-    "description": "Alberto Del Rio brings a technician approach to Rival Roster."
+    "description": "Alberto Del Rio brings a technician approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "matt-cardona",
@@ -4209,7 +4355,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "Matt Cardona brings a showman approach to Rival Roster."
+    "description": "Matt Cardona brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "lance-archer",
@@ -4236,7 +4383,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Lance Archer brings a powerhouse approach to Rival Roster."
+    "description": "Lance Archer brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "brian-cage",
@@ -4262,7 +4410,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Brian Cage brings a powerhouse approach to Rival Roster."
+    "description": "Brian Cage brings a powerhouse approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "fenix",
@@ -4289,7 +4438,8 @@
       "endurance": 81,
       "star": 84
     },
-    "description": "Fénix brings a high-flyer approach to Rival Roster."
+    "description": "Fénix brings a high-flyer approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "the-boogeyman",
@@ -4314,7 +4464,8 @@
       "endurance": 78,
       "star": 85
     },
-    "description": "The Boogeyman brings a showman approach to Rival Roster."
+    "description": "The Boogeyman brings a showman approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "nia-jax",
@@ -4339,7 +4490,8 @@
       "endurance": 85,
       "star": 82
     },
-    "description": "Nia Jax brings a powerhouse approach to Rival Roster."
+    "description": "Nia Jax brings a powerhouse approach to Rival Roster.",
+    "division": "women"
   },
   {
     "id": "maven",
@@ -4364,7 +4516,8 @@
       "endurance": 82,
       "star": 83
     },
-    "description": "Maven brings a hybrid approach to Rival Roster."
+    "description": "Maven brings a hybrid approach to Rival Roster.",
+    "division": "men"
   },
   {
     "id": "wade-barrett",
@@ -4389,6 +4542,7 @@
       "endurance": 82,
       "star": 80
     },
-    "description": "Wade Barrett brings a brawler approach to Rival Roster."
+    "description": "Wade Barrett brings a brawler approach to Rival Roster.",
+    "division": "men"
   }
 ]

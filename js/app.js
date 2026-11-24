@@ -1,11 +1,11 @@
 import {connect,configured,emulator,testGuest} from './firebase.js';
 import {createRoom,joinRoom,watchRoom,latestMatch,listEvents,startMatch,submit,saveProposal,saveDiscussion} from './lobby.js';
 import {defaults,matchView,remainingBudget,LIMIT} from './engine.js';
-import {filtered,loadCatalog,loadRetiredCatalog,makePool,title} from './characters.js';
+import {filtered,loadCatalog,loadRetiredCatalog,makePool,title,wrestlingConfig} from './characters.js';
 import {auctionAutomation,bidFloor,showAuction} from './auction.js';
 import {draftAutomation,showDraft} from './draft.js';
 import {compare,discussionPrompt,stipulations,teamText} from './comparison.js';
-import {blankDiscussion,button,characterCard,characterDetails,comparisonView,configSummary,discussionView,esc,historyView,lobbyView,roomDialog,teamPanel,welcome} from './views.js';
+import {blankDiscussion,button,characterCard,characterDetails,compositionBadge,compositionChoices,comparisonView,configSummary,discussionView,esc,historyView,lobbyView,roomDialog,teamPanel,welcome} from './views.js';
 import {icon} from './icons.js';
 import {assignSolo,automaticSide,soloNames,startSolo} from './solo.js';
 import {soloMenu,soloView} from './solo-view.js';
@@ -134,7 +134,7 @@ function render(force=false) {
   if(!room) {
     if(screenKey===landing&&!force) return;
     screenKey=landing;
-    main.innerHTML=landing==='soloMenu'?soloMenu(catalog.length>0):welcome(landing==='multiplayer');
+    main.innerHTML=landing==='soloMenu'?soloMenu(catalog):welcome(landing==='multiplayer');
     return;
   }
   const {match,events,event,s}=current();
@@ -155,7 +155,13 @@ function render(force=false) {
   } else {
     const {teams,history}=matchView(events,match.pool);
     const palette=i=>match.config.swapped?1-i:i;
-    const roster=i=>teamPanel({name:names()[i],online:online(i),side:i,own:side===i,team:teams[i],s,budget:match.config.mode==='auction',size:match.config.size,lookup,color:palette(i)});
+    const composition=match.config.women;
+    const slots=i=>{
+      if(!Number.isInteger(composition)) return null;
+      const women=i?s.w1:s.w0;
+      return {women:composition-women,men:match.config.size-composition-teams[i].length+women};
+    };
+    const roster=i=>teamPanel({name:names()[i],online:online(i),side:i,own:side===i,team:teams[i],s,budget:match.config.mode==='auction',size:match.config.size,lookup,color:palette(i),slots:slots(i)});
     const marker=`<div class="room-meta"><span class="pill">ROOM ${code}</span>${button('Leave room','leave','quiet')}</div>`;
     const asks=['askUndo','askReset'].includes(event.kind);
     const requester=event.actor===api.uid;
@@ -163,7 +169,7 @@ function render(force=false) {
       <span>${requester?'Waiting for your opponent to approve.':'Your opponent requested this change.'}</span>
       <div class="form-actions">${requester?button('Withdraw','move','secondary',{kind:'withdraw'}):
       button('Approve','move','primary',{kind:event.kind==='askUndo'?'undo':'reset'})+button('Decline','move','secondary',{kind:'decline'})}</div></div>`:'';
-    const undoable=['assign','pick','autoAssign','autoPick','bid','pass','close','reserve','advance','nominate','autoNominate'].includes(event.kind);
+    const undoable=['assign','pick','autoAssign','autoPick','bid','pass','close','reserve','compositionAssign','skipIneligible','advance','nominate','autoNominate'].includes(event.kind);
     const renderOpts={side,card:(i,large)=>characterCard(lookup.get(match.pool[i]?.id),large),button,names:names(),escape:esc};
     let content;
     if (s.phase==='done') {
@@ -182,7 +188,7 @@ function render(force=false) {
       content=`<div class="game-grid">${roster(palette(0))}<section class="panel play-panel">${match.config.mode==='auction'?
         showAuction(match,event,renderOpts):showDraft(match,event,renderOpts)}</section>${roster(palette(1))}</div>`;
     }
-    main.innerHTML=`<div class="page match-page">${marker}<p class="notice" data-connection hidden></p>${prompt}${content}
+    main.innerHTML=`<div class="page match-page">${marker}${compositionBadge(match.config.size,composition)}<p class="notice" data-connection hidden></p>${prompt}${content}
     ${historyView(history,match,lookup,room)}
     <details class="panel"><summary>Match settings</summary>${configSummary(match.config)}</details>
     ${!asks?`<div class="form-actions game-utilities">${undoable?button('Request undo','move','quiet',{kind:'askUndo'}):''}
@@ -194,6 +200,8 @@ function render(force=false) {
     lastSound=soundId;
   }
   markPresence();
+  const proposalForm=main.querySelector('#proposal-form');
+  if(proposalForm) syncComposition(proposalForm);
   if(snapshot&&main.querySelector('#'+key)) {
     const form=main.querySelector('#'+key);
     [...form.elements].filter(el=>el.name).forEach(el=>{
@@ -240,6 +248,16 @@ function syncSettings(form,mode) {
   form.querySelector('.auction-settings').hidden=mode!=='auction';
   form.querySelector('.draft-settings').hidden=mode==='auction';
   form.querySelector('.snake-setting').hidden=mode!=='picks';
+  syncComposition(form);
+}
+function syncComposition(form) {
+  const data=new FormData(form);
+  const select=form.elements.split;
+  const isWrestling=data.get('universe')==='wrestling';
+  select.parentElement.hidden=!isWrestling;
+  if(!isWrestling) return;
+  const eligible=filtered(catalog,{universe:'wrestling',filters:data.getAll('filters').join(','),exclude:String(data.get('exclude')||'')});
+  select.innerHTML=compositionChoices(eligible,Number(data.get('size'))||1,select.value||'men');
 }
 function proposalFrom(form) {
   const data=new FormData(form);
@@ -251,7 +269,8 @@ function proposalFrom(form) {
   if (config.extension>config.seconds) throw new Error('The anti-sniping window must fit within the countdown.');
   if (config.pickTime>0&&config.pickTime<5) throw new Error('Set the pick timer to zero or at least five seconds.');
   if (config.filters.length>400) throw new Error('Select fewer filters.');
-  makePool(catalog,config,LIMIT);
+  if(config.universe==='wrestling') config.split=String(data.get('split')||form.elements.split.value||'men');
+  makePool(catalog,wrestlingConfig(catalog,config),LIMIT);
   return config;
 }
 async function configuration(form,start) {
@@ -261,7 +280,7 @@ async function configuration(form,start) {
   pending=true;
   try {
     const proposal=proposalFrom(form);
-    const changed=Object.keys(defaults).some(key=>room.proposal[key]!==proposal[key]);
+    const changed=[...Object.keys(defaults),'split'].some(key=>room.proposal[key]!==proposal[key]);
     if (changed) {
       await saveProposal(api,code,proposal);
       notify(start?'Settings shared. Select Start again when your opponent is ready.':'Settings saved for both players.');
@@ -340,7 +359,10 @@ function queueSoloReveal() {
 function beginSolo(universe) {
   if(!catalog.length) return;
   clearTimeout(soloTimer);
-  solo=startSolo(catalog,universe);
+  const split=main.querySelector('[name=soloSplit]')?.value||(solo?.universe===universe?solo.requested:'men');
+  const mode=['men','women'].includes(split)?split:'mixed';
+  try {solo=startSolo(catalog,universe,mode,split);}
+  catch(error) {notify(fail(error));return;}
   queueSoloReveal();
   main.querySelector('h1').focus();
 }
@@ -384,7 +406,7 @@ document.addEventListener('click',event=>{
     case 'soloCopy': case 'soloExport': {
       const teams=solo.teams.map(team=>team.map(({id})=>lookup.get(id)));
       if(action==='soloCopy') copy(teamText(teams,soloNames),'Teams copied.');
-      else downloadJson({mode:'solo',universe:solo.universe,teams,history:solo.history,comparison:compare(teams)},'rival-roster-solo.json');
+      else downloadJson({mode:'solo',universe:solo.universe,composition:solo.composition,teams,history:solo.history,comparison:compare(teams)},'rival-roster-solo.json');
       break;
     }
     case 'create':case 'join':entry(action,mode);break;
@@ -448,6 +470,7 @@ document.addEventListener('change',event=>{
     library[field.name==='libraryUniverse'?'universe':'filters']=field.value;library.page=0;fillLibrary();
   }
   if(field.name==='mode') syncSettings(field.form,field.value);
+  if(field.form?.id==='proposal-form'&&['size','universe','filters','exclude'].includes(field.name)) syncComposition(field.form);
 });
 document.querySelectorAll('[data-icon]').forEach(el=>{el.innerHTML=icon(el.dataset.icon);});
 updateSoundButton();render();

@@ -18,6 +18,14 @@ Choose **Multiplayer** for these modes and room features.
 
 Character ratings are subjective play values, initialized from playstyle profiles with small deterministic variation. The comparison uses explicit averages and published stipulation weights. Mixed categories line up analogous game ratings across universes. Names identify fan-game subjects and belong to their applicable rights holders. The game uses stylized initials and original generic arena artwork.
 
+### Wrestling roster setup
+
+Wrestling-only games default to Men only. Women only caps teams at four, and solo Women only plays 4v4. Mixed lets the host or solo player choose a per-team split or Random, which chooses from feasible splits. Both teams use the same split, with at most four women per team. A split needs at least two teams' worth of each division after other filters. Comics, cross-universe and custom pools keep their existing behavior.
+
+Mixed auctions use an exact-size pool so the split can be guaranteed. If a contested mixed lot ends without bids, the player whose turn it is receives the lot for the opening price. A lot with only one eligible team goes to that team at the opening price, with a five-second reveal before play advances.
+
+Publish the matching Realtime Database rules before deploying this frontend. Existing rooms and matches use their original configuration and need no migration.
+
 ## Architecture
 
 - `rooms/{code}` contains one host seat, an atomic write-once guest seat bound to an anonymous Auth UID, a proposed configuration, session presence, and numbered matches.
