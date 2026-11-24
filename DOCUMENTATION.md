@@ -123,7 +123,7 @@ flowchart LR
     Rules["Generated Firebase Rules"] --> DB
 ```
 
-1. `app.js` initializes the shell, fetches the public character catalogs, and looks for an invite or saved room.
+1. `app.js` initializes the shell and fetches the public character catalogs. An invite or opening Multiplayer can restore a saved room. Solo drafts use static catalogs and local page state.
 2. `firebase.js` initializes the SDK and restores or creates an anonymous Firebase Auth user. The host uses an atomic creation transaction to claim a new room code. The guest claims the write-once guest seat.
 3. `lobby.js` listens to the room, connection status, and server time offset. Firebase presence uses one record per connection session and registers automatic removal on disconnect.
 4. Starting a match writes the pool, configuration, and initial event together. The browser builds subsequent event candidates from the latest accepted snapshot and submits each candidate to the next event path in a transaction.
@@ -201,7 +201,7 @@ The rules enforce the gameplay transitions and participant permissions above. Co
 
 ## Character data and ratings
 
-The catalog contains **248 playable cards**, covering **120 distinct wrestler identities**, **118 distinct comic identities**, and **10 alternate versions**. The authoring sources are pipe-delimited text in `tools/wrestlers.txt` and `tools/comics.txt`. The generator builds static JSON for the website and identity mappings for Firebase.
+The active catalog contains **275 playable cards** covering **154 wrestling identities** and **118 comic identities**, with **three comic alternate versions**. `tools/wrestlers.json` stores the approved wrestler records and `tools/comics.txt` authors comic cards. The generator emits static data and Firebase identity mappings, with 29 retired wrestling cards preserved for historical matches.
 
 | Data | Fields used by the app |
 | --- | --- |
@@ -235,7 +235,7 @@ The catalog contains **248 playable cards**, covering **120 distinct wrestler id
 | Last team standing | Durability, Endurance, Resilience ×3 |
 | No preparation time | Speed, Combat skill, Technique ×2 |
 
-The catalog generator uses authored style profiles and small deterministic variations from card IDs. Those numbers are game inputs. [Rating generation](tools/catalog.mjs) · [Comparison calculations and weights](js/comparison.js)
+The wrestling source stores approved ratings directly. Comic ratings use authored style profiles and small deterministic variations from card IDs. Those numbers are game inputs. [Rating generation](tools/catalog.mjs) · [Comparison calculations and weights](js/comparison.js)
 
 ## Source and file reference
 
@@ -254,7 +254,7 @@ The catalog generator uses authored style profiles and small deterministic varia
 | `data/wrestlers.json`, `data/superheroes.json` | Generated public catalogs with detailed character records. |
 | `firebase/database.rules.json` | Generated Realtime Database authorization and validation rules. |
 | `firebase/seed.json`, `firebase/catalog.seed.json` | Root import for an empty database and catalog-only import for an existing database, respectively. |
-| `tools/catalog.mjs`, `tools/wrestlers.txt`, `tools/comics.txt` | Catalog generator and authored character inputs. |
+| `tools/catalog.mjs`, `tools/wrestlers.json`, `tools/comics.txt` | Catalog generator and authored character inputs. |
 | `tools/rules.mjs` | Compiles the shared game transitions and security rules into Firebase rules JSON. |
 | `tools/seed-emulator.mjs`, `tools/preview.mjs` | Seeds local Firebase data and serves a static development preview, respectively. |
 | `firebase.json` | Rules file path and configuration for local Auth, Database, and Hosting emulators. |
@@ -279,7 +279,7 @@ The Firebase client config is intended for the public website. Keep admin creden
 | Change | Steps |
 | --- | --- |
 | UI text, styling, or accessibility | Edit the applicable source, run `npm test`, and verify on the deployed site after Pages completes. |
-| Add or revise character cards | Update the authored text or variant definitions, run `npm run generate` and `npm test`, and review both JSON catalogs and their Firebase mapping. Import the updated `firebase/catalog.seed.json` **at the existing `catalog` node**, then deploy the static catalog. Keep existing IDs and mappings when preserving old matches. |
+| Add or revise character cards | Update the authored catalog, run `npm run generate` and `npm test`, and review the active cards, archive and identity mapping. Verify production catalog compatibility before deploying the static catalog. Apply any explicitly approved missing entries at `catalog` while preserving existing mappings. |
 | Change game rules | Update `js/engine.js` and, for schema or authorization changes, `tools/rules.mjs`. Run generation, core tests, and emulator tests. Coordinate the Firebase rules publication and site release for validator changes. |
 | Change Firebase project | Follow the first-time setup for the new database and update `js/config.js` before publishing the new site artifact. Existing room data and anonymous identities belong to the original project. |
 
@@ -301,10 +301,10 @@ For local interactive testing, run `npm run preview`. In a separate terminal, ru
 
 | Check | Coverage |
 | --- | --- |
-| `npm test` | Six tests covering draft order, timer fallbacks, card uniqueness, auction bids and budgets, reserve lots, nominations, consent, catalog validation, and deterministic scores. |
+| `npm test` | Unit coverage includes solo flows, catalog generation, draft order, timer fallbacks, card uniqueness, auction bids and budgets, reserve lots, nominations, consent, catalog validation, and deterministic scores. |
 | `npm run test:emulator` | Two integration scenarios covering private access, guest-seat ownership, concurrent writes, reconnect, locked settings, discussion permissions, rematches, lot timing, stale bids, and settlement. |
 | Two-tab browser check | Create and join a room, complete a default-size draft, refresh the guest, start an auction rematch, and confirm synchronized bids, rosters, and deductions. |
-| Production deployment check | Confirm the Pages run and assets, anonymous sign-in and 248 catalog records, then complete a two-player draft with matching results on live Firebase. |
+| Production deployment check | Confirm the Pages run and assets, anonymous sign-in and all 304 expected catalog mappings, then complete a two-player draft with matching results on live Firebase. |
 
 After changes, check the welcome page and library, host and guest lobby views, save-and-start behavior, draft and auction actions, refresh recovery, history, debate save, copy, and download. Use narrow and wide viewport widths. After a rules or timing change, verify first-valid-write behavior and test before and after a deadline. [Core tests](tests/core.test.mjs) · [Firebase tests](tests/firebase.test.mjs)
 

@@ -1,12 +1,14 @@
 import {connect,configured,emulator,testGuest} from './firebase.js';
 import {createRoom,joinRoom,watchRoom,latestMatch,listEvents,startMatch,submit,saveProposal,saveDiscussion} from './lobby.js';
 import {defaults,matchView,remainingBudget,LIMIT} from './engine.js';
-import {filtered,loadCatalog,makePool,title} from './characters.js';
+import {filtered,loadCatalog,loadRetiredCatalog,makePool,title} from './characters.js';
 import {auctionAutomation,bidFloor,showAuction} from './auction.js';
 import {draftAutomation,showDraft} from './draft.js';
 import {compare,discussionPrompt,stipulations,teamText} from './comparison.js';
 import {blankDiscussion,button,characterCard,characterDetails,comparisonView,configSummary,discussionView,esc,historyView,lobbyView,roomDialog,teamPanel,welcome} from './views.js';
 import {icon} from './icons.js';
+import {assignSolo,automaticSide,soloNames,startSolo} from './solo.js';
+import {soloMenu,soloView} from './solo-view.js';
 
 const main=document.querySelector('main'), dialog=document.querySelector('dialog'), toast=document.querySelector('#toast');
 const params=new URLSearchParams(location.search);
@@ -16,6 +18,7 @@ const roomKey='rival-roster.room.'+(emulator?'demo':'live');
 let api,catalog=[],lookup=new Map(),room,code='',side=-1,stop=()=>{},offset=0,connected=false;
 let rematch=false,pending=false,lastAuto='',lastAutoAt=0,lastSound='',toastTimeout,audioContext,screenKey='';
 let soundOn=localStorage.getItem('rival-roster.sound')==='on';
+let landing=inviteCode?'multiplayer':'home',solo=null,soloTimer;
 let library={query:'',universe:'mixed',filters:'',page:0};
 const clock=()=>Math.round(Date.now()+offset);
 const locked=()=>!connected||pending;
@@ -48,6 +51,15 @@ function modal(label,content) {
 function entry(mode,preferred='blind') {
   modal(mode==='join'?'Join a private room':'Create a private room',roomDialog(mode,inviteCode,configured,preferred));
   dialog.querySelector('input[name=name]')?.focus();
+}
+async function resumeRoom() {
+  const saved=storage.getItem(roomKey);
+  if(configured&&saved&&(!inviteCode||saved===inviteCode)){
+    api=await connect();
+    const snap=await api.get(api.ref(api.db,'rooms/'+saved)).catch(()=>null);
+    if(landing!=='multiplayer'||room) return;
+    if(snap?.exists()) await openRoom(saved); else {storage.removeItem(roomKey);if(inviteCode) entry('join');}
+  } else if(inviteCode) entry('join');
 }
 function invite(){
   const url=new URL(location.pathname,location.origin);
@@ -120,8 +132,10 @@ function markPresence(){
 }
 function render(force=false) {
   if(!room) {
-    if(screenKey==='welcome'&&!force) return;
-    screenKey='welcome'; main.innerHTML=welcome(); return;
+    if(screenKey===landing&&!force) return;
+    screenKey=landing;
+    main.innerHTML=landing==='soloMenu'?soloMenu(catalog.length>0):welcome(landing==='multiplayer');
+    return;
   }
   const {match,events,event,s}=current();
   const stateKey=JSON.stringify([code,match?.number,event?.seq,room.p1?.uid,
@@ -216,6 +230,7 @@ async function openRoom(newCode) {
   },error=>notify(fail(error)));
 }
 function leave(){
+  landing='multiplayer';
   stop();room=null;code='';side=-1;rematch=false;connected=false;
   storage.removeItem(roomKey);
   const url=new URL(location.href);url.searchParams.delete('room');history.replaceState({},'',url);
@@ -299,6 +314,44 @@ async function entrySubmit(form) {
   } catch(error) {form.querySelector('.form-message').textContent=fail(error);}
   finally {pending=false;element.disabled=false;element.textContent=form.dataset.mode==='join'?'Join Room':'Create Room';}
 }
+function setLanding(next) {
+  clearTimeout(soloTimer);
+  solo=null;
+  landing=next;
+  render(true);
+}
+function drawSolo(showingAssignment=false) {
+  screenKey='solo';
+  main.innerHTML=soloView(solo,lookup,showingAssignment);
+}
+function queueSoloReveal() {
+  drawSolo();
+  if(solo.index===solo.ids.length) {
+    main.querySelector('h1').focus();
+    return;
+  }
+  if(automaticSide(solo)===null) return;
+  soloTimer=setTimeout(()=>{
+    assignSolo(solo,solo.index);
+    drawSolo(true);
+    soloTimer=setTimeout(queueSoloReveal,850);
+  },850);
+}
+function beginSolo(universe) {
+  if(!catalog.length) return;
+  clearTimeout(soloTimer);
+  solo=startSolo(catalog,universe);
+  queueSoloReveal();
+  main.querySelector('h1').focus();
+}
+function downloadJson(data,filename) {
+  const file=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+  const link=document.createElement('a');
+  link.href=file;
+  link.download=filename;
+  link.click();
+  setTimeout(()=>URL.revokeObjectURL(file),1000);
+}
 function exportAction(action) {
   const {match,events}=current();
   const {teams,history}=matchView(events,match.pool), {cards,discussion,stip}=results(match,teams);
@@ -311,9 +364,7 @@ function exportAction(action) {
     history:history.map(({kind,at,card,amount,recipient,s})=>({kind,at,card,amount,recipient,award:s.award,price:s.price})),
     debate:{stipulation:stipulations[stip],entries:discussion},comparison:result,
   };
-  const file=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
-  const link=document.createElement('a');link.href=file;link.download=`rival-roster-${code}-${match.number+1}.json`;link.click();
-  setTimeout(()=>URL.revokeObjectURL(file),1000);
+  downloadJson(data,`rival-roster-${code}-${match.number+1}.json`);
 }
 document.addEventListener('click',event=>{
   if(event.target===dialog){dialog.close();return;}
@@ -321,6 +372,21 @@ document.addEventListener('click',event=>{
   if (!target||target.disabled) return;
   const {action,mode,id,kind}=target.dataset;
   switch(action){
+    case 'home': case 'soloMenu':setLanding(action);break;
+    case 'multiplayer':setLanding(action);resumeRoom().catch(error=>notify(fail(error)));break;
+    case 'soloStart':beginSolo(target.dataset.universe);break;
+    case 'soloPick':
+      if(solo&&automaticSide(solo)===null&&assignSolo(solo,Number(target.dataset.index),Number(target.dataset.side))) {
+        queueSoloReveal();
+        (main.querySelector('[data-action=soloPick]')??main.querySelector('h1')).focus();
+      }
+      break;
+    case 'soloCopy': case 'soloExport': {
+      const teams=solo.teams.map(team=>team.map(({id})=>lookup.get(id)));
+      if(action==='soloCopy') copy(teamText(teams,soloNames),'Teams copied.');
+      else downloadJson({mode:'solo',universe:solo.universe,teams,history:solo.history,comparison:compare(teams)},'rival-roster-solo.json');
+      break;
+    }
     case 'create':case 'join':entry(action,mode);break;
     case 'closeDialog':dialog.close();break;
     case 'library':showLibrary();break;
@@ -387,11 +453,10 @@ document.querySelectorAll('[data-icon]').forEach(el=>{el.innerHTML=icon(el.datas
 updateSoundButton();render();
 setInterval(tick,150);
 try {
-  catalog=await loadCatalog();lookup=new Map(catalog.map(c=>[c.id,c]));fillLibrary();render();
-  const saved=storage.getItem(roomKey);
-  if(configured&&saved&&(!inviteCode||saved===inviteCode)){
-    api=await connect();
-    const snap=await api.get(api.ref(api.db,'rooms/'+saved)).catch(()=>null);
-    if(snap?.exists()) await openRoom(saved); else {storage.removeItem(roomKey);if(inviteCode) entry('join');}
-  } else if(inviteCode) entry('join');
+  catalog=await loadCatalog();
+  lookup=new Map(catalog.map(c=>[c.id,c]));
+  if(!solo) {fillLibrary();render(true);}
+  loadRetiredCatalog().then(cards=>{for(const card of cards) lookup.set(card.id,card);if(room) render(true);}).catch(()=>{});
+
+  if(inviteCode) await resumeRoom();
 } catch(error){notify(fail(error));}

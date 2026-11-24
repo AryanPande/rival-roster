@@ -1,10 +1,14 @@
 # Rival Roster
 
-A private two-player browser game. Draft wrestlers and comic characters, build a roster through live auctions in fictional credits, and compare teams for a debate. The static app uses vanilla JavaScript and GitHub Pages. Firebase Authentication and Realtime Database run on the free Spark plan for personal use.
+A browser game with solo drafts and private two-player rooms. Draft wrestlers and comic characters, build a roster through live auctions in fictional credits, and compare teams for a debate. The static app uses vanilla JavaScript and GitHub Pages. Firebase Authentication and Realtime Database run on the free Spark plan for personal use.
 
 **Start with [SETUP.md](SETUP.md)** for the Firebase Console, GitHub Pages, and two-device walkthrough. For a credential-free local run, see the emulator instructions in the same guide. The [user guide and technical reference](DOCUMENTATION.md) covers game rules, scoring, Firebase, deployment, and maintenance.
 
 ## How to play
+
+Choose **Single Player** to draft two teams of five from wrestling or comics. Use **Keep** or **Let Go** on each reveal. When either team fills, the remaining cards join the other team one at a time. Start the static preview with `npm run dev` to play without Firebase.
+
+Choose **Multiplayer** for these modes and room features.
 
 - **Blind Draft** reveals one character each turn. Recruit them or assign them to the opponent. After a roster fills, the game allocates all remaining cards to the other roster.
 - **Alternating Picks** presents a visible pool. The host can select straight or snake order and add a pick timer. A timed-out turn uses the first available card in pool order.
@@ -32,6 +36,6 @@ npm test
 npm run test:emulator
 ```
 
-Run `generate` after editing catalog source in `tools/wrestlers.txt`, `tools/comics.txt`, or changing engine rules. Commit the generated files under `data/` and `firebase/`. When adding characters to a deployed project, import the refreshed `firebase/catalog.seed.json` at the **catalog** node. Keep old IDs to preserve prior matches. Catalog imports must be performed by a Firebase administrator.
+Run `generate` after editing catalog source in `tools/wrestlers.json`, `tools/comics.txt`, or changing engine rules. Commit the generated files under `data/` and `firebase/`. Before releasing a frontend with new IDs, have the Firebase administrator verify all mappings and apply an approved additive update at the **catalog** node. Preserve existing keys and room data.
 
-The project contains 120 distinct wrestler identities and 118 distinct comic identities. Including versions, there are 248 playable cards.
+The active catalog contains 154 wrestlers and 121 comic cards across 118 comic identities. Another 29 wrestling cards are retained in an archive for existing matches.

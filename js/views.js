@@ -10,21 +10,22 @@ export const button=(label,action,style='secondary',options={})=>{
   return `<button type="button" class="button ${style}" data-action="${action}" ${Object.entries(data).map(([k,v])=>`data-${k}="${esc(v)}"`).join(' ')}${disabled(lock)}>${art?icon(art):''}${esc(label)}</button>`;
 };
 export const modeNames={blind:'Blind Draft',picks:'Alternating Picks',auction:'Live Auction'};
-export function welcome() {
+export function welcome(multiplayer=false) {
   return `<section class="hero" aria-labelledby="hero-title">
     <div class="hero-image"></div>
     <div class="hero-content">
-      <p class="eyebrow hero-label"><i></i> LIVE MULTIPLAYER</p>
+      <p class="eyebrow hero-label"><i></i> ${multiplayer?'LIVE MULTIPLAYER':'DRAFT GAME'}</p>
       <h1 id="hero-title">RIVAL<br><em>ROSTER</em></h1>
       <p class="hero-description">Draft legends. Outbid your rival.<br>Build the team that wins the debate.</p>
       <div class="hero-actions">
-        ${button('Create Room','create','primary',{icon:'plus'})}
-        ${button('Join Room','join','secondary',{icon:'people'})}
+        ${multiplayer?button('Create Room','create','primary',{icon:'plus'}):button('Single Player','soloMenu','primary')}
+        ${multiplayer?button('Join Room','join','secondary',{icon:'people'}):button('Multiplayer','multiplayer','secondary')}
       </div>
-      <p class="hero-note">2 players <span></span> Private rooms <span></span> No sign-up</p>
+      <p class="hero-note">${multiplayer?'2 players · Private rooms · No sign-up':'Solo drafts and private multiplayer rooms'}</p>
+      ${multiplayer?button('Return to Home','home','quiet'):''}
     </div>
   </section>
-  <section class="mode-section" aria-labelledby="modes-title">
+  ${multiplayer?`<section class="mode-section" aria-labelledby="modes-title">
     <div class="section-heading"><h2 id="modes-title">CHOOSE YOUR GAME</h2><span></span></div>
     <div class="mode-grid">
       <article class="mode-card draft-mode">
@@ -38,7 +39,7 @@ export function welcome() {
         ${button('Start an auction','create','text-button',{mode:'auction'})}
       </article>
     </div>
-  </section>`;
+  </section>`:''}`;
 }
 export function roomDialog(mode,code,available,preferred) {
   return `<form id="entry-form" class="form-stack" data-mode="${mode}" data-preferred="${esc(preferred)}">
@@ -141,7 +142,7 @@ export function characterDetails(card) {
 }
 export function teamPanel({name,online,side,own,team,s,budget,size,lookup,color=side}) {
   return `<aside class="panel roster team-${color}">
-    ${playerCard({name},side,own,online,color)}
+    ${online===undefined?`<h2>${esc(name)}</h2>`:playerCard({name},side,own,online,color)}
     <div class="roster-header"><h2>Roster</h2><strong>${team.length}/${size}</strong></div>
     ${budget?`<p class="team-budget">₹${side===0?s.m0:s.m1} <span>fictional credits left</span></p>`:''}
     <ol class="roster-list">${[...team,...Array(Math.max(0,size-team.length)).fill(null)].map((entry,i)=>entry?
@@ -188,7 +189,7 @@ export function discussionView(discussion,teams,names,side) {
       <p class="notice">${own.concluded&&other.concluded?'Both players concluded the debate.':'Debate votes are separate from the roster score.'}</p>
     </div></div></section>`;
 }
-export function comparisonView(teams,names,stip,swapped=false) {
+export function comparisonView(teams,names,stip,swapped=false,hasCaptain=true) {
   const result=compare(teams,stip);
   const score=result.winner<0?'Projected draw':esc(names[result.winner])+' has the edge';
   return `<section class="panel result-score"><div class="result-trophy">${icon('trophy')}</div><p class="eyebrow">${esc(stipulations[stip])}</p>
@@ -198,7 +199,7 @@ export function comparisonView(teams,names,stip,swapped=false) {
   <tbody>${result.stats.map(({label,values,weight})=>`<tr><td>${values[0].toFixed(1)}</td><th scope="row">${label}${weight>1?' ×'+weight:''}</th><td>${values[1].toFixed(1)}</td></tr>`).join('')}</tbody></table>
   <div class="result-strategy">${result.ranked.map((ranked,i)=>`<div><h3>${esc(names[i])}</h3>
     <p><b>Strength</b> ${ranked[0].label}</p><p><b>Weakness</b> ${ranked.at(-1).label}</p>
-    <p><b>Strategy</b> Create matchups that emphasize ${result.edges[i].label.toLowerCase()} and cover ${ranked.at(-1).label.toLowerCase()} with your captain.</p></div>`).join('')}</div>
+    <p><b>Strategy</b> Create matchups that emphasize ${result.edges[i].label.toLowerCase()} and cover ${ranked.at(-1).label.toLowerCase()} ${hasCaptain?'with your captain.':'through the suggested matchups.'}</p></div>`).join('')}</div>
   <details class="matchups"><summary>Suggested matchups</summary><ol>${result.matchups.map(([a,b])=>`<li>${esc(title(a))} vs ${esc(title(b))}</li>`).join('')}</ol></details>
   </section>`;
 }

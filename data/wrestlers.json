@@ -3550,8 +3550,8 @@
     "description": "The Sandman brings a hardcore approach to Rival Roster."
   },
   {
-    "id": "raven",
-    "identity": "raven",
+    "id": "wrestler-raven",
+    "identity": "wrestler-raven",
     "name": "Raven",
     "universe": "wrestling",
     "version": "Standard",

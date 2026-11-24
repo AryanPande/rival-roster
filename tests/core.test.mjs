@@ -121,7 +121,9 @@ test('catalog counts, versions, filters and comparison are deterministic',()=>{
   }
   assert.equal(catalog.length,new Set(catalog.map(c=>c.id)).size);
   const sting=filtered(catalog,{query:'sting',universe:'wrestling',filters:'promotion:WCW'});
-  assert(sting.some(c=>c.version==='Crow'));
+  assert(sting.some(c=>c.id==='sting'&&c.version==='Standard'));
+  assert(!sting.some(c=>c.version==='Crow'));
+  assert(catalog.some(c=>c.id==='iron-man--mcu'));
   assert.equal(filtered(catalog,{query:'sting',universe:'wrestling',exclude:'sting'}).length,0);
   assert.throws(()=>makePool(catalog,{...defaults,universe:'custom',custom:'sting,sting--crow'},LIMIT));
   const teams=[catalog.slice(0,5),catalog.slice(-5)];
