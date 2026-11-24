@@ -1,5 +1,5 @@
 import {applyEvent, defaults,LIMIT} from './engine.js';
-import {makePool, randomSide,shuffle} from './characters.js';
+import {makePool, randomSide,shuffle,wrestlingConfig} from './characters.js';
 
 export const listEvents = match => Object.values(match?.events||{}).sort((a,b)=>a.seq-b.seq);
 export const latestMatch = room => Object.values(room?.games||{}).sort((a,b)=>a.number-b.number).at(-1);
@@ -67,7 +67,7 @@ export function watchRoom(api,code,onRoom,onConnection,onError) {
 export async function startMatch(api,code,room,cards,now) {
   const previous=latestMatch(room);
   const before=listEvents(previous).at(-1);
-  const config=room.proposal;
+  const config=wrestlingConfig(cards,room.proposal);
   const match={number:previous?previous.number+1:0,after:before?.seq??-1,config,...makePool(cards,config,LIMIT)};
   const first=config.first===-1?randomSide():config.first;
   match.events={'0':applyEvent(match,[],'start',{actor:api.uid,side:0,now,recipient:first})};

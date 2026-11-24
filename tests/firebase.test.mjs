@@ -178,3 +178,42 @@ test('reconciled catalog accepts new Raven and preserves a historical card refer
   const stored=(await sdk.get(ref(guest,path+'/games/0/pool'))).val();
   assert.deepEqual(Object.values(stored).map(card=>card.id),ids);
 });
+
+test('wrestling quotas flow through Firebase and uncontested lots reveal for five seconds',async()=>{
+  for(const [i,mode] of ['blind','picks','auction'].entries()) {
+    const path='rooms/83453'+i;
+    const config=proposal({mode,universe:'wrestling',size:2,split:'1',women:1,manual:true,first:0});
+    const {women,...settings}=config;
+    await openRoom(settings,path);
+    const ids=['asuka','bayley','sting','kane'];
+    const match=build(config,0,-1,ids);
+    for(const card of Object.values(match.pool)) card.woman=card.i<2?1:0;
+    const refGame=ref(host,path+'/games/0');
+    await assertFails(sdk.set(refGame,{...match,pool:{...match.pool,0:{...match.pool[0],woman:0}}}));
+    await assertSucceeds(sdk.set(refGame,match));
+    const events=[...match.events];
+    if(mode==='blind') {
+      await put(host,path,match,events,'assign',{recipient:0});
+      await put(guest,path,match,events,'autoAssign');
+      await put(host,path,match,events,'assign',{recipient:0});
+      await put(guest,path,match,events,'autoAssign');
+    } else if(mode==='picks') {
+      await put(host,path,match,events,'pick',{card:0});
+      await put(guest,path,match,events,'pick',{card:2});
+      assert.throws(()=>action(host,match,events,'pick',{card:1}));
+      await put(host,path,match,events,'pick',{card:3});
+      await put(guest,path,match,events,'pick',{card:1});
+    } else {
+      await put(host,path,match,events,'pass');
+      await put(guest,path,match,events,'pass');
+      await put(host,path,match,events,'close');
+      await put(host,path,match,events,'advance');
+      await put(host,path,match,events,'compositionAssign');
+      assert.throws(()=>action(host,match,events,'advance'));
+      await new Promise(resolve=>setTimeout(resolve,5100));
+      await put(host,path,match,events,'advance');
+      assert.equal(events.at(-1).s.phase,'auction');
+    }
+    assert.deepEqual([events.at(-1).s.w0,events.at(-1).s.w1],[1,1]);
+  }
+});

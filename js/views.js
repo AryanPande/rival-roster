@@ -1,3 +1,4 @@
+import {compositionOptions,splitLabel} from './composition.js';
 import {groups,labels,tag,title} from './characters.js';
 import {compare,stipulations} from './comparison.js';
 import {icon} from './icons.js';
@@ -53,6 +54,20 @@ export function roomDialog(mode,code,available,preferred) {
 const select=(name,options,value,label)=>`<label>${label}<select name="${name}">${options.map(([key,text])=>`<option value="${esc(key)}"${String(value)===String(key)?' selected':''}>${esc(text)}</option>`).join('')}</select></label>`;
 const numeric=(name,value,label,min,max)=>`<label>${label}<input name="${name}" type="number" min="${min}" max="${max}" step="1" value="${value}" required></label>`;
 const checkbox=(name,value,label)=>`<label class="check"><input type="checkbox" name="${name}"${checked(value)}>${label}</label>`;
+export function compositionChoices(cards,size,selected='men',womenSize=size) {
+  const men=compositionOptions(cards,size,'men')[0];
+  const women=compositionOptions(cards,womenSize,'women')[0];
+  const mixed=compositionOptions(cards,size,'mixed');
+  const options=[
+    ['men','Men only',men.reason],['women',womenSize===size?'Women only':`Women only · ${womenSize}v${womenSize}`,women.reason],
+    ['random','Mixed · Random',mixed.some(option=>!option.reason)?'':'No mixed split available.'],
+    ...mixed.map(({men,women,reason})=>[String(women),'Mixed · '+splitLabel(men,women),reason]),
+  ];
+  return options.map(([value,label,reason])=>`<option value="${value}"${value===selected?' selected':''}${reason?' disabled':''}>${esc(label+(reason?' · '+reason:''))}</option>`).join('');
+}
+export function compositionBadge(size,women) {
+  return Number.isInteger(women)?`<p class="pill" role="status">Per team · ${splitLabel(size-women,women)}</p>`:'';
+}
 export function proposalForm(config,catalog,rematch=false) {
   const {promotions,publishers,alignments}=groups(catalog);
   const selected=new Set(config.filters.split(','));
@@ -64,6 +79,8 @@ export function proposalForm(config,catalog,rematch=false) {
       ${numeric('size',config.size,'Characters per team',1,8)}
       ${select('first',[[-1,'Random'],[0,'Host'],[1,'Guest']],config.first,'First player')}
     </div>
+    <label class="composition-settings"${config.universe==='wrestling'?'':' hidden'}>Wrestling roster
+    <select name="split">${compositionChoices(catalog,config.size,config.split)}</select></label>
     <div class="form-grid auction-settings"${config.mode!=='auction'?' hidden':''}>
       ${numeric('budget',config.budget,'Fictional budget (₹)',1,1000)}
       ${numeric('minimum',config.minimum,'Opening bid (₹)',1,100)}
@@ -95,6 +112,7 @@ export function configSummary(c) {
     <div><dt>Mode</dt><dd>${modeNames[c.mode]}${c.mode==='picks'&&c.snake?' · Snake':''}</dd></div>
     <div><dt>Universe</dt><dd>${universe[c.universe]}</dd></div>
     <div><dt>Team size</dt><dd>${c.size} characters each</dd></div>
+    ${c.split?`<div><dt>Wrestling roster</dt><dd>${Number.isInteger(c.women)?splitLabel(c.size-c.women,c.women):c.split==='random'?'Mixed · Random':c.split==='men'?'Men only':c.split==='women'?'Women only':splitLabel(c.size-Number(c.split),Number(c.split))}</dd></div>`:''}
     <div><dt>First player</dt><dd>${c.first===-1?'Random':c.first===0?'Host':'Guest'}</dd></div>
     ${c.mode==='auction'?`<div><dt>Fictional credits</dt><dd>₹${c.budget} each</dd></div><div><dt>Lot timer</dt><dd>${c.seconds}s · ${c.extension}s extension</dd></div><div><dt>Opening / increment</dt><dd>₹${c.minimum} / ₹${c.increment}</dd></div><div><dt>Nomination / advance</dt><dd>${c.nominate?'Player nomination':'Random order'} / ${c.manual?'Manual':'Automatic'}</dd></div>`:`<div><dt>Pick timer</dt><dd>${c.pickTime?c.pickTime+'s':'Off'}</dd></div>`}
     <div><dt>Versions</dt><dd>${c.versions?'Duplicate identities allowed':'One version per identity'}</dd></div>
@@ -140,10 +158,11 @@ export function characterDetails(card) {
     <div class="rating-list">${Object.entries(card.ratings).map(([key,value])=>`<div><span>${labels[key]}</span><meter min="0" max="100" value="${value}">${value}</meter><b>${value}</b></div>`).join('')}</div>
     ${button('Back to library','library','secondary')}</div>`;
 }
-export function teamPanel({name,online,side,own,team,s,budget,size,lookup,color=side}) {
+export function teamPanel({name,online,side,own,team,s,budget,size,lookup,color=side,slots}) {
   return `<aside class="panel roster team-${color}">
     ${online===undefined?`<h2>${esc(name)}</h2>`:playerCard({name},side,own,online,color)}
     <div class="roster-header"><h2>Roster</h2><strong>${team.length}/${size}</strong></div>
+    ${slots?`<p class="subtle">${slots.men}M-${slots.women}W open</p>`: ''}
     ${budget?`<p class="team-budget">₹${side===0?s.m0:s.m1} <span>fictional credits left</span></p>`:''}
     <ol class="roster-list">${[...team,...Array(Math.max(0,size-team.length)).fill(null)].map((entry,i)=>entry?
       `<li><button type="button" data-action="details" data-id="${esc(entry.id)}"><span>${i+1}</span><strong>${esc(title(lookup.get(entry.id)))}</strong>${entry.price?`<b>₹${entry.price}</b>`:''}</button></li>`:

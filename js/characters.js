@@ -1,3 +1,4 @@
+import {resolveComposition} from './composition.js';
 export const labels = {
   promo:'Promo ability',technical:'Technical wrestling',strength:'Strength',speed:'Speed',hardcore:'Hardcore experience',endurance:'Endurance',
   star:'Star power',intelligence:'Intelligence',durability:'Durability',combat:'Combat skill',power:'Powers',teamwork:'Teamwork',
@@ -36,7 +37,7 @@ export function filtered(cards,{universe='mixed',query='',filters='',exclude='',
       matches('publisher',[card.publisher])&&matches('alignment',[card.alignment]);
   });
 }
-const sampleInteger=max=>{
+export const sampleInteger=max=>{
   const buffer=new Uint32Array(1);
   const last=2**32-(2**32%max);
   do { crypto.getRandomValues(buffer); } while(buffer[0]>=last);
@@ -62,10 +63,31 @@ export function makePool(cards,config,limit) {
   });
   if(eligible.length<2*config.size) throw new Error(`Choose at least ${config.size*2} eligible identities.`);
   const cap=config.mode==='blind'?config.size*2:Math.min(limit,config.size*2+(config.mode==='auction'?8:6));
-  const selected=eligible.slice(0,cap);
+  let selected=eligible.slice(0,cap);
+  if(Number.isInteger(config.women)) {
+    const women=config.women;
+    const men=config.size-women;
+    const menCount=women&&men?2*men:men?cap:0;
+    const womenCount=women&&men?2*women:women?cap:0;
+    selected=shuffle([
+      ...eligible.filter(card=>card.division==='men').slice(0,menCount),
+      ...eligible.filter(card=>card.division==='women').slice(0,womenCount),
+    ]);
+    if(selected.filter(card=>card.division==='women').length<2*women||
+       selected.filter(card=>card.division==='men').length<2*men) {
+      throw new Error('The selected wrestling split needs more eligible wrestlers.');
+    }
+  }
   return {
     count:selected.length,
-    pool:Object.fromEntries(selected.map((c,i)=>[i,{i,id:c.id,bit:2**i}])),
+    pool:Object.fromEntries(selected.map((c,i)=>[i,{i,id:c.id,bit:2**i,...(Number.isInteger(config.women)?{woman:c.division==='women'?1:0}:{})}])),
     ids:Object.fromEntries(selected.map((c,i)=>[config.versions?c.id:c.identity,i])),
   };
+}
+
+export function wrestlingConfig(cards,config) {
+  if(config.universe!=='wrestling'||!config.split) return config;
+  const mode=['men','women'].includes(config.split)?config.split:'mixed';
+  const {women}=resolveComposition(filtered(cards,config),config.size,mode,config.split,sampleInteger);
+  return {...config,women};
 }
